@@ -1,0 +1,112 @@
+Unified Command Protocol – Tasking, QA, Audit, Sync, Transition
+Version: 2.3
+Issued by: Project Command
+
+------------------------------------------------------------
+PURPOSE
+
+This protocol governs how Command:
+- Issues module directives
+- Audits and sync-checks outputs
+- Executes quality assurance (QA)
+- Closes modules and phases
+
+It supersedes all earlier versions.
+
+------------------------------------------------------------
+ACTIVATION
+
+This protocol is active across all project phases. Triggered by:
+1. Module completion declaration
+2. Metadata submission
+3. Phase completion request
+
+------------------------------------------------------------
+SECTION 1: TASK INITIATION (COMMAND-ONLY)
+
+Command initiates each module. Directives include:
+- Module number and scope
+- Required outputs (DT, TX, FG)
+- Copy-ready prompt for Phase Chat
+- SSOT file structure and naming instructions
+
+------------------------------------------------------------
+SECTION 2: PHASE CHAT RULES
+
+Phase teams must:
+✅ Follow only Command directives
+✅ Use only 🟢 A or traceable 🟡 B sources
+✅ Submit metadata for all outputs
+✅ Store outputs in SSOT with working download links
+
+Phase teams must not:
+❌ Initiate tasks
+❌ Synthesize beyond prompt
+❌ Submit unindexed or improperly stored files
+
+------------------------------------------------------------
+SECTION 3: MODULE COMPLETION DECLARATION
+
+Upon module completion:
+1. Phase team uploads SSOT module folder (.zip)
+2. Command begins audit (structural + content)
+
+------------------------------------------------------------
+SECTION 4: MODULE COMPLETION AUDIT
+
+Command verifies:
+✅ File presence, naming, indexing
+✅ Content relevance to directive
+✅ Outputs exist in correct folders
+✅ Master Index is up to date
+
+------------------------------------------------------------
+SECTION 5: MASTER SYNC CHECK (MANDATORY)
+
+A sync check compares:
+- Files in `/ssot/phaseX/moduleY/` structure (from uploaded folder)
+- Entries in the Master Index Register
+
+✅ Every registered file must exist on disk
+✅ No unregistered files may exist
+⚠️ Discrepancies are logged and resolved via metadata submission or deletion
+
+📌 **This sync check must be re-run before phase closure—even after late updates.**  
+Command cannot close a phase unless the final folder re-check passes with zero discrepancy.
+
+------------------------------------------------------------
+SECTION 6: MODULE STATUS DESIGNATION
+
+Command assigns:
+✅ COMPLETE – All structural, content, sync checks passed
+⚠️ CONDITIONALLY COMPLETE – Minor issues logged
+❌ INCOMPLETE – Missing, unindexed, or misaligned outputs
+
+------------------------------------------------------------
+SECTION 7: PHASE QA + RECOVERY LOOP
+
+Before closing a phase, Command:
+- Audits output balance (DT, TX, FG)
+- Identifies thematic and structural gaps
+- Issues recovery directives (e.g., missed visual, actor map, timeline)
+
+Only after recovery tasks are resolved can a phase close.
+
+------------------------------------------------------------
+SECTION 8: TRANSITION TO NEXT PHASE
+
+Only after:
+✅ Module audits complete
+✅ QA loop executed
+✅ Final sync check passed
+
+Command issues a directive for the next phase.
+
+------------------------------------------------------------
+SECTION 9: GOVERNANCE CONTROL
+
+Command ensures:
+- Protocol versioning is current in `/ssot/governance/`
+- Master Index is authoritative
+- All directives, metadata, and outputs are traceable
+

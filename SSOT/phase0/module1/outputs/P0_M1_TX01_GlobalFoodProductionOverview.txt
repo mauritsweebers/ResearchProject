@@ -1,0 +1,60 @@
+
+Global Food Production Overview
+Phase: 0
+Module: 1
+Type: TX
+Title/Description: Structured synthesis of global food production patterns (weight, calories, categories, regions, feed)
+File Name: P0_M1_TX01_GlobalFoodProductionOverview.txt
+Storage Location: /ssot/phase0/module1/outputs/
+Source Category: 🟢 A (except where noted)
+Notes: Based on FAO Yearbook 2023/2024, Poore & Nemecek (2018), and FAOSTAT FBS. Wikipedia and World Bank Docs cited for framing only.
+
+---
+
+## 1. Total Production by Weight (2022)
+- Primary Crops: 9,600 million tonnes (96%)
+- Meat: 361 million tonnes (3.6%)
+- Milk (excl. butter): 930 million tonnes (9.3%)
+- Eggs: 93 million tonnes (0.9%)
+- Fish & Seafood: 179 million tonnes (1.8%)
+- *Total exceeds 100% due to overlaps in reporting categories*
+
+## 2. Caloric Contribution by Food Source
+- Plant-Based Foods: 82%
+- Animal-Based Foods: 18%
+(Source: Poore & Nemecek 2018 – 🟢 A)
+
+## 3. Top 5 Commodities by Weight (2022)
+1. Sugarcane – 1,870 million tonnes
+2. Rice (paddy) – 1,264 million tonnes
+3. Maize – 1,171 million tonnes
+4. Wheat – 761 million tonnes
+5. Potatoes – 359 million tonnes
+(Source: FAOSTAT – 🟢 A)
+
+## 4. Top 5 Commodities by Caloric Contribution
+1. Rice – 541 kcal/person/day
+2. Wheat – 527 kcal/person/day
+3. Sugar crops – 200 kcal/person/day
+4. Maize – 147 kcal/person/day
+5. Soybean oil – 82 kcal/person/day
+(Source: FAOSTAT FBS – 🟢 A; OWID summaries – 🟡 B)
+
+## 5. Regional Production Patterns
+- Asia: Rice, vegetables, palm oil
+- North America: Maize, soy, wheat
+- Europe: Wheat, barley, dairy
+- Latin America: Sugarcane, soy, coffee
+- Africa: Cassava, sorghum
+(Source: FAOSTAT Regional Data – 🟢 A)
+
+## 6. Allocation of Crop Calories
+- Animal Feed: ~33%
+- Human Consumption: ~60%
+- Biofuels/Industrial: ~7%
+(Source: Poore & Nemecek 2018 – 🟢 A)
+
+## Uncertainties & Gaps
+- Timeliness: Some FAO data from 2022/2023; may lag one year.
+- Geographic Granularity: Sub-national disparities not captured.
+- Source Classification: Wikipedia used only for conceptual framing (🔴 C); not for evidence.

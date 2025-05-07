@@ -1,0 +1,59 @@
+Source Classification Framework (v1.0)
+Issued: 2025-05-07
+Authorized by: Project Director
+
+Overview:
+This framework defines the evidentiary standards for all research phases (0–8) in the Plant-Based System project.
+Only scientifically credible, traceable evidence may inform final conclusions.
+
+Categories:
+--------------------------------------------------------------------------------
+🟢 Category A: Primary Sources (Fully Acceptable for Final Use)
+
+Definition:
+- Peer-reviewed scientific literature
+- Institutional reports from FAO, WHO, IPCC, UNEP, World Bank, etc.
+- Official statistical databases (e.g., FAOSTAT, GBD, EarthStat, USDA ERS)
+
+Documentation Required:
+- Full citation (APA or equivalent)
+- Author(s), year, title, publisher
+
+--------------------------------------------------------------------------------
+🟡 Category B: Secondary Sources (Conditionally Acceptable)
+
+Definition:
+- Data aggregators or visualizations referencing Category A sources
+- Examples: Our World in Data (if FAO/WHO-cited), Statista (with source traceability)
+
+Use Conditions:
+- Must annotate source as B
+- Must trace underlying A-source
+- Flagged for confirmation or replacement before synthesis (Phase 8)
+
+--------------------------------------------------------------------------------
+🔴 Category C: Unsupported/Unverifiable (Prohibited for Final Use)
+
+Definition:
+- Wikipedia, unreferenced blogs, AI-generated statistics
+- Commercial datasets lacking methodological transparency
+
+Use Conditions:
+- Not valid for evidence claims or modeling
+- May only support conceptual framing (if clearly marked)
+
+--------------------------------------------------------------------------------
+Submission Template (for all data tables):
+
+| Data Point               | Value       | Source Name         | Classification | Citation/URL    | Notes                      |
+|--------------------------|-------------|----------------------|----------------|------------------|----------------------------|
+| Global maize production  | 1.1B tons   | FAOSTAT              | 🟢 A           | [FAO link]       | 2022 data                 |
+| % Crops to Animal Feed   | ~33%        | OWID (from FAO)      | 🟡 B           | [OWID link]      | Traceable to FAOSTAT      |
+| Land used for dairy      | —           | Wikipedia            | 🔴 C           | —                | To be replaced            |
+
+--------------------------------------------------------------------------------
+Compliance:
+- All phase teams must tag sources accordingly.
+- Phase leads are responsible for ensuring proper classification.
+- Final synthesis will only admit Category A sources unless exceptions are justified in writing.
+

@@ -1,0 +1,31 @@
+Index Code,Phase,Module,Type,Title/Description,File Name,Storage Location
+P0.M2.DT01,0,2,Data Table,"Global food losses and waste by stage, region, and commodity",P0_M2_DT01_FoodLossWasteByStageRegionCommodity.csv,/ssot/phase0/module2/data/
+P0.M2.TX01,0,2,Text Output,"Evidence-based synthesis of food loss and waste distribution, causes, and disparities",P0_M2_TX01_FoodLossWasteSynthesis.txt,/ssot/phase0/module2/outputs/
+P0.M2.FG01,0,2,Figure,Global Food Loss and Waste Distribution by Supply Chain Stage,P0_M2_FG01_FoodLossWasteByStage.svg,/ssot/phase0/module2/outputs/
+P0.M2.FG02,0,2,Figure,Regional Food Loss and Waste Distribution by Supply Chain Stage,P0_M2_FG02_RegionalFoodLossWasteByStage.svg,/ssot/phase0/module2/outputs/
+P0.M3.DT01,0,3,Data Table,Global agricultural land allocation by use and commodity,P0_M3_DT01_GlobalLandUseByCategory.csv,/ssot/phase0/module3/data/
+P0.M3.DT02,0,3,Data Table,Global water and nitrogen use in agriculture,P0_M3_DT02_WaterNitrogenUseInAgriculture.csv,/ssot/phase0/module3/data/
+P0.M3.TX01,0,3,Text Output,"Narrative synthesis of global land, water, and nitrogen use patterns",P0_M3_TX01_LandWaterNutrientUseSynthesis.txt,/ssot/phase0/module3/outputs/
+P0.M3.FG01,0,3,Figure,Resource Allocation in Global Food Systems – Plant vs. Animal-Based,P0_M3_FG01_ResourceUsePlantVsAnimal.svg,/ssot/phase0/module3/outputs/
+P0.M4.DT01,0,4,Data Table,Global food trade flows by commodity and country,P0_M4_DT01_GlobalFoodTradeFlows.csv,/ssot/phase0/module4/data/
+P0.M4.DT02,0,4,Data Table,Agricultural subsidy structures by region,P0_M4_DT02_AgriculturalSubsidyStructures.csv,/ssot/phase0/module4/data/
+P0.M4.TX01,0,4,Text Output,Structural and economic organization of the global food system,P0_M4_TX01_EconomicStructureFoodSystem.txt,/ssot/phase0/module4/outputs/
+P0.M4.FG01,0,4,Figure,Visual of food trade interdependence network,P0_M4_FG01_FoodTradeNetwork.svg,/ssot/phase0/module4/outputs/
+P0.M5.DT01,0,5,Data Table,Global religious and cultural dietary norms,P0_M5_DT01_GlobalReligiousDietaryNorms.csv,/ssot/phase0/module5/data/
+P0.M5.DT02,0,5,Data Table,National food regimes and political economy of animal agriculture,P0_M5_DT02_NationalFoodRegimes.csv,/ssot/phase0/module5/data/
+P0.M5.TX01,0,5,Text Output,"Synthesis of cultural, religious, and political barriers to food system change",P0_M5_TX01_CulturalPoliticalConstraints.txt,/ssot/phase0/module5/outputs/
+P0.M5.FG01,0,5,Figure,Annotated map of cultural-political dietary resistance domains,P0_M5_FG01_DietaryResistanceMap.svg,/ssot/phase0/module5/outputs/
+P0.M6.DT01,0,6,Data Table,Harmonized global food system baseline dataset,P0_M6_DT01_GlobalFoodSystemBaseline.csv,/ssot/phase0/module6/data/
+P0.M6.TX01,0,6,Text Output,Structured synthesis of the global food system based on Modules 1–5,P0_M6_TX01_GlobalFoodSystemSynthesis.txt,/ssot/phase0/module6/outputs/
+P0.M6.FG01,0,6,Figure,Global food system flow diagram (Sankey),P0_M6_FG01_FoodSystemSankey.svg,/ssot/phase0/module6/outputs/
+P0.M1.DT01,0,1,Data Table,Global food production by category (weight + calories),P0_M1_DT01_GlobalFoodProduction.csv,/ssot/phase0/module1/data/
+P0.M1.DT02,0,1,Data Table,Top global food commodities by production weight,P0_M1_DT02_TopCommoditiesByWeight.csv,/ssot/phase0/module1/data/
+P0.M1.DT03,0,1,Data Table,Top global food commodities by caloric contribution,P0_M1_DT03_TopCommoditiesByCalories.csv,/ssot/phase0/module1/data/
+P0.M1.DT04,0,1,Data Table,Regional patterns in major food commodity production,P0_M1_DT04_RegionalProductionPatterns.csv,/ssot/phase0/module1/data/
+P0.M1.DT05,0,1,Data Table,Allocation of global crop calories to animal feed,P0_M1_DT05_CropAllocationToFeed.csv,/ssot/phase0/module1/data/
+P0.M1.TX01,0,1,Text Output,"Structured synthesis of global food production patterns (weight, calories, categories, regions, feed)",P0_M1_TX01_GlobalFoodProductionOverview.txt,/ssot/phase0/module1/outputs/
+P0.M1.FG02,0,1,Figure,Plant vs. animal-based food production (weight and caloric contribution),P0_M1_FG02_PlantVsAnimalProduction.svg,/ssot/phase0/module1/outputs/
+P0.M1.FG03,0,1,Figure,Regional food production volumes by continent,P0_M1_FG03_RegionalFoodProduction.svg,/ssot/phase0/module1/outputs/
+P0.M2.DT02,0,2,Data Table,Global food loss and waste by food group and supply chain stage,P0_M2_DT02_FoodLossByGroupAndStage.csv,/ssot/phase0/module2/data/
+P0.M5.DT03,0,5,Data Table,Political and industry actors shaping animal agriculture policy,P0_M5_DT03_AnimalAgriLobbyActors.csv,/ssot/phase0/module5/data/
+P0.M6.TX02,0,6,Text Output,Historical synthesis of the food system from 1960 to present,P0_M6_TX02_HistoricalEvolutionFoodSystem.txt,/ssot/phase0/module6/outputs/

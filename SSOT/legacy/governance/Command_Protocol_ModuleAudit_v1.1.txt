@@ -1,0 +1,71 @@
+Command Protocol – Module Completion, Audit, and Transition
+Version: 1.1
+Issued by: Project Director
+
+------------------------------------------------------------
+OVERVIEW
+
+This protocol governs how Command validates the completion of each research module across all phases. It ensures structural integrity, evidentiary standards, and operational discipline are upheld prior to transition.
+
+------------------------------------------------------------
+TRIGGER
+
+The protocol is activated when:
+1. A full set of submission metadata for a module is received, OR
+2. The phase team indicates the module is complete.
+
+------------------------------------------------------------
+STEP 1: PROVISIONAL ACKNOWLEDGMENT
+
+Command responds:
+- "Module provisionally complete. Please provide the module folder (or .zip) for audit."
+
+------------------------------------------------------------
+STEP 2: MODULE FOLDER AUDIT
+
+Upon receipt of the folder, Command will:
+✅ Inspect the directory structure:
+   - Must include /data/, /outputs/, /logs/, /references/
+✅ Confirm presence of all registered files:
+   - Match against Master Index Register
+✅ Verify file naming conventions:
+   - Must follow SSOT format (P0_M1_DT01_...)
+✅ Confirm storage compliance:
+   - Files must be in correct subfolders
+
+⚠️ Additional Checks:
+- Flag .DS_Store or metadata pollution
+- Validate filenames against index codes
+
+------------------------------------------------------------
+STEP 3: CONTENT AUDIT — RELEVANCE & COMPLETENESS
+
+Command conducts qualitative review of content coverage:
+✅ Each required output type (DT, TX, FG) is present
+✅ All outputs align with the directive’s scope and dimensions
+✅ Evidence bases are complete and relevant to stated objective
+✅ Key metrics, breakdowns, or disaggregations are not missing
+⚠️ Missing visuals, gaps in regional detail, or partial data tables are flagged
+❌ Outputs using unverifiable or off-topic data are rejected
+
+------------------------------------------------------------
+STEP 4: MODULE STATUS DECLARATION
+
+Command formally assigns one of the following status labels:
+✅ COMPLETE – All required elements are present, correct, and relevant
+⚠️ CONDITIONALLY COMPLETE – Accepted with minor omissions or optional recommendations
+❌ INCOMPLETE – Mandatory elements missing or noncompliant
+
+------------------------------------------------------------
+STEP 5: TRANSITION TO NEXT MODULE
+
+Once status is declared:
+- Command issues the next directive
+- A new task order is posted to the phase chat
+- Outstanding fixes (if any) are documented and tracked
+
+------------------------------------------------------------
+NOTE
+
+Command authority cannot be overridden. Directives proceed only after a successful audit.
+

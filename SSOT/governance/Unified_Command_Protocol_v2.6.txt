@@ -1,0 +1,108 @@
+Unified Command Protocol – Full Lifecycle Control
+Version: 2.5
+Issued by: Project Command
+
+------------------------------------------------------------
+PURPOSE
+
+This protocol governs the lifecycle of all phases and modules:
+- Directives and tasking
+- Output auditing and synchronization
+- QA and enhancement cycles
+- Narrative generation
+- Phase closure authorization
+
+It supersedes all earlier versions.
+
+------------------------------------------------------------
+ACTIVATION
+
+Active throughout all phases. Triggered by:
+1. Start of new module
+2. Declaration of module or phase completion
+
+------------------------------------------------------------
+SECTION 1: MODULE EXECUTION FLOW
+
+1. Command issues directive
+2. Phase Chat executes and submits outputs with metadata
+3. Command audits:
+   ✅ Structural integrity
+   ✅ Content scope
+   ✅ Index registration
+4. Sync check executed (folder upload vs. register)
+5. If compliant, proceed to next module or phase QA
+
+------------------------------------------------------------
+SECTION 2: PHASE COMPLETION FLOW
+
+When all modules in a phase are complete:
+
+1️⃣ Finish All Modules  
+- All required DT, TX, FG are present  
+- Outputs stored correctly in SSOT
+
+2️⃣ First Sync Check  
+- Phase folder uploaded  
+- Command compares all files vs. Master Index Register
+
+3️⃣ QA and Coverage Optimization  
+- Command performs output balance review  
+- Identifies missing types, thematic gaps, weak visuals  
+- Builds action plan
+
+4️⃣ Backfill Implementation  
+- Prompts issued to Phase Chat  
+- New outputs indexed
+
+5️⃣ Second Sync Check  
+- Re-upload of corrected SSOT folder  
+- Command re-audits file presence and alignment
+
+6️⃣ Final QA Loop  
+- If new issues arise, return to step 3  
+- If resolved, proceed to close
+
+7️⃣ Closure Request  
+- Command prepares draft synthesis  
+- Presents it in **plaintext with formatting and tables** in the terminal for human use (e.g., Mac Pages)
+- Asks for final approval
+
+📌 No phase can close until Command explicitly verifies structural, narrative, and reference-level readiness.
+
+------------------------------------------------------------
+SECTION 3: 
+OUTPUT FORMAT RULE
+
+📄 Narrative syntheses (e.g., `Phase0_DraftNarrative_Synthesis.html`) must:
+- ✅ Be stored in `/ssot/phaseX/`
+- ✅ Be generated as fully formatted `.html` using the Tailwind rendering pipeline
+- ✅ Include headings, lists, tables, figures, and source references
+- ✅ Include light/dark theme toggle
+- ✅ Be readable in-browser or ready for copy-paste into word processors
+- ❌ No `.txt` versions are required unless explicitly requested
+📄 Narrative syntheses (e.g., Phase0_DraftNarrative_Synthesis.txt) must:
+✅ Be stored in `/ssot/phaseX/`
+✅ Be displayed in full formatted form in terminal upon generation
+✅ Include tables and sectioning for human copy-paste into editors
+
+------------------------------------------------------------
+SECTION 4: LOGS AND REFERENCES
+
+Command tracks:
+- QA actions in `PhaseX_QA_Log.csv`
+- All core sources in `PhaseX_MasterSourceList.csv`
+
+Both exported only once per phase at final QA closure
+Files live in `/ssot/phaseX/`
+
+------------------------------------------------------------
+SECTION 5: TRANSITION AUTHORITY
+
+Only Command may:
+- Close a phase
+- Initiate a new one
+- Sign off on final QA and sync
+
+Phase teams execute, submit, and comply with protocol.
+

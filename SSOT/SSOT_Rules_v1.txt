@@ -1,0 +1,72 @@
+SSOT and Directory Setup – Rules v1.0
+Issued by: Project Command
+Status: Active
+
+------------------------------------------------------------
+1. DIRECTORY ARCHITECTURE
+
+/ssot/
+  /governance/            → Core rules, templates, frameworks (e.g., GOV.SF01)
+  /phaseX/
+    /moduleY/
+      /data/              → Raw and processed data tables
+      /outputs/           → Generated text, figures, visualizations
+      /references/        → Cited source documents, PDFs, citation files
+      /logs/              → Submission logs, notes, interim analysis
+
+Example: /ssot/phase0/module1/outputs/P0_M1_TX01_GlobalFoodProductionSummary.txt
+
+------------------------------------------------------------
+2. FILE NAMING CONVENTIONS
+
+Format:
+[PhaseCode]_[ModuleCode]_[TypeCode][Sequence]_[ShortTitle].ext
+
+Type Codes:
+- DT = Data Table
+- TX = Text Output
+- FG = Figure/Image
+- RS = Research Summary
+- SC = Scenario
+- OT = Other
+
+Example: P3_M2_TX02_CropEfficiencySummary.txt
+
+------------------------------------------------------------
+3. INDEXING AND SUBMISSION
+
+- Each file must have an index code (P[X].M[Y].[TYPE][##])
+- Use the Phase Output Submission Template
+- Submit all outputs to Command for registration in the Master Index Register
+
+------------------------------------------------------------
+4. SOURCE LOGGING AND CLASSIFICATION
+
+- Classify each source used as:
+  🟢 A = Primary (peer-reviewed/institutional)
+  🟡 B = Secondary (aggregated with clear traceability)
+  🔴 C = Unsupported (not valid for final use)
+
+- Log classifications in output or companion metadata file
+
+------------------------------------------------------------
+5. GENERATED TEXT OUTPUT MANAGEMENT
+
+When generating narrative, analysis, or synthesis:
+- Save as .txt in /outputs/
+- Use indexing scheme (e.g., P1_M2_TX01_)
+- Submit to Command for indexing
+- Include: 
+  • Prompt summary
+  • References cited
+  • Source classification
+  • Optional: store prompt-response in /logs/
+
+------------------------------------------------------------
+6. VERSION CONTROL
+
+- Use _v1, _v2 suffixes for major revisions
+- Log changes in /logs/ folder
+
+------------------------------------------------------------
+Compliance with these rules is mandatory across all phases.

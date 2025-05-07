@@ -1,0 +1,8 @@
+Data Point,Value,Source Name,Classification,Citation/URL,Notes
+Total global crop production,9.6 billion tonnes,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/QCL,Primary crops only
+Global meat production,361 million tonnes,FAO Yearbook 2023,🟢 A,https://openknowledge.fao.org/handle/20.500.14283/11363,Includes all meat categories
+Global milk production (excluding butter),930 million tonnes,FAO Yearbook 2023,🟢 A,https://openknowledge.fao.org/handle/20.500.14283/11363,"Includes cow, buffalo, others"
+Global egg production,93 million tonnes,FAO Yearbook 2023,🟢 A,https://openknowledge.fao.org/handle/20.500.14283/11363,
+Fish & seafood production,179 million tonnes,FAO SOFIA 2022,🟢 A,https://www.fao.org/documents/card/en/c/cc0461en,2020 data
+% of calories from plant sources,82%,Poore & Nemecek,🟢 A,https://www.science.org/doi/10.1126/science.aaq0216,Estimated from global supply
+% of calories from animal sources,18%,Poore & Nemecek,🟢 A,https://www.science.org/doi/10.1126/science.aaq0216,

@@ -1,0 +1,107 @@
+Unified Command Protocol – Tasking, QA, Sync, Transition (v2.4)
+Issued by: Project Command
+
+------------------------------------------------------------
+PURPOSE
+
+This protocol governs how Command:
+- Issues module directives
+- Audits and sync-checks outputs
+- Executes quality assurance (QA)
+- Closes modules and phases
+- Consolidates logs and source metadata
+
+It supersedes all earlier versions.
+
+------------------------------------------------------------
+ACTIVATION
+
+Active in all project phases. Triggered by:
+1. Module completion declaration
+2. Metadata submission
+3. Phase closure request
+
+------------------------------------------------------------
+SECTION 1: TASK INITIATION
+
+Only Command may initiate a module. Each directive includes:
+- Module number and objectives
+- Output types (DT, TX, FG)
+- Prompt for Phase Chat
+- Storage and file naming instructions
+
+------------------------------------------------------------
+SECTION 2: PHASE CHAT RULES
+
+Phase Chats must:
+✅ Follow Command prompts exactly
+✅ Use 🟢 A or traceable 🟡 B sources
+✅ Submit metadata with all outputs
+✅ Store files in correct SSOT folders
+✅ Verify download links work
+
+Phase Chats may not:
+❌ Initiate tasks independently
+❌ Synthesize across modules
+❌ Submit unindexed or misplaced files
+
+------------------------------------------------------------
+SECTION 3: MODULE COMPLETION & AUDIT
+
+Upon completion:
+- Command requests the module folder
+- Performs audit of:
+  ✅ Structural integrity
+  ✅ Content relevance
+  ✅ Index registration
+
+------------------------------------------------------------
+SECTION 4: MANDATORY SYNC CHECK
+
+Command compares:
+- Physical file structure (/ssot/phaseX/)
+- Master Index Register (for Phase X)
+
+✅ Every registered file must exist
+✅ No unregistered files may exist
+📌 Must be re-run before phase closure—even after updates
+
+------------------------------------------------------------
+SECTION 5: QA + RECOVERY LOOP
+
+Before closing a phase, Command:
+- Analyzes module balance (DT, TX, FG)
+- Identifies weak points or omissions
+- Issues backfill prompts
+- Registers corrections in a QA log
+
+------------------------------------------------------------
+SECTION 6: PHASE LOGS & SOURCE TRACKING
+
+For each phase:
+✅ Command maintains an internal QA log and source list
+✅ Only final export occurs at phase close
+✅ No need to download full source files unless later required
+
+🗂️ Files are stored in: `/ssot/phaseX/`
+- `PhaseX_QA_Log.csv`
+- `PhaseX_MasterSourceList.csv`
+
+This avoids deep folder nesting and simplifies download control.
+
+------------------------------------------------------------
+SECTION 7: TRANSITION TO NEXT PHASE
+
+Only after:
+✅ All modules audited
+✅ QA and recovery complete
+✅ Final sync confirmed
+✅ Log and source file generated
+
+Command will authorize and issue the next phase directive.
+
+------------------------------------------------------------
+COMPLIANCE
+
+Only Command may approve module or phase closure.
+Phase teams must comply with audit, sync, and traceability policies.

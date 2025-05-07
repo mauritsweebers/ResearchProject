@@ -1,0 +1,33 @@
+Phase Output Submission Template
+Issued by: Project Command
+Purpose: To standardize indexing and traceability of all phase outputs.
+
+------------------------------------------------------------
+📤 Submission Format (to be posted in Command Chat):
+
+Index Code (Provisional): P[X].M[Y].[TYPE][##]
+Phase: X
+Module: Y
+Type: [DT = Data Table | FG = Figure | TX = Text | RS = Research Summary | SC = Scenario | OT = Other]
+Title/Description: [Concise, descriptive name of output]
+File Name (if applicable): [e.g., P0_M1_DT01_GlobalFoodProduction.csv]
+Storage Location (if file): [e.g., /ssot/phase0/module1/]
+Source Category: [🟢 A | 🟡 B | 🔴 C] (if data-driven)
+Notes: [Optional – methods used, gaps, next steps, etc.]
+
+------------------------------------------------------------
+📍 Example:
+
+Index Code (Provisional): P0.M1.DT01
+Phase: 0
+Module: 1
+Type: DT
+Title/Description: Global food production by category (weight + calories)
+File Name: P0_M1_DT01_GlobalFoodProduction.csv
+Storage Location: /ssot/phase0/module1/
+Source Category: 🟢 A
+Notes: Based on FAOSTAT 2022 + crosschecked with WRI. Includes feed allocation estimates.
+
+------------------------------------------------------------
+All phase teams must report each new output using this format.
+Project Command will validate and log the entry into the Master Index Register.

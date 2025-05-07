@@ -1,0 +1,12 @@
+Data Point,Value,Source Name,Classification,Citation/URL,Notes
+Total Agricultural Land,4.9 billion hectares,FAO 2023,🟢 A,https://www.fao.org/3/cc6363en/cc6363en.pdf,
+Permanent Pasture,3.3 billion hectares (~68%),FAO 2023,🟢 A,https://www.fao.org/3/cc6363en/cc6363en.pdf,Grazing land
+Arable Land,1.6 billion hectares (~32%),FAO 2023,🟢 A,https://www.fao.org/3/cc6363en/cc6363en.pdf,Used for annual crops
+Cereals,700 million hectares,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RL,
+Oil Crops,300 million hectares,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RL,
+Roots and Tubers,200 million hectares,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RL,
+Legumes,100 million hectares,EarthStat,🟢 A,http://www.earthstat.org/cropland-use/,Estimated
+Other Crops,300 million hectares,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RL,"Fruits, vegetables, etc."
+Used for Human Food,~55% of crop land,Poore & Nemecek 2018,🟢 A,https://www.science.org/doi/10.1126/science.aaq0216,
+Used for Animal Feed,~36% of crop land,Poore & Nemecek 2018,🟢 A,https://www.science.org/doi/10.1126/science.aaq0216,
+Used for Biofuels/Industrial,~9% of crop land,Poore & Nemecek 2018,🟢 A,https://www.science.org/doi/10.1126/science.aaq0216,

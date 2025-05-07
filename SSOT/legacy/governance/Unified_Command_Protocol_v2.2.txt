@@ -1,0 +1,121 @@
+Unified Command Protocol – Module Tasking, Auditing, QA, and Transition
+Version: 2.2
+Issued by: Project Command
+
+------------------------------------------------------------
+PURPOSE
+
+This protocol governs how Command:
+- Issues module directives
+- Audits outputs
+- Executes quality assurance (QA)
+- Closes modules and transitions between them
+
+It supersedes all earlier versions.
+
+------------------------------------------------------------
+ACTIVATION
+
+This protocol is active in all project phases. It is triggered when:
+1. A module reaches declared completion
+2. Command issues a new directive
+3. Phase closure is requested
+
+------------------------------------------------------------
+SECTION 1: TASK INITIATION
+
+Only Command may initiate a module. Each directive must include:
+- Module number and title
+- Objectives and scope
+- Required outputs (DT, TX, FG, etc.)
+- Prompt for Phase Chat
+- Storage and file naming rules
+
+Phase Chats must not initiate tasks independently.
+
+------------------------------------------------------------
+SECTION 2: PHASE CHAT LIMITATIONS
+
+Phase Chats must:
+✅ Execute only Command-issued prompts
+✅ Use only approved sources (🟢 A, 🟡 B with traceability)
+✅ Submit outputs with full metadata
+✅ Store files correctly in SSOT
+✅ Verify download links work
+
+They must not:
+❌ Draw conclusions
+❌ Conduct unprompted analysis
+❌ Skip output submission
+
+------------------------------------------------------------
+SECTION 3: MODULE COMPLETION DECLARATION
+
+When a module is declared complete:
+1. Command requests the full module folder (.zip)
+2. No phase transition occurs before audit is complete
+
+------------------------------------------------------------
+SECTION 4: MODULE COMPLETION AUDIT
+
+Command performs two-layer audit:
+
+✅ STRUCTURAL INTEGRITY
+- File names, types, and index codes match
+- Files stored in correct folders
+- Register is updated
+
+✅ CONTENT RELEVANCE
+- Outputs match directive scope
+- Content is evidence-grounded
+- Visuals reflect underlying data
+
+------------------------------------------------------------
+SECTION 5: MASTER SYNC CHECK
+
+Command verifies:
+✅ Every registered file is present on disk
+✅ No unregistered files exist in SSOT
+✅ Reconciliation is complete before closing phase
+
+------------------------------------------------------------
+SECTION 6: MODULE STATUS
+
+Command assigns one of:
+✅ COMPLETE – All tasks met
+⚠️ CONDITIONALLY COMPLETE – Acceptable gaps
+❌ INCOMPLETE – Mandatory elements missing
+
+------------------------------------------------------------
+SECTION 7: QA + RECOVERY LOOP (NEW)
+
+At phase end, Command performs system-level QA:
+- Tabulates all outputs by module and type
+- Detects underrepresented formats (e.g., no visuals)
+- Identifies thematic gaps (e.g., missing actors, historical context)
+- Issues backfill prompts across existing modules
+
+Recovery outputs use existing module codes and are marked in the register.
+
+No phase may close without QA loop execution.
+
+------------------------------------------------------------
+SECTION 8: TRANSITION TO NEXT MODULE
+
+Only after successful audit and QA:
+- Command issues new directive
+- Phase Chat is authorized to begin
+
+------------------------------------------------------------
+SECTION 9: GOVERNANCE FILES
+
+Command ensures:
+- All protocols stored in /ssot/governance/
+- Register is continuously updated
+- All metadata follows submission template
+
+------------------------------------------------------------
+COMPLIANCE
+
+All research flows are bound to this protocol. Only Command may issue, close, or revise modules.
+

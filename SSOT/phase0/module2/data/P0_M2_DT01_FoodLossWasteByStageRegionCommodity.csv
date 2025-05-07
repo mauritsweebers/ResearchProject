@@ -1,0 +1,12 @@
+Data Point,Value,Source Name,Classification,Citation/URL,Notes
+Total Food Production for Human Consumption,"4,000 million tonnes",FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,
+Total Food Lost/Wasted Globally,"1,300 million tonnes (~33%)",FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,
+Production Losses,~14%,FAO 2019,🟢 A,https://www.fao.org/3/ca6030en/ca6030en.pdf,Food Loss Index estimate
+Post-Harvest and Storage Losses,Variable (up to 20% in SSA),FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,Higher in LMICs
+Processing and Packaging Losses,4–9% (by category),FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,
+Distribution and Retail Waste,5–10%,FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,Mostly HICs
+Consumer-Level Waste (HICs),~17% of food available,UNEP 2021,🟢 A,https://www.unep.org/resources/report/unep-food-waste-index-report-2021,
+Losses: Fruits and Vegetables,40–50%,FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,Most perishable
+Losses: Cereals,20–30%,FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,
+Losses: Meat,20%,FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,Mostly distribution and spoilage
+Losses: Dairy,20%,FAO 2011,🟢 A,https://www.fao.org/3/mb060e/mb060e.pdf,
