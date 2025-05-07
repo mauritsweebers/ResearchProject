@@ -1,0 +1,46 @@
+
+Global Food Losses and Waste – Structured Synthesis
+Phase: 0
+Module: 2
+Type: TX
+Title/Description: Evidence-based synthesis of food loss and waste distribution, causes, and disparities
+File Name: P0_M2_TX01_FoodLossWasteSynthesis.txt
+Storage Location: /ssot/phase0/module2/outputs/
+Source Category: 🟢 A
+Notes: Summarizes key insights from FAO (2011, 2019) and UNEP (2021). Designed to inform downstream modeling in Phase 3 and Phase 4.
+
+---
+
+## Overview
+
+Approximately 1.3 billion tonnes—about one-third—of all food produced for human consumption is lost or wasted annually. This represents significant inefficiencies across the global food system and carries major implications for nutrition security, environmental sustainability, and economic resilience.
+
+## Breakdown by Stage
+
+- **Production (~14%)**: Driven by pest damage, weather variability, and harvest timing errors—especially in low-income regions.
+- **Post-Harvest & Storage (up to 20%)**: Infrastructure deficits, lack of cold chains, and transport limitations are key drivers.
+- **Processing & Packaging (4–9%)**: Technical inefficiencies and product grading standards lead to avoidable losses.
+- **Distribution & Retail (5–10%)**: Overordering, cosmetic standards, and discard of unsold inventory contribute to waste.
+- **Consumption (~17%)**: Primarily in high-income countries, driven by household behavior, portion sizes, and best-before misunderstandings.
+
+## Regional Patterns
+
+- **High-Income Countries (HICs)**: Most food waste occurs at retail and consumer stages.
+- **Low- and Middle-Income Countries (LMICs)**: Most food loss occurs early in the supply chain (post-harvest and storage).
+
+## Commodity-Specific Insights
+
+- **Fruits and Vegetables**: Highest loss rates (~40–50%) due to perishability and handling damage.
+- **Cereals**: Losses of 20–30%, especially during storage in humid or poorly ventilated environments.
+- **Meat and Dairy**: Typically lost during processing, distribution, and refrigeration failures.
+
+## Environmental and Economic Costs
+
+- Food waste accounts for an estimated 8–10% of global greenhouse gas emissions (FAO, UNEP).
+- Land, water, and energy used to produce wasted food are effectively lost resources.
+- Reducing waste could significantly improve food availability without expanding production.
+
+## Conclusion
+
+Food loss and waste reduction is a critical lever for improving global food system efficiency and sustainability. Strategies must be tailored to regional infrastructure, dietary patterns, and economic context.
+

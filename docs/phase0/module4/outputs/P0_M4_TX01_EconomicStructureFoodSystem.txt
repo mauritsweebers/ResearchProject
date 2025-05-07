@@ -1,0 +1,44 @@
+
+Global Food System – Economic Structure Synthesis
+Phase: 0
+Module: 4
+Type: TX
+Title/Description: Structural and economic organization of the global food system
+File Name: P0_M4_TX01_EconomicStructureFoodSystem.txt
+Storage Location: /ssot/phase0/module4/outputs/
+Source Category: 🟢 A
+Notes: Integrates findings from FAOSTAT, OECD, WTO, World Bank, and peer-reviewed economics literature. Covers trade, subsidies, corporate concentration, and supply chain dependencies.
+
+---
+
+## 1. Global Trade Architecture
+
+- Food systems are deeply integrated into global trade flows.
+- A small number of commodities (e.g. wheat, soy, maize, beef) dominate cross-border flows by volume and value.
+- Major exporters (Brazil, US, EU, Russia) often dominate specific markets, while importers (e.g., China, Egypt, Bangladesh) show high commodity-specific dependency.
+
+## 2. Agricultural Subsidy Structures
+
+- OECD countries allocate significant public funds to agricultural support: ~$90B in EU (CAP), ~$53B in US, mostly through income support, insurance, and market stabilization.
+- BRICS nations—especially China and India—provide substantial support via price guarantees and input subsidies, often focusing on food security crops (rice, wheat, pulses).
+
+## 3. Market Concentration
+
+- The food system exhibits **high horizontal and vertical integration**:
+  - **Inputs**: Top 4 agrochemical firms control >60% of global sales.
+  - **Grain Trading**: Four firms (ADM, Bunge, Cargill, Louis Dreyfus—“ABCD”) handle ~70–90% of global grain trade.
+  - **Retail**: Concentrated in high-income countries (e.g., Walmart, Costco dominate US grocery sector).
+  - **Processing**: Meat and dairy processors are globally consolidated (e.g., JBS, Tyson).
+
+## 4. Global vs. Regional Dependencies
+
+- Many low-income countries are net food importers with high exposure to global market volatility.
+- However, regional trading blocs (e.g., EU, ASEAN, Mercosur) mitigate some reliance via intra-regional exchange.
+- Critical supply chain interdependencies exist in fertilizers, feed, and oilseeds—especially between South America, the Black Sea region, and East Asia.
+
+## 5. Structural Vulnerabilities
+
+- Price shocks, export restrictions, or logistical disruptions (e.g. COVID-19, Ukraine war) can ripple quickly due to system centralization.
+- Emerging policy focus areas include shortening supply chains, enhancing domestic processing, and diversifying trade partners.
+
+This economic structure baseline informs later phases analyzing resilience, equity, and transition pathways within global food systems.

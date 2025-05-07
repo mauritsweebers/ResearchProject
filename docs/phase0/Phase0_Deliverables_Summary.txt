@@ -1,0 +1,43 @@
+# 📦 Phase 0 Deliverables Summary
+
+### Module 1 – Deliverables
+- **P0.M1.DT01** (Data Table): `P0_M1_DT01_GlobalFoodProduction.csv` — Global food production by category (weight + calories)
+- **P0.M1.DT02** (Data Table): `P0_M1_DT02_TopCommoditiesByWeight.csv` — Top global food commodities by production weight
+- **P0.M1.DT03** (Data Table): `P0_M1_DT03_TopCommoditiesByCalories.csv` — Top global food commodities by caloric contribution
+- **P0.M1.DT04** (Data Table): `P0_M1_DT04_RegionalProductionPatterns.csv` — Regional patterns in major food commodity production
+- **P0.M1.DT05** (Data Table): `P0_M1_DT05_CropAllocationToFeed.csv` — Allocation of global crop calories to animal feed
+- **P0.M1.TX01** (Text Output): `P0_M1_TX01_GlobalFoodProductionOverview.txt` — Structured synthesis of global food production patterns (weight, calories, categories, regions, feed)
+- **P0.M1.FG02** (Figure): `P0_M1_FG02_PlantVsAnimalProduction.svg` — Plant vs. animal-based food production (weight and caloric contribution)
+- **P0.M1.FG03** (Figure): `P0_M1_FG03_RegionalFoodProduction.svg` — Regional food production volumes by continent
+
+### Module 2 – Deliverables
+- **P0.M2.DT01** (Data Table): `P0_M2_DT01_FoodLossWasteByStageRegionCommodity.csv` — Global food losses and waste by stage, region, and commodity
+- **P0.M2.TX01** (Text Output): `P0_M2_TX01_FoodLossWasteSynthesis.txt` — Evidence-based synthesis of food loss and waste distribution, causes, and disparities
+- **P0.M2.FG01** (Figure): `P0_M2_FG01_FoodLossWasteByStage.svg` — Global Food Loss and Waste Distribution by Supply Chain Stage
+- **P0.M2.FG02** (Figure): `P0_M2_FG02_RegionalFoodLossWasteByStage.svg` — Regional Food Loss and Waste Distribution by Supply Chain Stage
+- **P0.M2.DT02** (Data Table): `P0_M2_DT02_FoodLossByGroupAndStage.csv` — Global food loss and waste by food group and supply chain stage
+
+### Module 3 – Deliverables
+- **P0.M3.DT01** (Data Table): `P0_M3_DT01_GlobalLandUseByCategory.csv` — Global agricultural land allocation by use and commodity
+- **P0.M3.DT02** (Data Table): `P0_M3_DT02_WaterNitrogenUseInAgriculture.csv` — Global water and nitrogen use in agriculture
+- **P0.M3.TX01** (Text Output): `P0_M3_TX01_LandWaterNutrientUseSynthesis.txt` — Narrative synthesis of global land, water, and nitrogen use patterns
+- **P0.M3.FG01** (Figure): `P0_M3_FG01_ResourceUsePlantVsAnimal.svg` — Resource Allocation in Global Food Systems – Plant vs. Animal-Based
+
+### Module 4 – Deliverables
+- **P0.M4.DT01** (Data Table): `P0_M4_DT01_GlobalFoodTradeFlows.csv` — Global food trade flows by commodity and country
+- **P0.M4.DT02** (Data Table): `P0_M4_DT02_AgriculturalSubsidyStructures.csv` — Agricultural subsidy structures by region
+- **P0.M4.TX01** (Text Output): `P0_M4_TX01_EconomicStructureFoodSystem.txt` — Structural and economic organization of the global food system
+- **P0.M4.FG01** (Figure): `P0_M4_FG01_FoodTradeNetwork.svg` — Visual of food trade interdependence network
+
+### Module 5 – Deliverables
+- **P0.M5.DT01** (Data Table): `P0_M5_DT01_GlobalReligiousDietaryNorms.csv` — Global religious and cultural dietary norms
+- **P0.M5.DT02** (Data Table): `P0_M5_DT02_NationalFoodRegimes.csv` — National food regimes and political economy of animal agriculture
+- **P0.M5.TX01** (Text Output): `P0_M5_TX01_CulturalPoliticalConstraints.txt` — Synthesis of cultural, religious, and political barriers to food system change
+- **P0.M5.FG01** (Figure): `P0_M5_FG01_DietaryResistanceMap.svg` — Annotated map of cultural-political dietary resistance domains
+- **P0.M5.DT03** (Data Table): `P0_M5_DT03_AnimalAgriLobbyActors.csv` — Political and industry actors shaping animal agriculture policy
+
+### Module 6 – Deliverables
+- **P0.M6.DT01** (Data Table): `P0_M6_DT01_GlobalFoodSystemBaseline.csv` — Harmonized global food system baseline dataset
+- **P0.M6.TX01** (Text Output): `P0_M6_TX01_GlobalFoodSystemSynthesis.txt` — Structured synthesis of the global food system based on Modules 1–5
+- **P0.M6.FG01** (Figure): `P0_M6_FG01_FoodSystemSankey.svg` — Global food system flow diagram (Sankey)
+- **P0.M6.TX02** (Text Output): `P0_M6_TX02_HistoricalEvolutionFoodSystem.txt` — Historical synthesis of the food system from 1960 to present
