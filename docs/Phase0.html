@@ -1,372 +1,1863 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Phase 0 – Full Synthesis Report</title>
-    <link href="https:/cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        .theme-toggle {
-            position: fixed;
-            top: 30px;
-            right: 30px;
-            z-index: 999;
-        }
-        html.dark body {
-            background-color: #1a1a1a;
-            color: #e0e0e0;
-        }
-        html.dark h1, html.dark h2, html.dark h3, html.dark p, html.dark li {
-            color: #e0e0e0;
-        }
-        html.dark table {
-            background-color: #2a2a2a;
-            border-color: #444;
-        }
-        html.dark th {
-            background-color: #333;
-            color: #f0f0f0;
-        }
-        html.dark td {
-            background-color: #2a2a2a;
-            color: #e0e0e0;
-        }
-    </style>
-    <script>
-        function toggleTheme() {
-            const html = document.documentElement;
-            const isDark = html.classList.toggle('dark');
-            document.getElementById('theme-toggle').textContent = isDark ? 'light mode' : 'dark mode';
-        }
-    </script>
-</head>
-<body class="bg-white text-gray-900 font-sans transition-colors duration-300">
-<div class="max-w-screen-lg mx-auto px-4 py-8">
-    <button id="theme-toggle" class="theme-toggle px-4 py-2 bg-gray-200 text-gray-800 rounded shadow" onclick="toggleTheme()">dark mode</button>
-    <h1 class="text-4xl font-bold mb-4">Phase 0 – Global Food System Baseline</h1>
-    <p class="text-lg text-gray-700 mb-8">Final integrated synthesis including full narrative, tables, figures, source appendix, and dark/light theme.</p>
-<h2 class='text-2xl font-semibold mt-10 mb-4'>Module 1: Global Food Production Overview</h2><h3 class='text-xl font-medium mt-6 mb-2'>Structured synthesis of global food production patterns (weight, calories, categories, regions, feed)</h3><p class='mb-4'>Global Food Production Overview<br>Phase: 0<br>Module: 1<br>Type: TX<br>Title/Description: Structured synthesis of global food production patterns (weight, calories, categories, regions, feed)<br>File Name: P0_M1_TX01_GlobalFoodProductionOverview.txt<br>Storage Location: /ssot/phase0/module1/outputs/<br>Source Category: 🟢 A (except where noted)<br>Notes: Based on FAO Yearbook 2023/2024, Poore & Nemecek (2018), and FAOSTAT FBS. Wikipedia and World Bank Docs cited for framing only.</p>
-<p class='mb-4'>---</p>
-<h3 class='text-lg font-semibold mt-6 mb-2'>1. Total Production by Weight (2022)</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Primary Crops: 9,600 million tonnes (96%)</li>
-<li>Meat: 361 million tonnes (3.6%)</li>
-<li>Milk (excl. butter): 930 million tonnes (9.3%)</li>
-<li>Eggs: 93 million tonnes (0.9%)</li>
-<li>Fish & Seafood: 179 million tonnes (1.8%)</li>
-<li>*Total exceeds 100% due to overlaps in reporting categories*</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>2. Caloric Contribution by Food Source</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Plant-Based Foods: 82%</li>
-<li>Animal-Based Foods: 18%</li>
-<li class='text-sm italic'>(Source: Poore & Nemecek 2018 – 🟢 A)</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>3. Top 5 Commodities by Weight (2022)</h3>
-<ol class='list-decimal list-inside pl-6 mb-4'>
-<li>Sugarcane – 1,870 million tonnes</li>
-<li>Rice (paddy) – 1,264 million tonnes</li>
-<li>Maize – 1,171 million tonnes</li>
-<li>Wheat – 761 million tonnes</li>
-<li>Potatoes – 359 million tonnes</li>
-<li class='text-sm italic'>(Source: FAOSTAT – 🟢 A)</li>
-</ol>
-<h3 class='text-lg font-semibold mt-6 mb-2'>4. Top 5 Commodities by Caloric Contribution</h3>
-<ol class='list-decimal list-inside pl-6 mb-4'>
-<li>Rice – 541 kcal/person/day</li>
-<li>Wheat – 527 kcal/person/day</li>
-<li>Sugar crops – 200 kcal/person/day</li>
-<li>Maize – 147 kcal/person/day</li>
-<li>Soybean oil – 82 kcal/person/day</li>
-<li class='text-sm italic'>(Source: FAOSTAT FBS – 🟢 A; OWID summaries – 🟡 B)</li>
-</ol>
-<h3 class='text-lg font-semibold mt-6 mb-2'>5. Regional Production Patterns</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Asia: Rice, vegetables, palm oil</li>
-<li>North America: Maize, soy, wheat</li>
-<li>Europe: Wheat, barley, dairy</li>
-<li>Latin America: Sugarcane, soy, coffee</li>
-<li>Africa: Cassava, sorghum</li>
-<li class='text-sm italic'>(Source: FAOSTAT Regional Data – 🟢 A)</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>6. Allocation of Crop Calories</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Animal Feed: ~33%</li>
-<li>Human Consumption: ~60%</li>
-<li>Biofuels/Industrial: ~7%</li>
-<li class='text-sm italic'>(Source: Poore & Nemecek 2018 – 🟢 A)</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Uncertainties & Gaps</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Timeliness: Some FAO data from 2022/2023; may lag one year.</li>
-<li>Geographic Granularity: Sub-national disparities not captured.</li>
-<li>Source Classification: Wikipedia used only for conceptual framing (🔴 C); not for evidence.</li>
-</ul><h3 class='text-lg font-semibold mt-6 mb-2'>Figure: Plant vs. animal-based food production (weight and caloric contribution)</h3><img src='../SSOT/phase0/module1/outputs/P0_M1_FG02_PlantVsAnimalProduction.svg' alt='Plant vs. animal-based food production (weight and caloric contribution)' class='w-full max-w-3xl mx-auto my-4'/><p class='text-sm text-gray-600 mb-8'><strong>Source:</strong> ./SSOT/phase0/module1/outputs/P0_M1_FG02_PlantVsAnimalProduction.svg</p><h3 class='text-lg font-semibold mt-6 mb-2'>Figure: Regional food production volumes by continent</h3><img src='../SSOT/phase0/module1/outputs/P0_M1_FG03_RegionalFoodProduction.svg' alt='Regional food production volumes by continent' class='w-full max-w-3xl mx-auto my-4'/><p class='text-sm text-gray-600 mb-8'><strong>Source:</strong> ./SSOT/phase0/module1/outputs/P0_M1_FG03_RegionalFoodProduction.svg</p><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Global food production by category (weight + calories)</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Data Point</th><th class='border border-gray-300 px-3 py-2 text-left'>Value</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th><th class='border border-gray-300 px-3 py-2 text-left'>Notes</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Total global crop production</td><td class='border border-gray-300 px-3 py-2'>9.6 billion tonnes</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QCL</td><td class='border border-gray-300 px-3 py-2'>Primary crops only</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Global meat production</td><td class='border border-gray-300 px-3 py-2'>361 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAO Yearbook 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/openknowledge.fao.org/handle/20.500.14283/11363</td><td class='border border-gray-300 px-3 py-2'>Includes all meat categories</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Global milk production (excluding butter)</td><td class='border border-gray-300 px-3 py-2'>930 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAO Yearbook 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/openknowledge.fao.org/handle/20.500.14283/11363</td><td class='border border-gray-300 px-3 py-2'>Includes cow, buffalo, others</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Global egg production</td><td class='border border-gray-300 px-3 py-2'>93 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAO Yearbook 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/openknowledge.fao.org/handle/20.500.14283/11363</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Fish & seafood production</td><td class='border border-gray-300 px-3 py-2'>179 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAO SOFIA 2022</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/documents/card/en/c/cc0461en</td><td class='border border-gray-300 px-3 py-2'>2020 data</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Top global food commodities by production weight</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Data Point</th><th class='border border-gray-300 px-3 py-2 text-left'>Value</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th><th class='border border-gray-300 px-3 py-2 text-left'>Notes</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Sugarcane</td><td class='border border-gray-300 px-3 py-2'>1,870 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QC</td><td class='border border-gray-300 px-3 py-2'>Leading by volume</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Maize</td><td class='border border-gray-300 px-3 py-2'>1,171 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QC</td><td class='border border-gray-300 px-3 py-2'>Includes feed use</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Rice (paddy)</td><td class='border border-gray-300 px-3 py-2'>1,264 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QC</td><td class='border border-gray-300 px-3 py-2'>Paddy form</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Wheat</td><td class='border border-gray-300 px-3 py-2'>761 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QC</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Potatoes</td><td class='border border-gray-300 px-3 py-2'>359 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QC</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Top global food commodities by caloric contribution</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Data Point</th><th class='border border-gray-300 px-3 py-2 text-left'>Value</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th><th class='border border-gray-300 px-3 py-2 text-left'>Notes</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Rice</td><td class='border border-gray-300 px-3 py-2'>541 kcal/person/day</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT FBS</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/FBS</td><td class='border border-gray-300 px-3 py-2'>Average global availability</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Wheat</td><td class='border border-gray-300 px-3 py-2'>527 kcal/person/day</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT FBS</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/FBS</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Sugar (refined equivalent)</td><td class='border border-gray-300 px-3 py-2'>200 kcal/person/day</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT FBS</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/FBS</td><td class='border border-gray-300 px-3 py-2'>Includes all sugar types</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Maize</td><td class='border border-gray-300 px-3 py-2'>147 kcal/person/day</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT FBS</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/FBS</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Soybean oil</td><td class='border border-gray-300 px-3 py-2'>82 kcal/person/day</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT FBS</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/FBS</td><td class='border border-gray-300 px-3 py-2'>Vegetable oils combined</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Regional patterns in major food commodity production</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Region</th><th class='border border-gray-300 px-3 py-2 text-left'>Dominant Products</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th><th class='border border-gray-300 px-3 py-2 text-left'>Notes</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Asia</td><td class='border border-gray-300 px-3 py-2'>Rice, vegetables, palm oil</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QCL</td><td class='border border-gray-300 px-3 py-2'>Largest rice producer</td></tr><tr><td class='border border-gray-300 px-3 py-2'>North America</td><td class='border border-gray-300 px-3 py-2'>Maize, soy, wheat</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QCL</td><td class='border border-gray-300 px-3 py-2'>Major feed and export crops</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Latin America</td><td class='border border-gray-300 px-3 py-2'>Sugarcane, soy, coffee</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QCL</td><td class='border border-gray-300 px-3 py-2'>Brazil leads in sugarcane</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Sub-Saharan Africa</td><td class='border border-gray-300 px-3 py-2'>Cassava, sorghum</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QCL</td><td class='border border-gray-300 px-3 py-2'>Lower calorie yields per hectare</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Europe</td><td class='border border-gray-300 px-3 py-2'>Wheat, barley, dairy</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/QCL</td><td class='border border-gray-300 px-3 py-2'>High input-output efficiency</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Allocation of global crop calories to animal feed</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Data Point</th><th class='border border-gray-300 px-3 py-2 text-left'>Value</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th><th class='border border-gray-300 px-3 py-2 text-left'>Notes</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>% of global crop calories to animal feed</td><td class='border border-gray-300 px-3 py-2'>~33%</td><td class='border border-gray-300 px-3 py-2'>Poore & Nemecek</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.science.org/doi/10.1126/science.aaq0216</td><td class='border border-gray-300 px-3 py-2'>Caloric flow analysis validated by FAO</td></tr></tbody></table></div><h2 class='text-2xl font-semibold mt-10 mb-4'>Module 2: Food Loss and Waste</h2><h3 class='text-xl font-medium mt-6 mb-2'>Evidence-based synthesis of food loss and waste distribution, causes, and disparities</h3><p class='mb-4'>Global Food Losses and Waste – Structured Synthesis<br>Phase: 0<br>Module: 2<br>Type: TX<br>Title/Description: Evidence-based synthesis of food loss and waste distribution, causes, and disparities<br>File Name: P0_M2_TX01_FoodLossWasteSynthesis.txt<br>Storage Location: /ssot/phase0/module2/outputs/<br>Source Category: 🟢 A<br>Notes: Summarizes key insights from FAO (2011, 2019) and UNEP (2021). Designed to inform downstream modeling in Phase 3 and Phase 4.</p>
-<p class='mb-4'>---</p>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Overview</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<p class='mb-4'>Approximately 1.3 billion tonnes—about one-third—of all food produced for human consumption is lost or wasted annually. This represents significant inefficiencies across the global food system and carries major implications for nutrition security, environmental sustainability, and economic resilience.</p>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Breakdown by Stage</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>**Production (~14%)**: Driven by pest damage, weather variability, and harvest timing errors—especially in low-income regions.</li>
-<li>**Post-Harvest & Storage (up to 20%)**: Infrastructure deficits, lack of cold chains, and transport limitations are key drivers.</li>
-<li>**Processing & Packaging (4–9%)**: Technical inefficiencies and product grading standards lead to avoidable losses.</li>
-<li>**Distribution & Retail (5–10%)**: Overordering, cosmetic standards, and discard of unsold inventory contribute to waste.</li>
-<li>**Consumption (~17%)**: Primarily in high-income countries, driven by household behavior, portion sizes, and best-before misunderstandings.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Regional Patterns</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>**High-Income Countries (HICs)**: Most food waste occurs at retail and consumer stages.</li>
-<li>**Low- and Middle-Income Countries (LMICs)**: Most food loss occurs early in the supply chain (post-harvest and storage).</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Commodity-Specific Insights</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>**Fruits and Vegetables**: Highest loss rates (~40–50%) due to perishability and handling damage.</li>
-<li>**Cereals**: Losses of 20–30%, especially during storage in humid or poorly ventilated environments.</li>
-<li>**Meat and Dairy**: Typically lost during processing, distribution, and refrigeration failures.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Environmental and Economic Costs</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Food waste accounts for an estimated 8–10% of global greenhouse gas emissions (FAO, UNEP).</li>
-<li>Land, water, and energy used to produce wasted food are effectively lost resources.</li>
-<li>Reducing waste could significantly improve food availability without expanding production.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Conclusion</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<p class='mb-4'>Food loss and waste reduction is a critical lever for improving global food system efficiency and sustainability. Strategies must be tailored to regional infrastructure, dietary patterns, and economic context.</p><h3 class='text-lg font-semibold mt-6 mb-2'>Figure: Global Food Loss and Waste Distribution by Supply Chain Stage</h3><img src='../SSOT/phase0/module2/outputs/P0_M2_FG01_FoodLossWasteByStage.svg' alt='Global Food Loss and Waste Distribution by Supply Chain Stage' class='w-full max-w-3xl mx-auto my-4'/><p class='text-sm text-gray-600 mb-8'><strong>Source:</strong> ./SSOT/phase0/module2/outputs/P0_M2_FG01_FoodLossWasteByStage.svg</p><h3 class='text-lg font-semibold mt-6 mb-2'>Figure: Regional Food Loss and Waste Distribution by Supply Chain Stage</h3><img src='../SSOT/phase0/module2/outputs/P0_M2_FG02_RegionalFoodLossWasteByStage.svg' alt='Regional Food Loss and Waste Distribution by Supply Chain Stage' class='w-full max-w-3xl mx-auto my-4'/><p class='text-sm text-gray-600 mb-8'><strong>Source:</strong> ./SSOT/phase0/module2/outputs/P0_M2_FG02_RegionalFoodLossWasteByStage.svg</p><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Global food losses and waste by stage, region, and commodity</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Data Point</th><th class='border border-gray-300 px-3 py-2 text-left'>Value</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th><th class='border border-gray-300 px-3 py-2 text-left'>Notes</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Total Food Production for Human Consumption</td><td class='border border-gray-300 px-3 py-2'>4,000 million tonnes</td><td class='border border-gray-300 px-3 py-2'>FAO 2011</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/mb060e/mb060e.pdf</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Total Food Lost/Wasted Globally</td><td class='border border-gray-300 px-3 py-2'>1,300 million tonnes (~33%)</td><td class='border border-gray-300 px-3 py-2'>FAO 2011</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/mb060e/mb060e.pdf</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Production Losses</td><td class='border border-gray-300 px-3 py-2'>~14%</td><td class='border border-gray-300 px-3 py-2'>FAO 2019</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/ca6030en/ca6030en.pdf</td><td class='border border-gray-300 px-3 py-2'>Food Loss Index estimate</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Post-Harvest and Storage Losses</td><td class='border border-gray-300 px-3 py-2'>Variable (up to 20% in SSA)</td><td class='border border-gray-300 px-3 py-2'>FAO 2011</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/mb060e/mb060e.pdf</td><td class='border border-gray-300 px-3 py-2'>Higher in LMICs</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Processing and Packaging Losses</td><td class='border border-gray-300 px-3 py-2'>4–9% (by category)</td><td class='border border-gray-300 px-3 py-2'>FAO 2011</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/mb060e/mb060e.pdf</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Global food loss and waste by food group and supply chain stage</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Food Group</th><th class='border border-gray-300 px-3 py-2 text-left'>Production Loss (%)</th><th class='border border-gray-300 px-3 py-2 text-left'>Post-Harvest & Storage Loss (%)</th><th class='border border-gray-300 px-3 py-2 text-left'>Processing & Packaging Loss (%)</th><th class='border border-gray-300 px-3 py-2 text-left'>Distribution & Retail Loss (%)</th><th class='border border-gray-300 px-3 py-2 text-left'>Consumption Waste (%)</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Cereals</td><td class='border border-gray-300 px-3 py-2'>8</td><td class='border border-gray-300 px-3 py-2'>10</td><td class='border border-gray-300 px-3 py-2'>4</td><td class='border border-gray-300 px-3 py-2'>2</td><td class='border border-gray-300 px-3 py-2'>3</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Roots & Tubers</td><td class='border border-gray-300 px-3 py-2'>14</td><td class='border border-gray-300 px-3 py-2'>15</td><td class='border border-gray-300 px-3 py-2'>5</td><td class='border border-gray-300 px-3 py-2'>3</td><td class='border border-gray-300 px-3 py-2'>5</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Oilseeds & Pulses</td><td class='border border-gray-300 px-3 py-2'>6</td><td class='border border-gray-300 px-3 py-2'>8</td><td class='border border-gray-300 px-3 py-2'>3</td><td class='border border-gray-300 px-3 py-2'>2</td><td class='border border-gray-300 px-3 py-2'>2</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Fruits & Vegetables</td><td class='border border-gray-300 px-3 py-2'>15</td><td class='border border-gray-300 px-3 py-2'>20</td><td class='border border-gray-300 px-3 py-2'>6</td><td class='border border-gray-300 px-3 py-2'>5</td><td class='border border-gray-300 px-3 py-2'>6</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Meat</td><td class='border border-gray-300 px-3 py-2'>4</td><td class='border border-gray-300 px-3 py-2'>3</td><td class='border border-gray-300 px-3 py-2'>4</td><td class='border border-gray-300 px-3 py-2'>3</td><td class='border border-gray-300 px-3 py-2'>6</td></tr></tbody></table></div><h2 class='text-2xl font-semibold mt-10 mb-4'>Module 3: Land, Water, and Nitrogen Use</h2><h3 class='text-xl font-medium mt-6 mb-2'>Narrative synthesis of global land, water, and nitrogen use patterns</h3><p class='mb-4'>Global Agricultural Resource Allocation – Structured Synthesis<br>Phase: 0<br>Module: 3<br>Type: TX<br>Title/Description: Narrative synthesis of global land, water, and nitrogen use patterns<br>File Name: P0_M3_TX01_LandWaterNutrientUseSynthesis.txt<br>Storage Location: /ssot/phase0/module3/outputs/<br>Source Category: 🟢 A<br>Notes: Synthesizes land, water, and nitrogen distribution across food system components based on FAO and peer-reviewed data.</p>
-<p class='mb-4'>---</p>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Land Use Overview</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Global agricultural land totals approximately 4.9 billion hectares.</li>
-<li>Roughly 68% of this land is used as permanent pasture for grazing livestock (~3.3 billion ha).</li>
-<li>The remaining 32% (1.6 billion ha) is arable land used for crops.</li>
-<li>Of crop land:</li>
-<li>~55% is used for direct human consumption.</li>
-<li>~36% is used to grow animal feed.</li>
-<li>~9% is used for biofuels or industrial purposes.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Water Use Patterns</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Agriculture accounts for ~2,500 km³/year of freshwater withdrawals, or about 70% of total global use.</li>
-<li>About 330 million hectares are irrigated (~20% of cropland), providing ~40% of global food output.</li>
-<li>Water intensity varies significantly:</li>
-<li>Plant-based foods (e.g., cereals, pulses): 790–1,300 m³/tonne</li>
-<li>Animal-based foods (e.g., beef, dairy): 4,000–15,400 m³/tonne</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Nitrogen Fertilizer Use</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Global synthetic nitrogen use in agriculture is ~110 million tonnes N/year.</li>
-<li>Usage by category:</li>
-<li>Cereals: ~60% of total N (especially maize, rice, wheat)</li>
-<li>Oil crops: ~15%</li>
-<li>Fruits and vegetables: ~10%</li>
-<li>Feed crops: ~50% (substantial overlap with cereal allocation)</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>Key Takeaways</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>The vast majority of global land and water inputs are devoted to livestock systems, directly (pasture) or indirectly (feed crops).</li>
-<li>Resource use efficiency is markedly higher for plant-based foods across all biophysical metrics.</li>
-<li>These baselines will serve as quantitative inputs for modeling the ecological limits and efficiencies of alternative dietary scenarios in Phases 3 and 4.</li>
-</ul><h3 class='text-lg font-semibold mt-6 mb-2'>Figure: Resource Allocation in Global Food Systems – Plant vs. Animal-Based</h3><img src='../SSOT/phase0/module3/outputs/P0_M3_FG01_ResourceUsePlantVsAnimal.svg' alt='Resource Allocation in Global Food Systems – Plant vs. Animal-Based' class='w-full max-w-3xl mx-auto my-4'/><p class='text-sm text-gray-600 mb-8'><strong>Source:</strong> ./SSOT/phase0/module3/outputs/P0_M3_FG01_ResourceUsePlantVsAnimal.svg</p><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Global agricultural land allocation by use and commodity</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Data Point</th><th class='border border-gray-300 px-3 py-2 text-left'>Value</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th><th class='border border-gray-300 px-3 py-2 text-left'>Notes</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Total Agricultural Land</td><td class='border border-gray-300 px-3 py-2'>4.9 billion hectares</td><td class='border border-gray-300 px-3 py-2'>FAO 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/cc6363en/cc6363en.pdf</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Permanent Pasture</td><td class='border border-gray-300 px-3 py-2'>3.3 billion hectares (~68%)</td><td class='border border-gray-300 px-3 py-2'>FAO 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/cc6363en/cc6363en.pdf</td><td class='border border-gray-300 px-3 py-2'>Grazing land</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Arable Land</td><td class='border border-gray-300 px-3 py-2'>1.6 billion hectares (~32%)</td><td class='border border-gray-300 px-3 py-2'>FAO 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/cc6363en/cc6363en.pdf</td><td class='border border-gray-300 px-3 py-2'>Used for annual crops</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Cereals</td><td class='border border-gray-300 px-3 py-2'>700 million hectares</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/RL</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Oil Crops</td><td class='border border-gray-300 px-3 py-2'>300 million hectares</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/RL</td><td class='border border-gray-300 px-3 py-2'>nan</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Global water and nitrogen use in agriculture</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Data Point</th><th class='border border-gray-300 px-3 py-2 text-left'>Value</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th><th class='border border-gray-300 px-3 py-2 text-left'>Notes</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Total Freshwater Withdrawals for Agriculture</td><td class='border border-gray-300 px-3 py-2'>~2,500 km³/year</td><td class='border border-gray-300 px-3 py-2'>FAO AQUASTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/aquastat/en/</td><td class='border border-gray-300 px-3 py-2'>About 70% of global withdrawals</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Irrigated Area</td><td class='border border-gray-300 px-3 py-2'>~330 million hectares</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/RL</td><td class='border border-gray-300 px-3 py-2'>About 20% of cropland, provides ~40% of food</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Water Use: Plant-Based Foods</td><td class='border border-gray-300 px-3 py-2'>790–1,300 m³/tonne (varies by crop)</td><td class='border border-gray-300 px-3 py-2'>Poore & Nemecek 2018</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.science.org/doi/10.1126/science.aaq0216</td><td class='border border-gray-300 px-3 py-2'>Cereals, pulses, etc.</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Water Use: Animal-Based Foods</td><td class='border border-gray-300 px-3 py-2'>4,000–15,400 m³/tonne</td><td class='border border-gray-300 px-3 py-2'>Poore & Nemecek 2018</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.science.org/doi/10.1126/science.aaq0216</td><td class='border border-gray-300 px-3 py-2'>Higher for beef, lower for poultry</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Nitrogen Fertilizer Use (Total)</td><td class='border border-gray-300 px-3 py-2'>110 million tonnes N/year</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/RFN</td><td class='border border-gray-300 px-3 py-2'>Synthetic sources</td></tr></tbody></table></div><h2 class='text-2xl font-semibold mt-10 mb-4'>Module 4: Trade and Economic Structure</h2><h3 class='text-xl font-medium mt-6 mb-2'>Structural and economic organization of the global food system</h3><p class='mb-4'>Global Food System – Economic Structure Synthesis<br>Phase: 0<br>Module: 4<br>Type: TX<br>Title/Description: Structural and economic organization of the global food system<br>File Name: P0_M4_TX01_EconomicStructureFoodSystem.txt<br>Storage Location: /ssot/phase0/module4/outputs/<br>Source Category: 🟢 A<br>Notes: Integrates findings from FAOSTAT, OECD, WTO, World Bank, and peer-reviewed economics literature. Covers trade, subsidies, corporate concentration, and supply chain dependencies.</p>
-<p class='mb-4'>---</p>
-<h3 class='text-lg font-semibold mt-6 mb-2'>1. Global Trade Architecture</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Food systems are deeply integrated into global trade flows.</li>
-<li>A small number of commodities (e.g. wheat, soy, maize, beef) dominate cross-border flows by volume and value.</li>
-<li>Major exporters (Brazil, US, EU, Russia) often dominate specific markets, while importers (e.g., China, Egypt, Bangladesh) show high commodity-specific dependency.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>2. Agricultural Subsidy Structures</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>OECD countries allocate significant public funds to agricultural support: ~$90B in EU (CAP), ~$53B in US, mostly through income support, insurance, and market stabilization.</li>
-<li>BRICS nations—especially China and India—provide substantial support via price guarantees and input subsidies, often focusing on food security crops (rice, wheat, pulses).</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>3. Market Concentration</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>The food system exhibits **high horizontal and vertical integration**:</li>
-<li>**Inputs**: Top 4 agrochemical firms control >60% of global sales.</li>
-<li>**Grain Trading**: Four firms (ADM, Bunge, Cargill, Louis Dreyfus—“ABCD”) handle ~70–90% of global grain trade.</li>
-<li>**Retail**: Concentrated in high-income countries (e.g., Walmart, Costco dominate US grocery sector).</li>
-<li>**Processing**: Meat and dairy processors are globally consolidated (e.g., JBS, Tyson).</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>4. Global vs. Regional Dependencies</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Many low-income countries are net food importers with high exposure to global market volatility.</li>
-<li>However, regional trading blocs (e.g., EU, ASEAN, Mercosur) mitigate some reliance via intra-regional exchange.</li>
-<li>Critical supply chain interdependencies exist in fertilizers, feed, and oilseeds—especially between South America, the Black Sea region, and East Asia.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>5. Structural Vulnerabilities</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Price shocks, export restrictions, or logistical disruptions (e.g. COVID-19, Ukraine war) can ripple quickly due to system centralization.</li>
-<li>Emerging policy focus areas include shortening supply chains, enhancing domestic processing, and diversifying trade partners.</li>
-</ul>
-<p class='mb-4'>This economic structure baseline informs later phases analyzing resilience, equity, and transition pathways within global food systems.</p><h3 class='text-lg font-semibold mt-6 mb-2'>Figure: Visual of food trade interdependence network</h3><img src='../SSOT/phase0/module4/outputs/P0_M4_FG01_FoodTradeNetwork.svg' alt='Visual of food trade interdependence network' class='w-full max-w-3xl mx-auto my-4'/><p class='text-sm text-gray-600 mb-8'><strong>Source:</strong> ./SSOT/phase0/module4/outputs/P0_M4_FG01_FoodTradeNetwork.svg</p><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Global food trade flows by commodity and country</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Commodity</th><th class='border border-gray-300 px-3 py-2 text-left'>Top Exporter</th><th class='border border-gray-300 px-3 py-2 text-left'>Top Importer</th><th class='border border-gray-300 px-3 py-2 text-left'>Export Volume (2022)</th><th class='border border-gray-300 px-3 py-2 text-left'>Export Value (USD)</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Wheat</td><td class='border border-gray-300 px-3 py-2'>Russia</td><td class='border border-gray-300 px-3 py-2'>Egypt</td><td class='border border-gray-300 px-3 py-2'>39.5 million tonnes</td><td class='border border-gray-300 px-3 py-2'>$10.2 billion</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/TM</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Soybeans</td><td class='border border-gray-300 px-3 py-2'>Brazil</td><td class='border border-gray-300 px-3 py-2'>China</td><td class='border border-gray-300 px-3 py-2'>92.5 million tonnes</td><td class='border border-gray-300 px-3 py-2'>$41.1 billion</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/TM</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Rice</td><td class='border border-gray-300 px-3 py-2'>India</td><td class='border border-gray-300 px-3 py-2'>Bangladesh</td><td class='border border-gray-300 px-3 py-2'>20.2 million tonnes</td><td class='border border-gray-300 px-3 py-2'>$9.8 billion</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/TM</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Beef</td><td class='border border-gray-300 px-3 py-2'>Brazil</td><td class='border border-gray-300 px-3 py-2'>China</td><td class='border border-gray-300 px-3 py-2'>2.3 million tonnes</td><td class='border border-gray-300 px-3 py-2'>$13.9 billion</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/TM</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Dairy (Milk Powder)</td><td class='border border-gray-300 px-3 py-2'>New Zealand</td><td class='border border-gray-300 px-3 py-2'>China</td><td class='border border-gray-300 px-3 py-2'>1.8 million tonnes</td><td class='border border-gray-300 px-3 py-2'>$6.7 billion</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/faostat/en/#data/TM</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Agricultural subsidy structures by region</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Country/Region</th><th class='border border-gray-300 px-3 py-2 text-left'>Main Subsidy Instruments</th><th class='border border-gray-300 px-3 py-2 text-left'>Estimated Annual Value (USD)</th><th class='border border-gray-300 px-3 py-2 text-left'>Targeted Sectors</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>United States</td><td class='border border-gray-300 px-3 py-2'>Direct payments, crop insurance, conservation subsidies</td><td class='border border-gray-300 px-3 py-2'>$53 billion</td><td class='border border-gray-300 px-3 py-2'>Cereals, oilseeds, livestock</td><td class='border border-gray-300 px-3 py-2'>OECD 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/</td></tr><tr><td class='border border-gray-300 px-3 py-2'>European Union</td><td class='border border-gray-300 px-3 py-2'>Common Agricultural Policy (CAP): income support, rural development</td><td class='border border-gray-300 px-3 py-2'>$90 billion</td><td class='border border-gray-300 px-3 py-2'>Cereals, dairy, meat, horticulture</td><td class='border border-gray-300 px-3 py-2'>OECD 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/</td></tr><tr><td class='border border-gray-300 px-3 py-2'>China</td><td class='border border-gray-300 px-3 py-2'>Price supports, input subsidies, minimum procurement</td><td class='border border-gray-300 px-3 py-2'>$180 billion</td><td class='border border-gray-300 px-3 py-2'>Rice, maize, pork</td><td class='border border-gray-300 px-3 py-2'>WTO Notifications</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.wto.org/english/tratop_e/agric_e/agric_e.htm</td></tr><tr><td class='border border-gray-300 px-3 py-2'>India</td><td class='border border-gray-300 px-3 py-2'>Fertilizer subsidies, MSP, food procurement</td><td class='border border-gray-300 px-3 py-2'>$66 billion</td><td class='border border-gray-300 px-3 py-2'>Wheat, rice, pulses</td><td class='border border-gray-300 px-3 py-2'>WTO Notifications</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.wto.org/english/tratop_e/agric_e/agric_e.htm</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Brazil</td><td class='border border-gray-300 px-3 py-2'>Credit subsidies, price supports</td><td class='border border-gray-300 px-3 py-2'>$10 billion</td><td class='border border-gray-300 px-3 py-2'>Soybeans, beef, sugarcane</td><td class='border border-gray-300 px-3 py-2'>OECD 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/</td></tr></tbody></table></div><h2 class='text-2xl font-semibold mt-10 mb-4'>Module 5: Cultural and Political Constraints</h2><h3 class='text-xl font-medium mt-6 mb-2'>Synthesis of cultural, religious, and political barriers to food system change</h3><p class='mb-4'>Cultural and Political Constraints to Food System Transformation – Synthesis<br>Phase: 0<br>Module: 5<br>Type: TX<br>Title/Description: Synthesis of cultural, religious, and political barriers to food system change<br>File Name: P0_M5_TX01_CulturalPoliticalConstraints.txt<br>Storage Location: /ssot/phase0/module5/outputs/<br>Source Category: 🟢 A<br>Notes: Synthesizes P0.M5.DT01 and P0.M5.DT02. Draws on Pew, FAO, IPES-Food, WRI, and political economy literature. Designed to inform feasibility assessments in Phase 5 and 6.</p>
-<p class='mb-4'>---</p>
-<h3 class='text-lg font-semibold mt-6 mb-2'>1. Religious and Cultural Constraints</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Religious dietary laws shape global food preferences:</li>
-<li>Islam and Judaism prohibit pork and require specific slaughter methods (Halal, Kosher).</li>
-<li>Hindu-majority areas avoid beef and favor vegetarian diets.</li>
-<li>Buddhist-influenced populations restrict animal product consumption.</li>
-<li>Christian fasting periods (Orthodox, Catholic) affect seasonal consumption patterns.</li>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Cultural traditions maintain persistent attachment to meat as a status symbol or festive necessity.</li>
-<li>Secular diet shifts (e.g., veganism) remain concentrated in specific socioeconomic and regional contexts.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>2. National Political Economies</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Many governments are structurally dependent on animal agriculture:</li>
-<li>The US, Brazil, and EU maintain powerful livestock lobbies and entrenched subsidy structures.</li>
-<li>BRICS nations blend protectionism with strategic food security planning (e.g., India's MSP, China's pork reserve).</li>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Food regimes are embedded in broader state-market compacts:</li>
-<li>Brazil’s livestock and soy economy is deeply linked to export revenue and rural political power.</li>
-<li>EU’s Common Agricultural Policy supports environmental reform but maintains livestock support.</li>
-<li>China and Russia emphasize food sovereignty and domestic control over key proteins.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>3. Transformation Barriers</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Political resistance to dietary change is not only cultural but economic:</li>
-<li>Job losses, trade realignments, and rural opposition form high-friction barriers.</li>
-<li>National identity, sovereignty, and religious autonomy frequently conflict with standardized food transition narratives.</li>
-<li>Any proposed plant-based transformation must engage with this fragmented and politicized landscape.</li>
-</ul><h3 class='text-lg font-semibold mt-6 mb-2'>Figure: Annotated map of cultural-political dietary resistance domains</h3><img src='../SSOT/phase0/module5/outputs/P0_M5_FG01_DietaryResistanceMap.svg' alt='Annotated map of cultural-political dietary resistance domains' class='w-full max-w-3xl mx-auto my-4'/><p class='text-sm text-gray-600 mb-8'><strong>Source:</strong> ./SSOT/phase0/module5/outputs/P0_M5_FG01_DietaryResistanceMap.svg</p><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Global religious and cultural dietary norms</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Religious/Cultural Group</th><th class='border border-gray-300 px-3 py-2 text-left'>Dietary Norms Summary</th><th class='border border-gray-300 px-3 py-2 text-left'>Geographic Prevalence</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Islam</td><td class='border border-gray-300 px-3 py-2'>Halal laws prohibit pork, blood, alcohol; ritual slaughter required</td><td class='border border-gray-300 px-3 py-2'>Middle East, North Africa, South Asia</td><td class='border border-gray-300 px-3 py-2'>Pew Research 2017</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.pewresearch.org/religion/2017/04/05/the-future-of-world-religions/</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Judaism</td><td class='border border-gray-300 px-3 py-2'>Kosher laws prohibit pork, shellfish; require ritual slaughter and meat-dairy separation</td><td class='border border-gray-300 px-3 py-2'>Israel, US, Europe</td><td class='border border-gray-300 px-3 py-2'>Pew Research / Rabbinical Assembly</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.pewresearch.org/religion/</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Hinduism</td><td class='border border-gray-300 px-3 py-2'>Many abstain from beef; majority vegetarian or lacto-vegetarian; fasting days common</td><td class='border border-gray-300 px-3 py-2'>India, Nepal, Sri Lanka</td><td class='border border-gray-300 px-3 py-2'>FAO/Academic Literature</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/i5313e/i5313e.pdf</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Buddhism</td><td class='border border-gray-300 px-3 py-2'>Predominantly vegetarian; strict sects avoid all meat, eggs, garlic/onion</td><td class='border border-gray-300 px-3 py-2'>East and Southeast Asia</td><td class='border border-gray-300 px-3 py-2'>FAO/Academic Literature</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/i5313e/i5313e.pdf</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Christianity (Orthodox)</td><td class='border border-gray-300 px-3 py-2'>Fasting periods prohibit meat, dairy, eggs; common in Lent and Advent</td><td class='border border-gray-300 px-3 py-2'>Eastern Europe, Middle East, Ethiopia</td><td class='border border-gray-300 px-3 py-2'>Pew Research</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.pewresearch.org/religion/</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: National food regimes and political economy of animal agriculture</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Country/Region</th><th class='border border-gray-300 px-3 py-2 text-left'>Food Regime and Political Economy Summary</th><th class='border border-gray-300 px-3 py-2 text-left'>Key Institutional Actors</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Name</th><th class='border border-gray-300 px-3 py-2 text-left'>Classification</th><th class='border border-gray-300 px-3 py-2 text-left'>Citation/URL</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>United States</td><td class='border border-gray-300 px-3 py-2'>Productivist regime with heavy subsidy and lobby support for corn, soy, beef, dairy</td><td class='border border-gray-300 px-3 py-2'>USDA, Farm Bureau, Meat Institute</td><td class='border border-gray-300 px-3 py-2'>IPES-Food 2017; OECD 2023</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/ipes-food.org/reports/</td></tr><tr><td class='border border-gray-300 px-3 py-2'>European Union</td><td class='border border-gray-300 px-3 py-2'>Common Agricultural Policy incentivizes cereals, dairy, and some environmental shifts</td><td class='border border-gray-300 px-3 py-2'>COPA-COGECA, dairy coops</td><td class='border border-gray-300 px-3 py-2'>OECD 2023; EU CAP Docs</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Brazil</td><td class='border border-gray-300 px-3 py-2'>Export-oriented livestock and soy model; ruralista bloc politically dominant</td><td class='border border-gray-300 px-3 py-2'>ABIEC, CNA, JBS</td><td class='border border-gray-300 px-3 py-2'>WRI; FAO; academic political economy literature</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.wri.org/insights/beef-amazon-forest</td></tr><tr><td class='border border-gray-300 px-3 py-2'>India</td><td class='border border-gray-300 px-3 py-2'>State-supported food sovereignty model centered on rice, wheat, pulses; beef banned in most states</td><td class='border border-gray-300 px-3 py-2'>Food Corporation of India, regional governments</td><td class='border border-gray-300 px-3 py-2'>FAO; WTO notifications</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.fao.org/3/i8563en/I8563EN.pdf</td></tr><tr><td class='border border-gray-300 px-3 py-2'>China</td><td class='border border-gray-300 px-3 py-2'>State-capitalist model with strategic pork reserves, feed imports, rising plant-based innovation</td><td class='border border-gray-300 px-3 py-2'>MinAgri, COFCO, WH Group</td><td class='border border-gray-300 px-3 py-2'>World Bank, WTO</td><td class='border border-gray-300 px-3 py-2'>🟢 A</td><td class='border border-gray-300 px-3 py-2'>https:/www.worldbank.org/en/news/feature/2022/12/14/china-agriculture-transformation</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Political and industry actors shaping animal agriculture policy</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>Organization</th><th class='border border-gray-300 px-3 py-2 text-left'>Type</th><th class='border border-gray-300 px-3 py-2 text-left'>Estimated Funding</th><th class='border border-gray-300 px-3 py-2 text-left'>Region</th><th class='border border-gray-300 px-3 py-2 text-left'>Influence Summary</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>US Farm Bureau</td><td class='border border-gray-300 px-3 py-2'>Industry Federation</td><td class='border border-gray-300 px-3 py-2'>$100M+ est.</td><td class='border border-gray-300 px-3 py-2'>United States</td><td class='border border-gray-300 px-3 py-2'>Key player in opposing environmental and dietary regulation; aligned with livestock producers</td></tr><tr><td class='border border-gray-300 px-3 py-2'>National Cattlemen’s Beef Association (NCBA)</td><td class='border border-gray-300 px-3 py-2'>Trade Association</td><td class='border border-gray-300 px-3 py-2'>$30M+ est.</td><td class='border border-gray-300 px-3 py-2'>United States</td><td class='border border-gray-300 px-3 py-2'>Lobbying for beef subsidies, resisting plant-based labeling</td></tr><tr><td class='border border-gray-300 px-3 py-2'>COPA-COGECA</td><td class='border border-gray-300 px-3 py-2'>Agricultural Union Alliance</td><td class='border border-gray-300 px-3 py-2'>$50M+ est.</td><td class='border border-gray-300 px-3 py-2'>European Union</td><td class='border border-gray-300 px-3 py-2'>Influences CAP reforms; strong livestock backing</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Meat and Livestock Australia</td><td class='border border-gray-300 px-3 py-2'>Industry Development Corporation</td><td class='border border-gray-300 px-3 py-2'>$200M+ (levies/public)</td><td class='border border-gray-300 px-3 py-2'>Australia</td><td class='border border-gray-300 px-3 py-2'>Funds R&D, defends beef sector; public-private model</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Brazilian Confederation of Agriculture (CNA)</td><td class='border border-gray-300 px-3 py-2'>National Agribusiness Lobby</td><td class='border border-gray-300 px-3 py-2'>$60M+ est.</td><td class='border border-gray-300 px-3 py-2'>Brazil</td><td class='border border-gray-300 px-3 py-2'>Supports rural caucus, agribusiness-friendly legislation</td></tr></tbody></table></div><h2 class='text-2xl font-semibold mt-10 mb-4'>Module 6: Global Synthesis and Historical Context</h2><h3 class='text-xl font-medium mt-6 mb-2'>Structured synthesis of the global food system based on Modules 1–5</h3><p class='mb-4'>Global Food System – Baseline Synthesis<br>Phase: 0<br>Module: 6<br>Type: TX<br>Title/Description: Structured synthesis of the global food system based on Modules 1–5<br>File Name: P0_M6_TX01_GlobalFoodSystemSynthesis.txt<br>Storage Location: /ssot/phase0/module6/outputs/<br>Source Category: 🟢 A<br>Notes: Synthesizes validated outputs from Phase 0, Modules 1 through 5. No new assumptions. Anchors system modeling in Phase 1 and beyond.</p>
-<p class='mb-4'>---</p>
-<h3 class='text-lg font-semibold mt-6 mb-2'>1. Production & Caloric Flow (Module 1)</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>~9.6 billion tonnes of primary crops produced globally, alongside 361 Mt of meat and 930 Mt of milk.</li>
-<li>Plant-based foods supply ~82% of global dietary calories, yet a third of crop calories are redirected to animal feed.</li>
-<li>Top caloric contributors include rice, wheat, and sugar crops. Top producers: China, US, Brazil, India.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>2. Food Losses & Waste (Module 2)</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>An estimated 1.3 billion tonnes—~33% of all food—is lost or wasted annually.</li>
-<li>Losses in LMICs are concentrated in early supply chain stages (harvest/storage); in HICs, waste is dominant at retail/consumer levels.</li>
-<li>Fruits, vegetables, and cereals are the most affected commodities.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>3. Resource Allocation (Module 3)</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>4.9 billion ha of land used for agriculture; 68% of this is pasture.</li>
-<li>Water use in agriculture totals ~2,500 km³ annually; 330 million ha of irrigated land produces ~40% of food.</li>
-<li>110 Mt/year of synthetic nitrogen is applied, primarily to cereals and feed crops.</li>
-<li>Animal-based systems dominate land, water, and nitrogen use.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>4. Trade and Economic Structure (Module 4)</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Global food trade is dominated by a few commodities (e.g., soy, wheat, beef) and actors (Brazil, US, EU, China).</li>
-<li>Major agricultural subsidies reach $90B (EU) to $180B (China), often reinforcing livestock and staple crop systems.</li>
-<li>The food economy is highly concentrated, with four firms handling most global grain trade (ABCD group).</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>5. Cultural and Political Constraints (Module 5)</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Religious norms (e.g., Halal, Kosher, vegetarianism) impose hard dietary boundaries in ~60% of the global population.</li>
-<li>National food regimes reflect entrenched political and economic interests, especially around livestock sectors.</li>
-<li>High resistance zones include India, USA, Brazil, Iran, and parts of Eastern Europe and Africa.</li>
-</ul>
-<p class='mb-4'>---</p>
-<p class='mb-4'>This synthesis provides the integrated system-level baseline for downstream scenario modeling, constraint evaluation, and transition pathway assessment (Phase 1 onward).</p><h3 class='text-xl font-medium mt-6 mb-2'>Historical synthesis of the food system from 1960 to present</h3><p class='mb-4'>Historical Evolution of the Global Food System<br>Phase: 0<br>Module: 6<br>Type: TX<br>Title/Description: Historical synthesis of the food system from 1960 to present<br>File Name: P0_M6_TX02_HistoricalEvolutionFoodSystem.txt<br>Storage Location: /ssot/phase0/module6/outputs/<br>Source Category: 🟢 A<br>Notes: Based on World Bank, FAO, and historical economic literature. No new projections. Anchors long-term system trends for scenario development.</p>
-<p class='mb-4'>---</p>
-<h3 class='text-lg font-semibold mt-6 mb-2'>1. 1960s–1980s: The Green Revolution Era</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Widespread introduction of high-yielding crop varieties (HYVs), particularly rice and wheat, began in Asia and Latin America.</li>
-<li>Supported by major institutions (e.g., CGIAR, World Bank), this period saw rapid expansion of irrigation, synthetic fertilizers, and mechanization.</li>
-<li>Food production outpaced population growth, reducing famines in several regions—but often at the cost of soil degradation and biodiversity loss.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>2. 1980s–1990s: Structural Adjustment and Trade Liberalization</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Global South economies were pushed toward export-oriented agriculture under IMF and World Bank structural adjustment programs.</li>
-<li>Public food support systems were weakened; emphasis shifted to commodity export and foreign direct investment.</li>
-<li>The 1995 WTO Agreement on Agriculture initiated the liberalization of food trade, while Northern agricultural subsidies continued.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>3. 1990s–2000s: Biotech and Consolidation</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>The rise of genetically modified organisms (GMOs) transformed seed and pesticide markets, particularly in North and South America.</li>
-<li>Corporate consolidation in input sectors accelerated: Monsanto, Syngenta, Bayer, and DuPont emerged as dominant players.</li>
-<li>Simultaneously, global supermarket chains and food processors expanded into emerging markets, reshaping retail systems.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>4. 2000s–2010s: Price Crises and Volatility</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Food price spikes in 2007–2008 and 2010 highlighted vulnerabilities in the global food trade system.</li>
-<li>Export bans, speculation, and climate-related shocks triggered political instability in multiple regions.</li>
-<li>In response, large-scale land acquisitions (“land grabs”) and public-private partnerships in agricultural investment increased.</li>
-</ul>
-<h3 class='text-lg font-semibold mt-6 mb-2'>5. 2010s–2020s: Sustainability Discourses and Technological Divergence</h3>
-<ul class='list-disc list-inside pl-6 mb-4'>
-</ul>
-<ul class='list-disc list-inside pl-6 mb-4'>
-<li>Climate change, biodiversity loss, and nutrition transitions entered mainstream food policy debates.</li>
-<li>Calls for “sustainable intensification,” “climate-smart agriculture,” and “food system transformation” proliferated.</li>
-<li>Divergent technological pathways emerged: digital/precision agriculture vs. agroecological and local food movements.</li>
-<li>COVID-19 and the Ukraine war revealed critical trade dependencies and exposed fragilities in global supply chains.</li>
-</ul>
-<p class='mb-4'>---</p>
-<p class='mb-4'>The historical evolution of the global food system reflects cycles of innovation, consolidation, and crisis, embedded in geopolitical and institutional power dynamics. These trajectories inform the constraints and inertia facing transformation pathways in future phases.</p><h3 class='text-lg font-semibold mt-6 mb-2'>Figure: Global food system flow diagram (Sankey)</h3><img src='../SSOT/phase0/module6/outputs/P0_M6_FG01_FoodSystemSankey.svg' alt='Global food system flow diagram (Sankey)' class='w-full max-w-3xl mx-auto my-4'/><p class='text-sm text-gray-600 mb-8'><strong>Source:</strong> ./SSOT/phase0/module6/outputs/P0_M6_FG01_FoodSystemSankey.svg</p><h3 class='text-lg font-semibold mt-6 mb-2'>Table: Harmonized global food system baseline dataset</h3><div class='overflow-auto mb-6'><table class='min-w-full table-auto border-collapse border border-gray-300'><thead class='bg-gray-100'><tr><th class='border border-gray-300 px-3 py-2 text-left'>System Element</th><th class='border border-gray-300 px-3 py-2 text-left'>Value</th><th class='border border-gray-300 px-3 py-2 text-left'>Source Output</th><th class='border border-gray-300 px-3 py-2 text-left'>Primary Source</th></tr></thead><tbody><tr><td class='border border-gray-300 px-3 py-2'>Total global crop production</td><td class='border border-gray-300 px-3 py-2'>9.6 billion tonnes</td><td class='border border-gray-300 px-3 py-2'>P0.M1.DT01</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Global meat production</td><td class='border border-gray-300 px-3 py-2'>361 million tonnes</td><td class='border border-gray-300 px-3 py-2'>P0.M1.DT01</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Global milk production</td><td class='border border-gray-300 px-3 py-2'>930 million tonnes</td><td class='border border-gray-300 px-3 py-2'>P0.M1.DT01</td><td class='border border-gray-300 px-3 py-2'>FAOSTAT</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Global food loss and waste</td><td class='border border-gray-300 px-3 py-2'>1.3 billion tonnes (~33%)</td><td class='border border-gray-300 px-3 py-2'>P0.M2.DT01</td><td class='border border-gray-300 px-3 py-2'>FAO 2011</td></tr><tr><td class='border border-gray-300 px-3 py-2'>Share of crop calories to animal feed</td><td class='border border-gray-300 px-3 py-2'>~33%</td><td class='border border-gray-300 px-3 py-2'>P0.M1.DT05</td><td class='border border-gray-300 px-3 py-2'>Poore & Nemecek 2018</td></tr></tbody></table></div>
-<h2 class='text-2xl font-semibold mt-10 mb-4'>Phase 0 Summary & Implications</h2>
-<p class='mb-4'>
-  Phase 0 established a comprehensive baseline of the global food system using only peer-reviewed and institutional data.
-  This baseline provides the foundational scope for scenario analysis and transition planning in later phases.
-</p>
-<ul class='list-disc list-inside pl-6 mb-4'>
-  <li><strong>Global Food Production:</strong> Dominated by a few key crops (rice, wheat, maize, sugarcane); 82% of global calories come from plant-based sources.</li>
-  <li><strong>Food Loss & Waste:</strong> Significant inefficiencies occur at post-harvest and consumption stages, especially in perishable commodities.</li>
-  <li><strong>Land, Water & Inputs:</strong> Animal-based foods disproportionately consume global land and nitrogen resources despite lower caloric output.</li>
-  <li><strong>Trade & Economic Flows:</strong> Food interdependence is high, but shaped by subsidies and concentrated market actors.</li>
-  <li><strong>Cultural & Political Constraints:</strong> Deeply rooted dietary practices and industrial policy frameworks limit transformative shifts.</li>
-</ul>
-<p class='mb-4'>
-  <strong>Implications for Phase 1:</strong> Nutritional modeling must align with the realities of agricultural outputs, input constraints, and existing regional dietary norms documented here.
-</p>
-<h2 class='text-2xl font-semibold mt-10 mb-4'>Appendix – Source References</h2><ul class='list-disc list-inside pl-6 mb-8'><li><strong>FAO Statistical Yearbook 2023</strong> (Institutional Report) – <a href='https:/www.fao.org/statistics/yearbook' class='text-blue-600 underline'>https:/www.fao.org/statistics/yearbook</a></li><li><strong>FAOSTAT Food Balance Sheets</strong> (Database) – <a href='https:/www.fao.org/faostat/en/#data/FBS' class='text-blue-600 underline'>https:/www.fao.org/faostat/en/#data/FBS</a></li><li><strong>Poore & Nemecek (2018)</strong> (Peer-reviewed article) – <a href='https:/doi.org/10.1126/science.aaq0216' class='text-blue-600 underline'>https:/doi.org/10.1126/science.aaq0216</a></li><li><strong>UNEP Food Waste Index 2021</strong> (Institutional Report) – <a href='https:/www.unep.org/resources/report/unep-food-waste-index-report-2021' class='text-blue-600 underline'>https:/www.unep.org/resources/report/unep-food-waste-index-report-2021</a></li><li><strong>OECD Agricultural Monitoring Report 2023</strong> (Institutional Report) – <a href='https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation' class='text-blue-600 underline'>https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation</a></li><li><strong>IPES-Food Reports</strong> (Institutional Report) – <a href='http:/www.ipes-food.org/reports' class='text-blue-600 underline'>http:/www.ipes-food.org/reports</a></li><li><strong>Pew Research Center – Religious Dietary Practices</strong> (Survey/Database) – <a href='https:/www.pewresearch.org' class='text-blue-600 underline'>https:/www.pewresearch.org</a></li></ul></div></body></html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Phase 0 – Full Synthesis Report</title>
+		<link href="tailwind.css" rel="stylesheet" />
+		<style>
+			.theme-toggle {
+				position: fixed;
+				top: 30px;
+				right: 30px;
+				z-index: 999;
+			}
+			html.dark body {
+				background-color: #1a1a1a;
+				color: #e0e0e0;
+			}
+			html.dark h1,
+			html.dark h2,
+			html.dark h3,
+			html.dark p,
+			html.dark li {
+				color: #e0e0e0;
+			}
+			html.dark table {
+				background-color: #2a2a2a;
+				border-color: #444;
+			}
+			html.dark th {
+				background-color: #333;
+				color: #f0f0f0;
+			}
+			html.dark td {
+				background-color: #2a2a2a;
+				color: #e0e0e0;
+			}
+		</style>
+		<script>
+			function toggleTheme() {
+				const html = document.documentElement;
+				const isDark = html.classList.toggle('dark');
+				document.getElementById('theme-toggle').textContent = isDark ? 'light mode' : 'dark mode';
+			}
+		</script>
+	</head>
+	<body class="bg-white text-gray-900 font-sans transition-colors duration-300">
+		<div class="max-w-screen-lg mx-auto px-4 py-8">
+			<button
+				id="theme-toggle"
+				class="theme-toggle px-4 py-2 bg-gray-200 text-gray-800 rounded shadow"
+				onclick="toggleTheme()">
+				dark mode
+			</button>
+			<h1 class="text-4xl font-bold mb-4">Phase 0 – Global Food System Baseline</h1>
+			<p class="text-lg text-gray-700 mb-8">
+				Final integrated synthesis including full narrative, tables, figures, source appendix, and
+				dark/light theme.
+			</p>
+			<h2 class="text-2xl font-semibold mt-10 mb-4">Module 1: Global Food Production Overview</h2>
+			<h3 class="text-xl font-medium mt-6 mb-2">
+				Structured synthesis of global food production patterns (weight, calories, categories,
+				regions, feed)
+			</h3>
+			<p class="mb-4">
+				Global Food Production Overview<br />Phase: 0<br />Module: 1<br />Type: TX<br />Title/Description:
+				Structured synthesis of global food production patterns (weight, calories, categories,
+				regions, feed)<br />File Name: P0_M1_TX01_GlobalFoodProductionOverview.txt<br />Storage
+				Location: /ssot/phase0/module1/outputs/<br />Source Category: 🟢 A (except where noted)<br />Notes:
+				Based on FAO Yearbook 2023/2024, Poore & Nemecek (2018), and FAOSTAT FBS. Wikipedia and World
+				Bank Docs cited for framing only.
+			</p>
+			<p class="mb-4">---</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">1. Total Production by Weight (2022)</h3>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Primary Crops: 9,600 million tonnes (96%)</li>
+				<li>Meat: 361 million tonnes (3.6%)</li>
+				<li>Milk (excl. butter): 930 million tonnes (9.3%)</li>
+				<li>Eggs: 93 million tonnes (0.9%)</li>
+				<li>Fish & Seafood: 179 million tonnes (1.8%)</li>
+				<li>*Total exceeds 100% due to overlaps in reporting categories*</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">2. Caloric Contribution by Food Source</h3>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Plant-Based Foods: 82%</li>
+				<li>Animal-Based Foods: 18%</li>
+				<li class="text-sm italic">(Source: Poore & Nemecek 2018 – 🟢 A)</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">3. Top 5 Commodities by Weight (2022)</h3>
+			<ol class="list-decimal list-inside pl-6 mb-4">
+				<li>Sugarcane – 1,870 million tonnes</li>
+				<li>Rice (paddy) – 1,264 million tonnes</li>
+				<li>Maize – 1,171 million tonnes</li>
+				<li>Wheat – 761 million tonnes</li>
+				<li>Potatoes – 359 million tonnes</li>
+				<li class="text-sm italic">(Source: FAOSTAT – 🟢 A)</li>
+			</ol>
+			<h3 class="text-lg font-semibold mt-6 mb-2">4. Top 5 Commodities by Caloric Contribution</h3>
+			<ol class="list-decimal list-inside pl-6 mb-4">
+				<li>Rice – 541 kcal/person/day</li>
+				<li>Wheat – 527 kcal/person/day</li>
+				<li>Sugar crops – 200 kcal/person/day</li>
+				<li>Maize – 147 kcal/person/day</li>
+				<li>Soybean oil – 82 kcal/person/day</li>
+				<li class="text-sm italic">(Source: FAOSTAT FBS – 🟢 A; OWID summaries – 🟡 B)</li>
+			</ol>
+			<h3 class="text-lg font-semibold mt-6 mb-2">5. Regional Production Patterns</h3>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Asia: Rice, vegetables, palm oil</li>
+				<li>North America: Maize, soy, wheat</li>
+				<li>Europe: Wheat, barley, dairy</li>
+				<li>Latin America: Sugarcane, soy, coffee</li>
+				<li>Africa: Cassava, sorghum</li>
+				<li class="text-sm italic">(Source: FAOSTAT Regional Data – 🟢 A)</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">6. Allocation of Crop Calories</h3>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Animal Feed: ~33%</li>
+				<li>Human Consumption: ~60%</li>
+				<li>Biofuels/Industrial: ~7%</li>
+				<li class="text-sm italic">(Source: Poore & Nemecek 2018 – 🟢 A)</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Uncertainties & Gaps</h3>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Timeliness: Some FAO data from 2022/2023; may lag one year.</li>
+				<li>Geographic Granularity: Sub-national disparities not captured.</li>
+				<li>
+					Source Classification: Wikipedia used only for conceptual framing (🔴 C); not for
+					evidence.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Figure: Plant vs. animal-based food production (weight and caloric contribution)
+			</h3>
+			<img
+				src="../SSOT/phase0/module1/outputs/P0_M1_FG02_PlantVsAnimalProduction.svg"
+				alt="Plant vs. animal-based food production (weight and caloric contribution)"
+				class="w-full max-w-3xl mx-auto my-4" />
+			<p class="text-sm text-gray-600 mb-8">
+				<strong>Source:</strong> ./SSOT/phase0/module1/outputs/P0_M1_FG02_PlantVsAnimalProduction.svg
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Figure: Regional food production volumes by continent
+			</h3>
+			<img
+				src="../SSOT/phase0/module1/outputs/P0_M1_FG03_RegionalFoodProduction.svg"
+				alt="Regional food production volumes by continent"
+				class="w-full max-w-3xl mx-auto my-4" />
+			<p class="text-sm text-gray-600 mb-8">
+				<strong>Source:</strong> ./SSOT/phase0/module1/outputs/P0_M1_FG03_RegionalFoodProduction.svg
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Global food production by category (weight + calories)
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Data Point</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Value</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Total global crop production</td>
+							<td class="border border-gray-300 px-3 py-2">9.6 billion tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QCL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Primary crops only</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Global meat production</td>
+							<td class="border border-gray-300 px-3 py-2">361 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAO Yearbook 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/openknowledge.fao.org/handle/20.500.14283/11363
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Includes all meat categories</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">
+								Global milk production (excluding butter)
+							</td>
+							<td class="border border-gray-300 px-3 py-2">930 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAO Yearbook 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/openknowledge.fao.org/handle/20.500.14283/11363
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Includes cow, buffalo, others</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Global egg production</td>
+							<td class="border border-gray-300 px-3 py-2">93 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAO Yearbook 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/openknowledge.fao.org/handle/20.500.14283/11363
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Fish & seafood production</td>
+							<td class="border border-gray-300 px-3 py-2">179 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAO SOFIA 2022</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/documents/card/en/c/cc0461en
+							</td>
+							<td class="border border-gray-300 px-3 py-2">2020 data</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Top global food commodities by production weight
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Data Point</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Value</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Sugarcane</td>
+							<td class="border border-gray-300 px-3 py-2">1,870 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QC
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Leading by volume</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Maize</td>
+							<td class="border border-gray-300 px-3 py-2">1,171 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QC
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Includes feed use</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Rice (paddy)</td>
+							<td class="border border-gray-300 px-3 py-2">1,264 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QC
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Paddy form</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Wheat</td>
+							<td class="border border-gray-300 px-3 py-2">761 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QC
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Potatoes</td>
+							<td class="border border-gray-300 px-3 py-2">359 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QC
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Top global food commodities by caloric contribution
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Data Point</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Value</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Rice</td>
+							<td class="border border-gray-300 px-3 py-2">541 kcal/person/day</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT FBS</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/FBS
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Average global availability</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Wheat</td>
+							<td class="border border-gray-300 px-3 py-2">527 kcal/person/day</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT FBS</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/FBS
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Sugar (refined equivalent)</td>
+							<td class="border border-gray-300 px-3 py-2">200 kcal/person/day</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT FBS</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/FBS
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Includes all sugar types</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Maize</td>
+							<td class="border border-gray-300 px-3 py-2">147 kcal/person/day</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT FBS</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/FBS
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Soybean oil</td>
+							<td class="border border-gray-300 px-3 py-2">82 kcal/person/day</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT FBS</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/FBS
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Vegetable oils combined</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Regional patterns in major food commodity production
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Region</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Dominant Products</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Asia</td>
+							<td class="border border-gray-300 px-3 py-2">Rice, vegetables, palm oil</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QCL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Largest rice producer</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">North America</td>
+							<td class="border border-gray-300 px-3 py-2">Maize, soy, wheat</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QCL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Major feed and export crops</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Latin America</td>
+							<td class="border border-gray-300 px-3 py-2">Sugarcane, soy, coffee</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QCL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Brazil leads in sugarcane</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Sub-Saharan Africa</td>
+							<td class="border border-gray-300 px-3 py-2">Cassava, sorghum</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QCL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Lower calorie yields per hectare</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Europe</td>
+							<td class="border border-gray-300 px-3 py-2">Wheat, barley, dairy</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/QCL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">High input-output efficiency</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Allocation of global crop calories to animal feed
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Data Point</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Value</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">
+								% of global crop calories to animal feed
+							</td>
+							<td class="border border-gray-300 px-3 py-2">~33%</td>
+							<td class="border border-gray-300 px-3 py-2">Poore & Nemecek</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.science.org/doi/10.1126/science.aaq0216
+							</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Caloric flow analysis validated by FAO
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2 class="text-2xl font-semibold mt-10 mb-4">Module 2: Food Loss and Waste</h2>
+			<h3 class="text-xl font-medium mt-6 mb-2">
+				Evidence-based synthesis of food loss and waste distribution, causes, and disparities
+			</h3>
+			<p class="mb-4">
+				Global Food Losses and Waste – Structured Synthesis<br />Phase: 0<br />Module: 2<br />Type:
+				TX<br />Title/Description: Evidence-based synthesis of food loss and waste distribution,
+				causes, and disparities<br />File Name: P0_M2_TX01_FoodLossWasteSynthesis.txt<br />Storage
+				Location: /ssot/phase0/module2/outputs/<br />Source Category: 🟢 A<br />Notes: Summarizes key
+				insights from FAO (2011, 2019) and UNEP (2021). Designed to inform downstream modeling in
+				Phase 3 and Phase 4.
+			</p>
+			<p class="mb-4">---</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Overview</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<p class="mb-4">
+				Approximately 1.3 billion tonnes—about one-third—of all food produced for human consumption is
+				lost or wasted annually. This represents significant inefficiencies across the global food
+				system and carries major implications for nutrition security, environmental sustainability,
+				and economic resilience.
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Breakdown by Stage</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					**Production (~14%)**: Driven by pest damage, weather variability, and harvest timing
+					errors—especially in low-income regions.
+				</li>
+				<li>
+					**Post-Harvest & Storage (up to 20%)**: Infrastructure deficits, lack of cold chains, and
+					transport limitations are key drivers.
+				</li>
+				<li>
+					**Processing & Packaging (4–9%)**: Technical inefficiencies and product grading standards
+					lead to avoidable losses.
+				</li>
+				<li>
+					**Distribution & Retail (5–10%)**: Overordering, cosmetic standards, and discard of unsold
+					inventory contribute to waste.
+				</li>
+				<li>
+					**Consumption (~17%)**: Primarily in high-income countries, driven by household behavior,
+					portion sizes, and best-before misunderstandings.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Regional Patterns</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					**High-Income Countries (HICs)**: Most food waste occurs at retail and consumer stages.
+				</li>
+				<li>
+					**Low- and Middle-Income Countries (LMICs)**: Most food loss occurs early in the supply
+					chain (post-harvest and storage).
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Commodity-Specific Insights</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					**Fruits and Vegetables**: Highest loss rates (~40–50%) due to perishability and handling
+					damage.
+				</li>
+				<li>
+					**Cereals**: Losses of 20–30%, especially during storage in humid or poorly ventilated
+					environments.
+				</li>
+				<li>
+					**Meat and Dairy**: Typically lost during processing, distribution, and refrigeration
+					failures.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Environmental and Economic Costs</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Food waste accounts for an estimated 8–10% of global greenhouse gas emissions (FAO, UNEP).
+				</li>
+				<li>Land, water, and energy used to produce wasted food are effectively lost resources.</li>
+				<li>
+					Reducing waste could significantly improve food availability without expanding production.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Conclusion</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<p class="mb-4">
+				Food loss and waste reduction is a critical lever for improving global food system efficiency
+				and sustainability. Strategies must be tailored to regional infrastructure, dietary patterns,
+				and economic context.
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Figure: Global Food Loss and Waste Distribution by Supply Chain Stage
+			</h3>
+			<img
+				src="../SSOT/phase0/module2/outputs/P0_M2_FG01_FoodLossWasteByStage.svg"
+				alt="Global Food Loss and Waste Distribution by Supply Chain Stage"
+				class="w-full max-w-3xl mx-auto my-4" />
+			<p class="text-sm text-gray-600 mb-8">
+				<strong>Source:</strong> ./SSOT/phase0/module2/outputs/P0_M2_FG01_FoodLossWasteByStage.svg
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Figure: Regional Food Loss and Waste Distribution by Supply Chain Stage
+			</h3>
+			<img
+				src="../SSOT/phase0/module2/outputs/P0_M2_FG02_RegionalFoodLossWasteByStage.svg"
+				alt="Regional Food Loss and Waste Distribution by Supply Chain Stage"
+				class="w-full max-w-3xl mx-auto my-4" />
+			<p class="text-sm text-gray-600 mb-8">
+				<strong>Source:</strong>
+				./SSOT/phase0/module2/outputs/P0_M2_FG02_RegionalFoodLossWasteByStage.svg
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Global food losses and waste by stage, region, and commodity
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Data Point</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Value</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">
+								Total Food Production for Human Consumption
+							</td>
+							<td class="border border-gray-300 px-3 py-2">4,000 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2011</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/mb060e/mb060e.pdf
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Total Food Lost/Wasted Globally</td>
+							<td class="border border-gray-300 px-3 py-2">1,300 million tonnes (~33%)</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2011</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/mb060e/mb060e.pdf
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Production Losses</td>
+							<td class="border border-gray-300 px-3 py-2">~14%</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2019</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/ca6030en/ca6030en.pdf
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Food Loss Index estimate</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Post-Harvest and Storage Losses</td>
+							<td class="border border-gray-300 px-3 py-2">Variable (up to 20% in SSA)</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2011</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/mb060e/mb060e.pdf
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Higher in LMICs</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Processing and Packaging Losses</td>
+							<td class="border border-gray-300 px-3 py-2">4–9% (by category)</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2011</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/mb060e/mb060e.pdf
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Global food loss and waste by food group and supply chain stage
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Food Group</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Production Loss (%)</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">
+								Post-Harvest & Storage Loss (%)
+							</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">
+								Processing & Packaging Loss (%)
+							</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">
+								Distribution & Retail Loss (%)
+							</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Consumption Waste (%)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Cereals</td>
+							<td class="border border-gray-300 px-3 py-2">8</td>
+							<td class="border border-gray-300 px-3 py-2">10</td>
+							<td class="border border-gray-300 px-3 py-2">4</td>
+							<td class="border border-gray-300 px-3 py-2">2</td>
+							<td class="border border-gray-300 px-3 py-2">3</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Roots & Tubers</td>
+							<td class="border border-gray-300 px-3 py-2">14</td>
+							<td class="border border-gray-300 px-3 py-2">15</td>
+							<td class="border border-gray-300 px-3 py-2">5</td>
+							<td class="border border-gray-300 px-3 py-2">3</td>
+							<td class="border border-gray-300 px-3 py-2">5</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Oilseeds & Pulses</td>
+							<td class="border border-gray-300 px-3 py-2">6</td>
+							<td class="border border-gray-300 px-3 py-2">8</td>
+							<td class="border border-gray-300 px-3 py-2">3</td>
+							<td class="border border-gray-300 px-3 py-2">2</td>
+							<td class="border border-gray-300 px-3 py-2">2</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Fruits & Vegetables</td>
+							<td class="border border-gray-300 px-3 py-2">15</td>
+							<td class="border border-gray-300 px-3 py-2">20</td>
+							<td class="border border-gray-300 px-3 py-2">6</td>
+							<td class="border border-gray-300 px-3 py-2">5</td>
+							<td class="border border-gray-300 px-3 py-2">6</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Meat</td>
+							<td class="border border-gray-300 px-3 py-2">4</td>
+							<td class="border border-gray-300 px-3 py-2">3</td>
+							<td class="border border-gray-300 px-3 py-2">4</td>
+							<td class="border border-gray-300 px-3 py-2">3</td>
+							<td class="border border-gray-300 px-3 py-2">6</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2 class="text-2xl font-semibold mt-10 mb-4">Module 3: Land, Water, and Nitrogen Use</h2>
+			<h3 class="text-xl font-medium mt-6 mb-2">
+				Narrative synthesis of global land, water, and nitrogen use patterns
+			</h3>
+			<p class="mb-4">
+				Global Agricultural Resource Allocation – Structured Synthesis<br />Phase: 0<br />Module: 3<br />Type:
+				TX<br />Title/Description: Narrative synthesis of global land, water, and nitrogen use
+				patterns<br />File Name: P0_M3_TX01_LandWaterNutrientUseSynthesis.txt<br />Storage Location:
+				/ssot/phase0/module3/outputs/<br />Source Category: 🟢 A<br />Notes: Synthesizes land, water,
+				and nitrogen distribution across food system components based on FAO and peer-reviewed data.
+			</p>
+			<p class="mb-4">---</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Land Use Overview</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Global agricultural land totals approximately 4.9 billion hectares.</li>
+				<li>
+					Roughly 68% of this land is used as permanent pasture for grazing livestock (~3.3 billion
+					ha).
+				</li>
+				<li>The remaining 32% (1.6 billion ha) is arable land used for crops.</li>
+				<li>Of crop land:</li>
+				<li>~55% is used for direct human consumption.</li>
+				<li>~36% is used to grow animal feed.</li>
+				<li>~9% is used for biofuels or industrial purposes.</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Water Use Patterns</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Agriculture accounts for ~2,500 km³/year of freshwater withdrawals, or about 70% of total
+					global use.
+				</li>
+				<li>
+					About 330 million hectares are irrigated (~20% of cropland), providing ~40% of global food
+					output.
+				</li>
+				<li>Water intensity varies significantly:</li>
+				<li>Plant-based foods (e.g., cereals, pulses): 790–1,300 m³/tonne</li>
+				<li>Animal-based foods (e.g., beef, dairy): 4,000–15,400 m³/tonne</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Nitrogen Fertilizer Use</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Global synthetic nitrogen use in agriculture is ~110 million tonnes N/year.</li>
+				<li>Usage by category:</li>
+				<li>Cereals: ~60% of total N (especially maize, rice, wheat)</li>
+				<li>Oil crops: ~15%</li>
+				<li>Fruits and vegetables: ~10%</li>
+				<li>Feed crops: ~50% (substantial overlap with cereal allocation)</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Key Takeaways</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					The vast majority of global land and water inputs are devoted to livestock systems,
+					directly (pasture) or indirectly (feed crops).
+				</li>
+				<li>
+					Resource use efficiency is markedly higher for plant-based foods across all biophysical
+					metrics.
+				</li>
+				<li>
+					These baselines will serve as quantitative inputs for modeling the ecological limits and
+					efficiencies of alternative dietary scenarios in Phases 3 and 4.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Figure: Resource Allocation in Global Food Systems – Plant vs. Animal-Based
+			</h3>
+			<img
+				src="../SSOT/phase0/module3/outputs/P0_M3_FG01_ResourceUsePlantVsAnimal.svg"
+				alt="Resource Allocation in Global Food Systems – Plant vs. Animal-Based"
+				class="w-full max-w-3xl mx-auto my-4" />
+			<p class="text-sm text-gray-600 mb-8">
+				<strong>Source:</strong> ./SSOT/phase0/module3/outputs/P0_M3_FG01_ResourceUsePlantVsAnimal.svg
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Global agricultural land allocation by use and commodity
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Data Point</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Value</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Total Agricultural Land</td>
+							<td class="border border-gray-300 px-3 py-2">4.9 billion hectares</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/cc6363en/cc6363en.pdf
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Permanent Pasture</td>
+							<td class="border border-gray-300 px-3 py-2">3.3 billion hectares (~68%)</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/cc6363en/cc6363en.pdf
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Grazing land</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Arable Land</td>
+							<td class="border border-gray-300 px-3 py-2">1.6 billion hectares (~32%)</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/cc6363en/cc6363en.pdf
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Used for annual crops</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Cereals</td>
+							<td class="border border-gray-300 px-3 py-2">700 million hectares</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/RL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Oil Crops</td>
+							<td class="border border-gray-300 px-3 py-2">300 million hectares</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/RL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">nan</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Global water and nitrogen use in agriculture
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Data Point</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Value</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">
+								Total Freshwater Withdrawals for Agriculture
+							</td>
+							<td class="border border-gray-300 px-3 py-2">~2,500 km³/year</td>
+							<td class="border border-gray-300 px-3 py-2">FAO AQUASTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">https:/www.fao.org/aquastat/en/</td>
+							<td class="border border-gray-300 px-3 py-2">About 70% of global withdrawals</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Irrigated Area</td>
+							<td class="border border-gray-300 px-3 py-2">~330 million hectares</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/RL
+							</td>
+							<td class="border border-gray-300 px-3 py-2">
+								About 20% of cropland, provides ~40% of food
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Water Use: Plant-Based Foods</td>
+							<td class="border border-gray-300 px-3 py-2">
+								790–1,300 m³/tonne (varies by crop)
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Poore & Nemecek 2018</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.science.org/doi/10.1126/science.aaq0216
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Cereals, pulses, etc.</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Water Use: Animal-Based Foods</td>
+							<td class="border border-gray-300 px-3 py-2">4,000–15,400 m³/tonne</td>
+							<td class="border border-gray-300 px-3 py-2">Poore & Nemecek 2018</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.science.org/doi/10.1126/science.aaq0216
+							</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Higher for beef, lower for poultry
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Nitrogen Fertilizer Use (Total)</td>
+							<td class="border border-gray-300 px-3 py-2">110 million tonnes N/year</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/RFN
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Synthetic sources</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2 class="text-2xl font-semibold mt-10 mb-4">Module 4: Trade and Economic Structure</h2>
+			<h3 class="text-xl font-medium mt-6 mb-2">
+				Structural and economic organization of the global food system
+			</h3>
+			<p class="mb-4">
+				Global Food System – Economic Structure Synthesis<br />Phase: 0<br />Module: 4<br />Type:
+				TX<br />Title/Description: Structural and economic organization of the global food system<br />File
+				Name: P0_M4_TX01_EconomicStructureFoodSystem.txt<br />Storage Location:
+				/ssot/phase0/module4/outputs/<br />Source Category: 🟢 A<br />Notes: Integrates findings from
+				FAOSTAT, OECD, WTO, World Bank, and peer-reviewed economics literature. Covers trade,
+				subsidies, corporate concentration, and supply chain dependencies.
+			</p>
+			<p class="mb-4">---</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">1. Global Trade Architecture</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Food systems are deeply integrated into global trade flows.</li>
+				<li>
+					A small number of commodities (e.g. wheat, soy, maize, beef) dominate cross-border flows
+					by volume and value.
+				</li>
+				<li>
+					Major exporters (Brazil, US, EU, Russia) often dominate specific markets, while importers
+					(e.g., China, Egypt, Bangladesh) show high commodity-specific dependency.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">2. Agricultural Subsidy Structures</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					OECD countries allocate significant public funds to agricultural support: ~$90B in EU
+					(CAP), ~$53B in US, mostly through income support, insurance, and market stabilization.
+				</li>
+				<li>
+					BRICS nations—especially China and India—provide substantial support via price guarantees
+					and input subsidies, often focusing on food security crops (rice, wheat, pulses).
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">3. Market Concentration</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>The food system exhibits **high horizontal and vertical integration**:</li>
+				<li>**Inputs**: Top 4 agrochemical firms control >60% of global sales.</li>
+				<li>
+					**Grain Trading**: Four firms (ADM, Bunge, Cargill, Louis Dreyfus—“ABCD”) handle ~70–90%
+					of global grain trade.
+				</li>
+				<li>
+					**Retail**: Concentrated in high-income countries (e.g., Walmart, Costco dominate US
+					grocery sector).
+				</li>
+				<li>
+					**Processing**: Meat and dairy processors are globally consolidated (e.g., JBS, Tyson).
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">4. Global vs. Regional Dependencies</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Many low-income countries are net food importers with high exposure to global market
+					volatility.
+				</li>
+				<li>
+					However, regional trading blocs (e.g., EU, ASEAN, Mercosur) mitigate some reliance via
+					intra-regional exchange.
+				</li>
+				<li>
+					Critical supply chain interdependencies exist in fertilizers, feed, and
+					oilseeds—especially between South America, the Black Sea region, and East Asia.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">5. Structural Vulnerabilities</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Price shocks, export restrictions, or logistical disruptions (e.g. COVID-19, Ukraine war)
+					can ripple quickly due to system centralization.
+				</li>
+				<li>
+					Emerging policy focus areas include shortening supply chains, enhancing domestic
+					processing, and diversifying trade partners.
+				</li>
+			</ul>
+			<p class="mb-4">
+				This economic structure baseline informs later phases analyzing resilience, equity, and
+				transition pathways within global food systems.
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Figure: Visual of food trade interdependence network
+			</h3>
+			<img
+				src="../SSOT/phase0/module4/outputs/P0_M4_FG01_FoodTradeNetwork.svg"
+				alt="Visual of food trade interdependence network"
+				class="w-full max-w-3xl mx-auto my-4" />
+			<p class="text-sm text-gray-600 mb-8">
+				<strong>Source:</strong> ./SSOT/phase0/module4/outputs/P0_M4_FG01_FoodTradeNetwork.svg
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Global food trade flows by commodity and country
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Commodity</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Top Exporter</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Top Importer</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Export Volume (2022)</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Export Value (USD)</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Wheat</td>
+							<td class="border border-gray-300 px-3 py-2">Russia</td>
+							<td class="border border-gray-300 px-3 py-2">Egypt</td>
+							<td class="border border-gray-300 px-3 py-2">39.5 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">$10.2 billion</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/TM
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Soybeans</td>
+							<td class="border border-gray-300 px-3 py-2">Brazil</td>
+							<td class="border border-gray-300 px-3 py-2">China</td>
+							<td class="border border-gray-300 px-3 py-2">92.5 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">$41.1 billion</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/TM
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Rice</td>
+							<td class="border border-gray-300 px-3 py-2">India</td>
+							<td class="border border-gray-300 px-3 py-2">Bangladesh</td>
+							<td class="border border-gray-300 px-3 py-2">20.2 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">$9.8 billion</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/TM
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Beef</td>
+							<td class="border border-gray-300 px-3 py-2">Brazil</td>
+							<td class="border border-gray-300 px-3 py-2">China</td>
+							<td class="border border-gray-300 px-3 py-2">2.3 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">$13.9 billion</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/TM
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Dairy (Milk Powder)</td>
+							<td class="border border-gray-300 px-3 py-2">New Zealand</td>
+							<td class="border border-gray-300 px-3 py-2">China</td>
+							<td class="border border-gray-300 px-3 py-2">1.8 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">$6.7 billion</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/faostat/en/#data/TM
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Table: Agricultural subsidy structures by region</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Country/Region</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">
+								Main Subsidy Instruments
+							</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">
+								Estimated Annual Value (USD)
+							</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Targeted Sectors</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">United States</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Direct payments, crop insurance, conservation subsidies
+							</td>
+							<td class="border border-gray-300 px-3 py-2">$53 billion</td>
+							<td class="border border-gray-300 px-3 py-2">Cereals, oilseeds, livestock</td>
+							<td class="border border-gray-300 px-3 py-2">OECD 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">European Union</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Common Agricultural Policy (CAP): income support, rural development
+							</td>
+							<td class="border border-gray-300 px-3 py-2">$90 billion</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Cereals, dairy, meat, horticulture
+							</td>
+							<td class="border border-gray-300 px-3 py-2">OECD 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">China</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Price supports, input subsidies, minimum procurement
+							</td>
+							<td class="border border-gray-300 px-3 py-2">$180 billion</td>
+							<td class="border border-gray-300 px-3 py-2">Rice, maize, pork</td>
+							<td class="border border-gray-300 px-3 py-2">WTO Notifications</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.wto.org/english/tratop_e/agric_e/agric_e.htm
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">India</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Fertilizer subsidies, MSP, food procurement
+							</td>
+							<td class="border border-gray-300 px-3 py-2">$66 billion</td>
+							<td class="border border-gray-300 px-3 py-2">Wheat, rice, pulses</td>
+							<td class="border border-gray-300 px-3 py-2">WTO Notifications</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.wto.org/english/tratop_e/agric_e/agric_e.htm
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Brazil</td>
+							<td class="border border-gray-300 px-3 py-2">Credit subsidies, price supports</td>
+							<td class="border border-gray-300 px-3 py-2">$10 billion</td>
+							<td class="border border-gray-300 px-3 py-2">Soybeans, beef, sugarcane</td>
+							<td class="border border-gray-300 px-3 py-2">OECD 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2 class="text-2xl font-semibold mt-10 mb-4">Module 5: Cultural and Political Constraints</h2>
+			<h3 class="text-xl font-medium mt-6 mb-2">
+				Synthesis of cultural, religious, and political barriers to food system change
+			</h3>
+			<p class="mb-4">
+				Cultural and Political Constraints to Food System Transformation – Synthesis<br />Phase: 0<br />Module:
+				5<br />Type: TX<br />Title/Description: Synthesis of cultural, religious, and political
+				barriers to food system change<br />File Name: P0_M5_TX01_CulturalPoliticalConstraints.txt<br />Storage
+				Location: /ssot/phase0/module5/outputs/<br />Source Category: 🟢 A<br />Notes: Synthesizes
+				P0.M5.DT01 and P0.M5.DT02. Draws on Pew, FAO, IPES-Food, WRI, and political economy
+				literature. Designed to inform feasibility assessments in Phase 5 and 6.
+			</p>
+			<p class="mb-4">---</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">1. Religious and Cultural Constraints</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Religious dietary laws shape global food preferences:</li>
+				<li>
+					Islam and Judaism prohibit pork and require specific slaughter methods (Halal, Kosher).
+				</li>
+				<li>Hindu-majority areas avoid beef and favor vegetarian diets.</li>
+				<li>Buddhist-influenced populations restrict animal product consumption.</li>
+				<li>Christian fasting periods (Orthodox, Catholic) affect seasonal consumption patterns.</li>
+			</ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Cultural traditions maintain persistent attachment to meat as a status symbol or festive
+					necessity.
+				</li>
+				<li>
+					Secular diet shifts (e.g., veganism) remain concentrated in specific socioeconomic and
+					regional contexts.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">2. National Political Economies</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Many governments are structurally dependent on animal agriculture:</li>
+				<li>
+					The US, Brazil, and EU maintain powerful livestock lobbies and entrenched subsidy
+					structures.
+				</li>
+				<li>
+					BRICS nations blend protectionism with strategic food security planning (e.g., India's
+					MSP, China's pork reserve).
+				</li>
+			</ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Food regimes are embedded in broader state-market compacts:</li>
+				<li>
+					Brazil’s livestock and soy economy is deeply linked to export revenue and rural political
+					power.
+				</li>
+				<li>
+					EU’s Common Agricultural Policy supports environmental reform but maintains livestock
+					support.
+				</li>
+				<li>China and Russia emphasize food sovereignty and domestic control over key proteins.</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">3. Transformation Barriers</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>Political resistance to dietary change is not only cultural but economic:</li>
+				<li>Job losses, trade realignments, and rural opposition form high-friction barriers.</li>
+				<li>
+					National identity, sovereignty, and religious autonomy frequently conflict with
+					standardized food transition narratives.
+				</li>
+				<li>
+					Any proposed plant-based transformation must engage with this fragmented and politicized
+					landscape.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Figure: Annotated map of cultural-political dietary resistance domains
+			</h3>
+			<img
+				src="../SSOT/phase0/module5/outputs/P0_M5_FG01_DietaryResistanceMap.svg"
+				alt="Annotated map of cultural-political dietary resistance domains"
+				class="w-full max-w-3xl mx-auto my-4" />
+			<p class="text-sm text-gray-600 mb-8">
+				<strong>Source:</strong> ./SSOT/phase0/module5/outputs/P0_M5_FG01_DietaryResistanceMap.svg
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Global religious and cultural dietary norms
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">
+								Religious/Cultural Group
+							</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Dietary Norms Summary</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Geographic Prevalence</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Islam</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Halal laws prohibit pork, blood, alcohol; ritual slaughter required
+							</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Middle East, North Africa, South Asia
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Pew Research 2017</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.pewresearch.org/religion/2017/04/05/the-future-of-world-religions/
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Judaism</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Kosher laws prohibit pork, shellfish; require ritual slaughter and meat-dairy
+								separation
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Israel, US, Europe</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Pew Research / Rabbinical Assembly
+							</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.pewresearch.org/religion/
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Hinduism</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Many abstain from beef; majority vegetarian or lacto-vegetarian; fasting days
+								common
+							</td>
+							<td class="border border-gray-300 px-3 py-2">India, Nepal, Sri Lanka</td>
+							<td class="border border-gray-300 px-3 py-2">FAO/Academic Literature</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/i5313e/i5313e.pdf
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Buddhism</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Predominantly vegetarian; strict sects avoid all meat, eggs, garlic/onion
+							</td>
+							<td class="border border-gray-300 px-3 py-2">East and Southeast Asia</td>
+							<td class="border border-gray-300 px-3 py-2">FAO/Academic Literature</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/i5313e/i5313e.pdf
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Christianity (Orthodox)</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Fasting periods prohibit meat, dairy, eggs; common in Lent and Advent
+							</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Eastern Europe, Middle East, Ethiopia
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Pew Research</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.pewresearch.org/religion/
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: National food regimes and political economy of animal agriculture
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Country/Region</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">
+								Food Regime and Political Economy Summary
+							</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">
+								Key Institutional Actors
+							</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Name</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Classification</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Citation/URL</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">United States</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Productivist regime with heavy subsidy and lobby support for corn, soy, beef,
+								dairy
+							</td>
+							<td class="border border-gray-300 px-3 py-2">
+								USDA, Farm Bureau, Meat Institute
+							</td>
+							<td class="border border-gray-300 px-3 py-2">IPES-Food 2017; OECD 2023</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">https:/ipes-food.org/reports/</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">European Union</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Common Agricultural Policy incentivizes cereals, dairy, and some environmental
+								shifts
+							</td>
+							<td class="border border-gray-300 px-3 py-2">COPA-COGECA, dairy coops</td>
+							<td class="border border-gray-300 px-3 py-2">OECD 2023; EU CAP Docs</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Brazil</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Export-oriented livestock and soy model; ruralista bloc politically dominant
+							</td>
+							<td class="border border-gray-300 px-3 py-2">ABIEC, CNA, JBS</td>
+							<td class="border border-gray-300 px-3 py-2">
+								WRI; FAO; academic political economy literature
+							</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.wri.org/insights/beef-amazon-forest
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">India</td>
+							<td class="border border-gray-300 px-3 py-2">
+								State-supported food sovereignty model centered on rice, wheat, pulses; beef
+								banned in most states
+							</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Food Corporation of India, regional governments
+							</td>
+							<td class="border border-gray-300 px-3 py-2">FAO; WTO notifications</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.fao.org/3/i8563en/I8563EN.pdf
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">China</td>
+							<td class="border border-gray-300 px-3 py-2">
+								State-capitalist model with strategic pork reserves, feed imports, rising
+								plant-based innovation
+							</td>
+							<td class="border border-gray-300 px-3 py-2">MinAgri, COFCO, WH Group</td>
+							<td class="border border-gray-300 px-3 py-2">World Bank, WTO</td>
+							<td class="border border-gray-300 px-3 py-2">🟢 A</td>
+							<td class="border border-gray-300 px-3 py-2">
+								https:/www.worldbank.org/en/news/feature/2022/12/14/china-agriculture-transformation
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Political and industry actors shaping animal agriculture policy
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">Organization</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Type</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Estimated Funding</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Region</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Influence Summary</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">US Farm Bureau</td>
+							<td class="border border-gray-300 px-3 py-2">Industry Federation</td>
+							<td class="border border-gray-300 px-3 py-2">$100M+ est.</td>
+							<td class="border border-gray-300 px-3 py-2">United States</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Key player in opposing environmental and dietary regulation; aligned with
+								livestock producers
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">
+								National Cattlemen’s Beef Association (NCBA)
+							</td>
+							<td class="border border-gray-300 px-3 py-2">Trade Association</td>
+							<td class="border border-gray-300 px-3 py-2">$30M+ est.</td>
+							<td class="border border-gray-300 px-3 py-2">United States</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Lobbying for beef subsidies, resisting plant-based labeling
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">COPA-COGECA</td>
+							<td class="border border-gray-300 px-3 py-2">Agricultural Union Alliance</td>
+							<td class="border border-gray-300 px-3 py-2">$50M+ est.</td>
+							<td class="border border-gray-300 px-3 py-2">European Union</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Influences CAP reforms; strong livestock backing
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Meat and Livestock Australia</td>
+							<td class="border border-gray-300 px-3 py-2">Industry Development Corporation</td>
+							<td class="border border-gray-300 px-3 py-2">$200M+ (levies/public)</td>
+							<td class="border border-gray-300 px-3 py-2">Australia</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Funds R&D, defends beef sector; public-private model
+							</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">
+								Brazilian Confederation of Agriculture (CNA)
+							</td>
+							<td class="border border-gray-300 px-3 py-2">National Agribusiness Lobby</td>
+							<td class="border border-gray-300 px-3 py-2">$60M+ est.</td>
+							<td class="border border-gray-300 px-3 py-2">Brazil</td>
+							<td class="border border-gray-300 px-3 py-2">
+								Supports rural caucus, agribusiness-friendly legislation
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2 class="text-2xl font-semibold mt-10 mb-4">
+				Module 6: Global Synthesis and Historical Context
+			</h2>
+			<h3 class="text-xl font-medium mt-6 mb-2">
+				Structured synthesis of the global food system based on Modules 1–5
+			</h3>
+			<p class="mb-4">
+				Global Food System – Baseline Synthesis<br />Phase: 0<br />Module: 6<br />Type: TX<br />Title/Description:
+				Structured synthesis of the global food system based on Modules 1–5<br />File Name:
+				P0_M6_TX01_GlobalFoodSystemSynthesis.txt<br />Storage Location:
+				/ssot/phase0/module6/outputs/<br />Source Category: 🟢 A<br />Notes: Synthesizes validated
+				outputs from Phase 0, Modules 1 through 5. No new assumptions. Anchors system modeling in
+				Phase 1 and beyond.
+			</p>
+			<p class="mb-4">---</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">1. Production & Caloric Flow (Module 1)</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					~9.6 billion tonnes of primary crops produced globally, alongside 361 Mt of meat and 930
+					Mt of milk.
+				</li>
+				<li>
+					Plant-based foods supply ~82% of global dietary calories, yet a third of crop calories are
+					redirected to animal feed.
+				</li>
+				<li>
+					Top caloric contributors include rice, wheat, and sugar crops. Top producers: China, US,
+					Brazil, India.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">2. Food Losses & Waste (Module 2)</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>An estimated 1.3 billion tonnes—~33% of all food—is lost or wasted annually.</li>
+				<li>
+					Losses in LMICs are concentrated in early supply chain stages (harvest/storage); in HICs,
+					waste is dominant at retail/consumer levels.
+				</li>
+				<li>Fruits, vegetables, and cereals are the most affected commodities.</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">3. Resource Allocation (Module 3)</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>4.9 billion ha of land used for agriculture; 68% of this is pasture.</li>
+				<li>
+					Water use in agriculture totals ~2,500 km³ annually; 330 million ha of irrigated land
+					produces ~40% of food.
+				</li>
+				<li>110 Mt/year of synthetic nitrogen is applied, primarily to cereals and feed crops.</li>
+				<li>Animal-based systems dominate land, water, and nitrogen use.</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">4. Trade and Economic Structure (Module 4)</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Global food trade is dominated by a few commodities (e.g., soy, wheat, beef) and actors
+					(Brazil, US, EU, China).
+				</li>
+				<li>
+					Major agricultural subsidies reach $90B (EU) to $180B (China), often reinforcing livestock
+					and staple crop systems.
+				</li>
+				<li>
+					The food economy is highly concentrated, with four firms handling most global grain trade
+					(ABCD group).
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">5. Cultural and Political Constraints (Module 5)</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Religious norms (e.g., Halal, Kosher, vegetarianism) impose hard dietary boundaries in
+					~60% of the global population.
+				</li>
+				<li>
+					National food regimes reflect entrenched political and economic interests, especially
+					around livestock sectors.
+				</li>
+				<li>
+					High resistance zones include India, USA, Brazil, Iran, and parts of Eastern Europe and
+					Africa.
+				</li>
+			</ul>
+			<p class="mb-4">---</p>
+			<p class="mb-4">
+				This synthesis provides the integrated system-level baseline for downstream scenario modeling,
+				constraint evaluation, and transition pathway assessment (Phase 1 onward).
+			</p>
+			<h3 class="text-xl font-medium mt-6 mb-2">
+				Historical synthesis of the food system from 1960 to present
+			</h3>
+			<p class="mb-4">
+				Historical Evolution of the Global Food System<br />Phase: 0<br />Module: 6<br />Type: TX<br />Title/Description:
+				Historical synthesis of the food system from 1960 to present<br />File Name:
+				P0_M6_TX02_HistoricalEvolutionFoodSystem.txt<br />Storage Location:
+				/ssot/phase0/module6/outputs/<br />Source Category: 🟢 A<br />Notes: Based on World Bank, FAO,
+				and historical economic literature. No new projections. Anchors long-term system trends for
+				scenario development.
+			</p>
+			<p class="mb-4">---</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">1. 1960s–1980s: The Green Revolution Era</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Widespread introduction of high-yielding crop varieties (HYVs), particularly rice and
+					wheat, began in Asia and Latin America.
+				</li>
+				<li>
+					Supported by major institutions (e.g., CGIAR, World Bank), this period saw rapid expansion
+					of irrigation, synthetic fertilizers, and mechanization.
+				</li>
+				<li>
+					Food production outpaced population growth, reducing famines in several regions—but often
+					at the cost of soil degradation and biodiversity loss.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				2. 1980s–1990s: Structural Adjustment and Trade Liberalization
+			</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Global South economies were pushed toward export-oriented agriculture under IMF and World
+					Bank structural adjustment programs.
+				</li>
+				<li>
+					Public food support systems were weakened; emphasis shifted to commodity export and
+					foreign direct investment.
+				</li>
+				<li>
+					The 1995 WTO Agreement on Agriculture initiated the liberalization of food trade, while
+					Northern agricultural subsidies continued.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">3. 1990s–2000s: Biotech and Consolidation</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					The rise of genetically modified organisms (GMOs) transformed seed and pesticide markets,
+					particularly in North and South America.
+				</li>
+				<li>
+					Corporate consolidation in input sectors accelerated: Monsanto, Syngenta, Bayer, and
+					DuPont emerged as dominant players.
+				</li>
+				<li>
+					Simultaneously, global supermarket chains and food processors expanded into emerging
+					markets, reshaping retail systems.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">4. 2000s–2010s: Price Crises and Volatility</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Food price spikes in 2007–2008 and 2010 highlighted vulnerabilities in the global food
+					trade system.
+				</li>
+				<li>
+					Export bans, speculation, and climate-related shocks triggered political instability in
+					multiple regions.
+				</li>
+				<li>
+					In response, large-scale land acquisitions (“land grabs”) and public-private partnerships
+					in agricultural investment increased.
+				</li>
+			</ul>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				5. 2010s–2020s: Sustainability Discourses and Technological Divergence
+			</h3>
+			<ul class="list-disc list-inside pl-6 mb-4"></ul>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					Climate change, biodiversity loss, and nutrition transitions entered mainstream food
+					policy debates.
+				</li>
+				<li>
+					Calls for “sustainable intensification,” “climate-smart agriculture,” and “food system
+					transformation” proliferated.
+				</li>
+				<li>
+					Divergent technological pathways emerged: digital/precision agriculture vs. agroecological
+					and local food movements.
+				</li>
+				<li>
+					COVID-19 and the Ukraine war revealed critical trade dependencies and exposed fragilities
+					in global supply chains.
+				</li>
+			</ul>
+			<p class="mb-4">---</p>
+			<p class="mb-4">
+				The historical evolution of the global food system reflects cycles of innovation,
+				consolidation, and crisis, embedded in geopolitical and institutional power dynamics. These
+				trajectories inform the constraints and inertia facing transformation pathways in future
+				phases.
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">Figure: Global food system flow diagram (Sankey)</h3>
+			<img
+				src="../SSOT/phase0/module6/outputs/P0_M6_FG01_FoodSystemSankey.svg"
+				alt="Global food system flow diagram (Sankey)"
+				class="w-full max-w-3xl mx-auto my-4" />
+			<p class="text-sm text-gray-600 mb-8">
+				<strong>Source:</strong> ./SSOT/phase0/module6/outputs/P0_M6_FG01_FoodSystemSankey.svg
+			</p>
+			<h3 class="text-lg font-semibold mt-6 mb-2">
+				Table: Harmonized global food system baseline dataset
+			</h3>
+			<div class="overflow-auto mb-6">
+				<table class="min-w-full table-auto border-collapse border border-gray-300">
+					<thead class="bg-gray-100">
+						<tr>
+							<th class="border border-gray-300 px-3 py-2 text-left">System Element</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Value</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Source Output</th>
+							<th class="border border-gray-300 px-3 py-2 text-left">Primary Source</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Total global crop production</td>
+							<td class="border border-gray-300 px-3 py-2">9.6 billion tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">P0.M1.DT01</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Global meat production</td>
+							<td class="border border-gray-300 px-3 py-2">361 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">P0.M1.DT01</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Global milk production</td>
+							<td class="border border-gray-300 px-3 py-2">930 million tonnes</td>
+							<td class="border border-gray-300 px-3 py-2">P0.M1.DT01</td>
+							<td class="border border-gray-300 px-3 py-2">FAOSTAT</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">Global food loss and waste</td>
+							<td class="border border-gray-300 px-3 py-2">1.3 billion tonnes (~33%)</td>
+							<td class="border border-gray-300 px-3 py-2">P0.M2.DT01</td>
+							<td class="border border-gray-300 px-3 py-2">FAO 2011</td>
+						</tr>
+						<tr>
+							<td class="border border-gray-300 px-3 py-2">
+								Share of crop calories to animal feed
+							</td>
+							<td class="border border-gray-300 px-3 py-2">~33%</td>
+							<td class="border border-gray-300 px-3 py-2">P0.M1.DT05</td>
+							<td class="border border-gray-300 px-3 py-2">Poore & Nemecek 2018</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2 class="text-2xl font-semibold mt-10 mb-4">Phase 0 Summary & Implications</h2>
+			<p class="mb-4">
+				Phase 0 established a comprehensive baseline of the global food system using only
+				peer-reviewed and institutional data. This baseline provides the foundational scope for
+				scenario analysis and transition planning in later phases.
+			</p>
+			<ul class="list-disc list-inside pl-6 mb-4">
+				<li>
+					<strong>Global Food Production:</strong> Dominated by a few key crops (rice, wheat, maize,
+					sugarcane); 82% of global calories come from plant-based sources.
+				</li>
+				<li>
+					<strong>Food Loss & Waste:</strong> Significant inefficiencies occur at post-harvest and
+					consumption stages, especially in perishable commodities.
+				</li>
+				<li>
+					<strong>Land, Water & Inputs:</strong> Animal-based foods disproportionately consume
+					global land and nitrogen resources despite lower caloric output.
+				</li>
+				<li>
+					<strong>Trade & Economic Flows:</strong> Food interdependence is high, but shaped by
+					subsidies and concentrated market actors.
+				</li>
+				<li>
+					<strong>Cultural & Political Constraints:</strong> Deeply rooted dietary practices and
+					industrial policy frameworks limit transformative shifts.
+				</li>
+			</ul>
+			<p class="mb-4">
+				<strong>Implications for Phase 1:</strong> Nutritional modeling must align with the realities
+				of agricultural outputs, input constraints, and existing regional dietary norms documented
+				here.
+			</p>
+			<h2 class="text-2xl font-semibold mt-10 mb-4">Appendix – Source References</h2>
+			<ul class="list-disc list-inside pl-6 mb-8">
+				<li>
+					<strong>FAO Statistical Yearbook 2023</strong> (Institutional Report) –
+					<a href="https:/www.fao.org/statistics/yearbook" class="text-blue-600 underline"
+						>https:/www.fao.org/statistics/yearbook</a
+					>
+				</li>
+				<li>
+					<strong>FAOSTAT Food Balance Sheets</strong> (Database) –
+					<a href="https:/www.fao.org/faostat/en/#data/FBS" class="text-blue-600 underline"
+						>https:/www.fao.org/faostat/en/#data/FBS</a
+					>
+				</li>
+				<li>
+					<strong>Poore & Nemecek (2018)</strong> (Peer-reviewed article) –
+					<a href="https:/doi.org/10.1126/science.aaq0216" class="text-blue-600 underline"
+						>https:/doi.org/10.1126/science.aaq0216</a
+					>
+				</li>
+				<li>
+					<strong>UNEP Food Waste Index 2021</strong> (Institutional Report) –
+					<a
+						href="https:/www.unep.org/resources/report/unep-food-waste-index-report-2021"
+						class="text-blue-600 underline"
+						>https:/www.unep.org/resources/report/unep-food-waste-index-report-2021</a
+					>
+				</li>
+				<li>
+					<strong>OECD Agricultural Monitoring Report 2023</strong> (Institutional Report) –
+					<a
+						href="https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation"
+						class="text-blue-600 underline"
+						>https:/www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation</a
+					>
+				</li>
+				<li>
+					<strong>IPES-Food Reports</strong> (Institutional Report) –
+					<a href="http:/www.ipes-food.org/reports" class="text-blue-600 underline"
+						>http:/www.ipes-food.org/reports</a
+					>
+				</li>
+				<li>
+					<strong>Pew Research Center – Religious Dietary Practices</strong> (Survey/Database) –
+					<a href="https:/www.pewresearch.org" class="text-blue-600 underline"
+						>https:/www.pewresearch.org</a
+					>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
