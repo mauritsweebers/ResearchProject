@@ -1,0 +1,9 @@
+Index Code,Phase,Module,Type,Title/Description,File Name,Storage Location,Source Category,Notes
+P6.M1.TX01,6,1,TX,Policy tools for dietary transition,P6_M1_TX01_PolicyInstruments.txt,/ssot/phase6/module1/outputs/,🟢,"FAOLEX legal review, OECD country reports, EU Green Deal policy analysis."
+P6.M1.DT01,6,1,DT,Examples of dietary policy mechanisms by country,P6_M1_DT01_PolicyExamples.csv,/ssot/phase6/module1/data/,🟢,Compiled from policy trial databases and national legal registries.
+P6.M2.TX01,6,2,TX,Financial mechanisms for dietary transition,P6_M2_TX01_FinancialMechanisms.txt,/ssot/phase6/module2/outputs/,🟡,Based on IMF and UNEP analyses of green finance in food systems.
+P6.M2.DT01,6,2,DT,Typology of financial instruments and actors,P6_M2_DT01_FinancialTools.csv,/ssot/phase6/module2/data/,🟡,"Sourced from UN, IMF, EU databases on transition financing."
+P6.M3.TX01,6,3,TX,Multilateral and institutional transition pathways,P6_M3_TX01_Institutions.txt,/ssot/phase6/module3/outputs/,🟡,"Based on UN Food Systems Summit briefs, WTO notifications, and WBA reports."
+P6.M3.DT01,6,3,DT,Institutional mechanisms and policy instruments,P6_M3_DT01_Institutions.csv,/ssot/phase6/module3/data/,🟡,Compiled from official intergovernmental publications and multilateral benchmarks.
+P6.M4.TX01,6,4,TX,Behavioral and educational transition levers,P6_M4_TX01_CivilSociety.txt,/ssot/phase6/module4/outputs/,🟢,"Draws on IPES-Food narratives, FAO civil reports, and UNESCO curriculum studies."
+P6.M4.DT01,6,4,DT,Examples of civil society and education initiatives,P6_M4_DT01_CivilInitiatives.csv,/ssot/phase6/module4/data/,🟢,Compiled from international civil society mapping and case studies.

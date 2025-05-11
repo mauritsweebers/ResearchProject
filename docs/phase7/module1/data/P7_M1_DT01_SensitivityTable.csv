@@ -1,0 +1,4 @@
+Parameter,Default_Value,Observed_Range,Impact_Domain
+Protein Substitution Ratio,1.0,0.7–1.3,Nutrition
+Yield Sensitivity,±10%,±30%,Land use
+Bioavailability Assumption,High (idealized),Low–High by population,Health

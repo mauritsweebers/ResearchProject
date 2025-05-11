@@ -1,0 +1,10 @@
+Module 3 – Trade & Supply Chain Dependencies
+
+This module maps global trade flows for key plant-based staples, intermediary processing requirements, and vulnerability points. Analysis is grounded in COMTRADE and FAOSTAT data, supported by WFP logistics maps.
+
+Findings:
+- Soy, wheat, and maize dominate plant-based export flows.
+- Processing chokepoints are regionally concentrated in East Asia and Northern Europe.
+- Supply chains are vulnerable to transport corridor disruptions (e.g., Suez, Panama).
+
+Sources: UN COMTRADE, FAOSTAT, WFP Atlas (🟢).

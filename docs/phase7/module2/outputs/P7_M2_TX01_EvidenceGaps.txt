@@ -1,0 +1,10 @@
+Module 2 – Evidence Gaps and Contradictions
+
+This module identifies empirical gaps and data contradictions across the evidence base from Phases 1–6.
+
+Findings:
+- No standardized measurement of soil regeneration under different crop rotations across regions.
+- FAO and World Bank disagree on estimates of global undernourishment and food waste, affecting surplus projections.
+- Regional dietary acceptability data (e.g., indigenous populations, urban poor) is sparse or outdated in major data sources.
+
+Sources: FAO SOFI 2023, World Bank Food Security Tracker, peer-reviewed reviews (🟢).

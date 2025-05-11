@@ -1,0 +1,19 @@
+PHASE 6 – Transition Mechanisms
+Protocol: HTML_Output_Protocol_v1.6
+Date Finalized: 2025-05-11
+Modules: 4 | Deliverables: 8
+
+Objective:
+To identify and evaluate credible transition mechanisms—policy instruments, financial tools, institutional pathways, and civil society strategies—that could facilitate a global shift toward a nutritionally adequate, ecologically viable plant-based food system, within geopolitical and economic constraints.
+
+Scope & Method:
+Phase 6 synthesizes evidence across four modules: public policy instruments and legal reforms (Module 1), financial and investment strategies (Module 2), institutional and multilateral pathways (Module 3), and civil society and behavioral levers (Module 4). Sources include IMF and UN agency reports, FAOLEX and WTO databases, and empirical evaluations of framing strategies and food movements.
+
+Key Findings:
+- Policy Mechanisms: Governments are experimenting with food taxes, procurement mandates, and labeling regimes with varying success.
+- Financial Tools: ESG integration in food systems remains limited; just transition funds and R&D credits are under active development.
+- Institutional Entry Points: Multilateral platforms (e.g., FAO, WHO) are aligning food and climate-health agendas; trade rules remain mixed.
+- Civil Society: Narratives emphasizing health, identity, and national pride increase public receptivity; education is a potent long-term lever.
+
+Implications:
+Multiple feasible transition mechanisms exist, though none are universally adopted or uncontested. Successful strategies depend on cross-sectoral coordination, public legitimacy, and alignment of incentives across policy, finance, and education systems. These findings now inform scenario-building and robustness testing in Phase 7.

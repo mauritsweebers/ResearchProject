@@ -1,0 +1,11 @@
+Module 2 – Scenario Modeling and Framing
+
+This module constructs structured scenarios for plant-based transition feasibility based on key variable combinations from Phases 1–7. Scenarios include:
+
+1. "Cooperative Acceleration": High substitution, strong multilateral governance, targeted transition finance
+2. "Fragmented Progress": Moderate substitution, uneven adoption, low global coordination
+3. "Lock-in Failure": Low substitution, infrastructure inertia, policy resistance
+
+Each scenario outlines constraints and enablers across ecological, economic, and political dimensions.
+
+Sources: Scenario logic based on Phase 4 (P4.M4.TX01), Phase 6 (P6.M1.DT01), Phase 7 (P7.M3.TX01) (🟢/🟡).
