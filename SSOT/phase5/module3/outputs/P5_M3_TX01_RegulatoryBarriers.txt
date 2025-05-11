@@ -1,0 +1,10 @@
+Module 3 – Regulatory and Legal Constraints
+
+This module surveys national policies, food labeling regulations, and legal frameworks that influence the viability of plant-based food systems. Focus is placed on subsidy structures, trade classification, and food sovereignty debates.
+
+Findings:
+- Over 60 countries subsidize animal agriculture more heavily than plant production.
+- Legal naming restrictions on plant-based products exist in the EU, USA, and Brazil.
+- Trade classifications under WTO rules create inconsistencies in tariff treatment.
+
+Sources: WTO trade database, national subsidy registries, FAOLEX legal database (🟢).
