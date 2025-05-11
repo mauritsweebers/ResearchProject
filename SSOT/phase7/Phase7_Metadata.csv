@@ -1,0 +1,9 @@
+Index Code,Phase,Module,Type,Title/Description,File Name,Storage Location,Source Category,Notes
+P7.M1.TX01,7,1,TX,Critical assumptions and sensitivity in prior phases,P7_M1_TX01_Assumptions.txt,/ssot/phase7/module1/outputs/,🟢,"Draws on critiques from IPCC, EAT-Lancet, and empirical variance from GDQP."
+P7.M1.DT01,7,1,DT,Parameter sensitivity ranges for dietary and land models,P7_M1_DT01_SensitivityTable.csv,/ssot/phase7/module1/data/,🟢,Compiled from modeled variance in Phases 1–3 and external benchmarks.
+P7.M2.TX01,7,2,TX,Empirical gaps and evidence conflicts in prior findings,P7_M2_TX01_EvidenceGaps.txt,/ssot/phase7/module2/outputs/,🟢,"Based on FAO SOFI 2023, WB Food Security Tracker, and dietary survey reviews."
+P7.M2.DT01,7,2,DT,Evidence gap typologies and implications by domain,P7_M2_DT01_EvidenceGaps.csv,/ssot/phase7/module2/data/,🟢,Compiled from known institutional conflicts and data voids in Phases 1–6.
+P7.M3.TX01,7,3,TX,External risks and disruption scenarios,P7_M3_TX01_RiskFactors.txt,/ssot/phase7/module3/outputs/,🟢,"Draws from IPCC risk analyses, FAO climate-food reports, and UNCTAD trade indexes."
+P7.M3.DT01,7,3,DT,External risk matrix for transition scenarios,P7_M3_DT01_RiskMatrix.csv,/ssot/phase7/module3/data/,🟢,"Matrix of risks impacting supply, trade, and infrastructure across case types."
+P7.M4.TX01,7,4,TX,Interdisciplinary and stakeholder critiques of transition,P7_M4_TX01_Critiques.txt,/ssot/phase7/module4/outputs/,🟡,"Synthesizes dissent from rural studies, indigenous forums, and political ecology journals."
+P7.M4.DT01,7,4,DT,Critique types and sources by disciplinary origin,P7_M4_DT01_CritiqueTable.csv,/ssot/phase7/module4/data/,🟡,Coded critiques from peer-reviewed journals and institutional commentary.

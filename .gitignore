@@ -1,2 +1,54 @@
-*/.DS_Store
+# macOS system files
 .DS_Store
+*/.DS_Store
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Bytecode and logs
+*.log
+*.bak
+*.swp
+
+# IDE files
+.vscode/
+.idea/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# HTML generation
+MakeMasterIndex.py
+PhaseBuilderHtml.py
+HTML_Synthesis_Template/
+
+# Docs backup directory
+docs/Backups/
+
+# OS/Editor metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.old
+
+# Git metadata
+*.orig
+*.rej

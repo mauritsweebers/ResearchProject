@@ -1,0 +1,12 @@
+Protocol Reference Marker
+
+This file lists all active rule protocols required for execution, QA, and delivery across all project phases.
+
+Included Protocol Files:
+- Unified_Command_Protocol_v3.6.txt        → Governs all deliverable structure and execution rules
+- SCF_v1.0_Source_Classification.txt       → Regulates allowed evidence sources
+- SSOT_Rules_v1.txt                        → Enforces file and folder structure
+- Session_Execution_Rules_Phase0_3.txt     → Defines directive execution and QA standards
+- Summary_Output_Protocol_v1.0.txt         → Specifies formatting rules for PhaseX_Summary.txt
+
+All files must be referenced in QA validation and handover logs.
