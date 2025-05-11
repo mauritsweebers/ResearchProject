@@ -36,6 +36,11 @@ MakeMasterIndex.py
 PhaseBuilderHtml.py
 HTML_Synthesis_Template/
 
+# SSOT (Single Source of Truth) excluded folders
+SSOT/governance/
+SSOT/HandoverRules/
+SSOT/backups/
+
 # Docs backup directory
 docs/Backups/
 
