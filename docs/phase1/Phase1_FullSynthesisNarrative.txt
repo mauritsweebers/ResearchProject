@@ -1,0 +1,49 @@
+Phase 1 – Nutritional Viability Synthesis Narrative
+(Compiled from QA-verified TX files across Modules 3–7)
+
+Objective:
+Phase 1 establishes whether a global food system based entirely on plant-based foods can meet human nutrient requirements across population groups when adjusted for bioavailability, dietary interactions, and physiological constraints. This synthesis integrates structured outputs from Modules 3 to 7, culminating in a boundary-case stress test.
+
+M3: Bioavailability Adjustment Modeling
+Gross nutrient availability alone is insufficient to evaluate dietary adequacy. In Module 3, we modeled physiological bioavailability using nutrient-specific absorption coefficients sourced from WHO/FAO, NIH, EFSA, and peer-reviewed meta-analyses.
+- Absorbable fractions were applied to energy, protein, calcium, iron, zinc, B12, folate, vitamins A and D.
+- The modeling assumes mixed diets, with limitations including lack of demographic specificity and no accounting for inhibitors/enhancers at the meal level.
+
+M4: Demographic Adequacy Modeling
+Using the bioavailability-adjusted nutrient supply from M3, we compared daily per capita intake to globally harmonized nutrient requirements stratified by age, sex, and reproductive status.
+- The adequacy ratio (supply ÷ requirement) was calculated per demographic group.
+- Output flagged consistent adequacy shortfalls for iron, B12, vitamin D, and calcium, particularly in groups with elevated physiological needs (e.g., adolescents, pregnant/lactating women).
+
+M5: Nutrient Synergies and Inhibitors
+We incorporated meal-level nutrient interaction logic:
+- Enhancers (e.g., vitamin C boosting iron absorption, prebiotics aiding calcium uptake)
+- Inhibitors (e.g., phytates, oxalates, fiber–mineral complexes)
+
+Effect sizes and mechanism-based modifiers were drawn from WHO/FAO and peer-reviewed nutrient absorption literature. These were integrated into a nutrient interaction matrix, refining the effective absorption modeled in M3 and M4. Synergistic effects were limited in strength relative to inhibitors in most plant-based diets.
+
+M6: Micronutrient Risk Classification
+Adequacy ratios were translated into risk classes based on WHO/FAO thresholds:
+- < 0.6 → high risk
+- < 0.9 → moderate
+- < 1.0 → marginal
+- ≥ 1.0 → adequate
+
+Findings confirmed widespread high-to-moderate risk zones for:
+- Vitamin B12 (absent from unfortified plant sources)
+- Iron and Zinc (limited by phytates and matrix inhibition)
+- Vitamin D and Calcium (under-supplied without fortified foods or supplements)
+
+M7: Boundary Case Testing
+Stress testing scenarios were developed to simulate worst-case diets:
+- Cereal-dominant, unfortified
+- High-fiber/low-diversity diets
+- Populations with high nutrient demands
+
+All six boundary diets tested resulted in multiple nutrient failures, confirming that unfortified, unvaried plant-based diets are insufficient for specific populations without strategic interventions.
+
+Summary & Implications:
+1. Bioavailable adequacy of a plant-based system is achievable for many nutrients—but not universally.
+2. Shortfall nutrients include: Vitamin B12, Iron, Zinc, Calcium, Vitamin D.
+3. Population groups most at risk: children, adolescents, pregnant/lactating women.
+4. Modulating factors such as fortification, supplementation, and dietary diversity are essential enablers.
+5. Scenarios without such interventions consistently fail at meeting basic nutritional thresholds.

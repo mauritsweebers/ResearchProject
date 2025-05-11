@@ -1,0 +1,31 @@
+
+P1_M2_TX01_Method_NutrientAvailability.txt
+
+This document outlines the methodology used in Phase 1 – Module 2 to estimate global nutrient availability from current food production.
+
+1. INPUT DATA
+Five validated datasets from Phase 0 Module 1 were used:
+- P0_M1_DT01_GlobalFoodProduction.csv
+- P0_M1_DT02_TopCommoditiesByWeight.csv
+- P0_M1_DT03_TopCommoditiesByCalories.csv
+- P0_M1_DT04_RegionalProductionPatterns.csv
+- P0_M1_DT05_CropAllocationToFeed.csv
+
+2. NUTRIENT DENSITY SOURCES
+Nutrient profiles (per 100g edible portion) were extracted from:
+- USDA SR Legacy database
+- FAO INFOODS composition tables
+
+3. PROCESSING STEPS
+- Standardized nutrient values were assigned to top commodities.
+- Gross production volume (million tonnes) was converted to total grams.
+- Nutrient content per 100g was scaled up to reflect total potential nutrient availability.
+- Calculations were performed for energy, protein, fat, carbohydrates, fiber, calcium, iron, zinc, folate, and others.
+- All figures represent gross biological yield before accounting for waste, loss, or access constraints.
+
+4. LIMITATIONS
+- Values are aggregated globally and do not yet reflect bioavailability or distribution inequalities.
+- Some micronutrient values were zero or not available for select plant-based commodities.
+- Feed allocation and losses were acknowledged but not applied in this round of modeling.
+
+Prepared in compliance with Protocol v2.8 and stored in the SSOT directory structure.

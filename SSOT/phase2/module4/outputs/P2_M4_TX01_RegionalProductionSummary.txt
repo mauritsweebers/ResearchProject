@@ -1,0 +1,10 @@
+TX: Regional Variation in Production Potential – Module 4 Summary
+
+This module maps cropland area and average yield performance across global regions.
+
+Findings:
+- Europe and North America maintain high yields (~3.5–4.0 t/ha) but are already heavily cultivated.
+- Sub-Saharan Africa has extensive cropland but lower average yields (1.8 t/ha), indicating underutilized potential.
+- South Asia is yield-constrained and densely populated, requiring efficiency gains.
+
+Production modeling must account for yield gaps and infrastructure capacity in low-yield regions to ensure equity and feasibility.

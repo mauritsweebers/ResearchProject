@@ -1,0 +1,21 @@
+PHASE 0 – Global Food System Baseline Assessment
+Protocol: HTML_Output_Protocol_v1.3
+Date Finalized: 2024-05-30
+Modules: 6 | Deliverables: 18
+
+Objective:
+To establish a quantitative baseline of the global food system in its current, animal-inclusive configuration. Phase 0 defines what is being replaced and why.
+
+Scope & Method:
+Phase 0 synthesizes global production, trade, nutrient distribution, and environmental footprint data from institutional and peer-reviewed sources. It includes dietary energy flows, conversion efficiencies, waste, land use, and embedded emissions. Datasets from FAO, UNEP, OECD, and IPES-Food are integrated through a shared unit framework and standardized population baselines.
+
+Key Findings:
+- Animal-sourced foods account for over 75% of agricultural emissions.
+- The global food system fails to meet nutrient adequacy for ~2.4 billion people.
+- Land and resource use are disproportionately allocated to feed conversion.
+- Systemic inefficiencies drive both environmental overload and undernourishment.
+- Protein is oversupplied relative to micronutrients in many high-income regions.
+- The baseline structure is economically concentrated and geographically uneven.
+
+Implications:
+This baseline defines the counterfactual for all subsequent phases. Future scenarios must not only replace existing nutritional outputs but outperform them in equity, ecological impact, and resilience. Phase 0 also anchors the system-wide SSOT architecture, linking all PhaseX transformations back to the baseline constraints.

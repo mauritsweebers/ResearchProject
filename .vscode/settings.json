@@ -1,0 +1,7 @@
+{
+  "python.pythonPath": "/Users/mau/opt/anaconda3/envs/ssot_html/bin/python",
+  "python.defaultInterpreterPath": "/Users/mau/opt/anaconda3/envs/ssot_html/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.indexing": true,
+  "python.languageServer": "Default"
+}

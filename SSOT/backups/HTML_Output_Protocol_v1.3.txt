@@ -1,0 +1,104 @@
+
+📘 HTML Output Protocol – v1.3 (May 2025)
+
+This version supersedes v1.2 and formalizes the full rendering workflow used to generate `Phase0_FullSynthesis_Final_v2.6_WithSummary_FIXEDPATH.html`.
+
+---
+
+🛠 RENDERING PIPELINE REQUIREMENTS
+
+✅ Input Structure:
+- All `.txt`, `.csv`, and `.svg` outputs must be stored in:
+  - `/ssot/phaseX/moduleY/data/`
+  - `/ssot/phaseX/moduleY/outputs/`
+
+✅ Input Types:
+- `.txt` = narrative blocks (headers, lists, paragraphs)
+- `.csv` = data previews for tables
+- `.svg`/`.png` = inline figures (charts, maps, visuals)
+
+✅ Text Parsing Logic:
+- `##` headings → `<h3>`
+- `- ` bullet points → `<ul><li>`
+- `1.`, `2.` numbered lists → `<ol><li>`
+- `(Source: …)` lines → `<li class="text-sm italic">`
+- Single line breaks → `<br>`
+- Blank lines → new `<p>`
+
+✅ Theme and Layout:
+- Tailwind CSS loaded via: `./tailwind.css`
+- Container: `max-w-screen-lg mx-auto px-4 py-8`
+- Responsive layout
+- Theme toggle: `button` top-right (`dark mode` ↔ `light mode`)
+- Table styling compatible with light and dark themes
+
+---
+
+🌓 Theme Toggle Requirements
+
+- HTML must contain:
+  ```html
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const isDark = html.classList.toggle('dark');
+      document.getElementById('theme-toggle').textContent = isDark ? 'light mode' : 'dark mode';
+    }
+  </script>
+  ```
+
+- Toggle button class:
+  ```html
+  <button id='theme-toggle' class='theme-toggle px-4 py-2 bg-gray-200 text-gray-800 rounded shadow' onclick='toggleTheme()'>dark mode</button>
+  ```
+
+---
+
+🖼 Image & File Path Handling
+
+- All image paths must use: `../SSOT/phaseX/moduleY/outputs/FILENAME.svg`
+- ❌ Do not use `./SSOT/` or absolute paths
+- Double slashes `//` must be automatically removed
+- Only `.svg` and `.png` files from `outputs/` may be rendered
+
+---
+
+📊 Table Handling
+
+- Parse `.csv` files using `pandas.read_csv()`
+- Render first 5 rows using Tailwind-styled table:
+  - `table-auto`, `border-collapse`, `border`, `px-3`, `py-2`
+- Wrap in `overflow-auto` container
+
+---
+
+📑 Summary and Source Block
+
+- Append final section titled:
+  ```
+  <h2 class="text-2xl font-semibold mt-10 mb-4">Appendix – Source References</h2>
+  ```
+
+- Display structured `<ul>` from source registry if available
+
+---
+
+📄 File Naming Convention
+
+Final output file should be named:
+
+```
+PhaseX_FullSynthesis_Final_vX.X_WithSummary_FIXEDPATH.html
+```
+
+e.g., `Phase0_FullSynthesis_Final_v2.6_WithSummary_FIXEDPATH.html`
+
+---
+
+🧾 Version Control
+
+This protocol replaces all prior rendering instructions and is required for:
+- Phase synthesis HTML outputs
+- Index (`index.html`)
+- Future export-compatible `.html` bundles
+

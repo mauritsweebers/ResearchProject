@@ -1,0 +1,110 @@
+Unified Command Protocol – v3.5
+Supersedes: v2.4 and v3.4
+Issued by: Project Director
+Effective: Immediate
+
+------------------------------------------------------------
+PURPOSE
+
+This protocol governs the operation of the Unified Command System across all research phases. It integrates synthesis delivery, quality assurance, metadata enforcement, and role coordination. It ensures all Phase-level research outputs are reproducible, traceable, structurally valid, and compliant with system-wide standards.
+
+------------------------------------------------------------
+SECTION 1: STRUCTURE AND ROLES
+
+🔹 Project Director ("Command")
+- Initiates Phases by issuing full synthesis prompts
+- Does NOT generate content
+- Reviews and registers all deliverables (TX, DT, FG)
+- Executes QA, metadata validation, and sync checks
+- Maintains QA logs and updates Master_Index_Register.csv
+- Authorizes phase closure and transition
+
+🔹 Phase Chats
+- Execute Command-issued full prompts only
+- Must:
+  ✅ Use only valid sources (🟢A or traceable 🟡B)
+  ✅ Deliver batch folder (PhaseX) with correct structure
+  ✅ Include one `.txt` per TX, one `.csv` per DT, one `.svg` or `.png` per FG
+  ✅ Submit a complete `PhaseX_Metadata.csv`
+  ✅ Include `PhaseX_Summary.txt` with Objective, Scope, Key Findings, Implications
+- Must not:
+  ❌ Initiate prompts
+  ❌ Perform QA or indexing
+  ❌ Render HTML output
+
+------------------------------------------------------------
+SECTION 2: PHASE DELIVERY FORMAT
+
+🔁 All Phases must be delivered as complete batches. Partial or incremental submissions are not accepted.
+
+📂 Directory Structure:
+```
+phaseX/
+├── module1/
+│   ├── data/
+│   │   └── P3_M1_DT01_*.csv
+│   └── outputs/
+│       ├── P3_M1_TX01_*.txt
+│       └── P3_M1_FG01_*.svg
+├── module2/
+│   └── ...
+├── PhaseX_Summary.txt
+├── PhaseX_Metadata.csv
+```
+
+📁 File Naming:
+Format: `[PhaseCode]_[ModuleCode]_[TypeCode][Sequence]_[ShortTitle].ext`
+
+Type Codes:
+- TX = Text
+- DT = Data
+- FG = Figure
+- RS = Research Summary
+
+------------------------------------------------------------
+SECTION 3: METADATA AND SOURCE CLASSIFICATION
+
+📋 Metadata File:
+- Required: `PhaseX_Metadata.csv` or `.txt`
+- Fields: Index Code, Phase, Module, Type, Title/Description, File Name, Source Category, Notes
+
+🧾 Source Classification (per SCF v1.0):
+- 🟢 A: Peer-reviewed or institutional (mandatory for conclusions)
+- 🟡 B: Traceable secondary (flagged for review)
+- 🔴 C: Prohibited
+
+------------------------------------------------------------
+SECTION 4: QA, LOGGING, AND SYNC
+
+🧠 Phase QA:
+- Run by Director upon submission
+- Verifies structure, file types, naming, metadata, and source tags
+- Confirms metadata matches actual files
+
+📁 Logs:
+- `PhaseX_QA_Log.csv`
+- `PhaseX_MasterSourceList.csv`
+- All validated entries appended to `Master_Index_Register.csv`
+
+🔁 Sync Check:
+- All deliverables must match the metadata and be physically present
+- No unregistered files allowed
+- Must be rerun before phase closure
+
+------------------------------------------------------------
+SECTION 5: PHASE CLOSURE
+
+✅ Phase Closure:
+- Director confirms:
+  ✅ All modules complete
+  ✅ QA passed
+  ✅ Sync check clean
+  ✅ Logs written
+- Then issues next Phase prompt
+
+------------------------------------------------------------
+COMPLIANCE
+
+This document supersedes all prior versions of the Unified Command Protocol. No synthesis, delivery, QA, or closure steps may be taken outside its terms. Violations result in batch rejection.
+
+File ID: GOV.UCP_v3.5.txt

@@ -1,0 +1,32 @@
+
+P1_M1_TX01_NutrientTargetsSummary.txt
+
+This summary outlines the methodology used to compile globally standardized nutrient intake targets across demographics for Phase 1 – Module 1 of the Plant-Based System Project.
+
+1. DATA SOURCES
+The following authoritative sources were used:
+- FAO/WHO/UNU: Human Vitamin and Mineral Requirements (2001), Human Energy Requirements (2004), Protein and Amino Acid Requirements (2007)
+- EFSA: Dietary Reference Values (2023)
+- NIH: Dietary Reference Intakes (DRIs)
+- GBD 2019: Risk Factor Meta-Estimates
+
+2. DEMOGRAPHIC CATEGORIES
+Demographics were harmonized across the sources to the following groups:
+- Infants, Children, Adolescents, Adults, Pregnant, Lactating
+
+3. NUTRIENT SELECTION
+The dataset includes:
+- Macronutrients: Energy, Protein, Total Fat, Carbohydrates
+- Micronutrients: Iron, Calcium, Zinc, Vitamin B12, Iodine, Vitamin A, Folate, Vitamin D
+
+4. HARMONIZATION
+- Units were standardized (e.g., mg/day, µg/day, kcal/day).
+- Where multiple systems existed (RDA vs RNI vs AI), priority was given to FAO/WHO or EFSA.
+- Discrepancies and assumptions were noted for traceability.
+
+5. OUTPUTS
+- CSV: Nutrient requirements across demographic groups
+- SVG: Global nutrient coverage map (placeholder for visualization)
+- TXT: This summary document
+
+Prepared for Command review and integration in compliance with Protocol v1.0 and HTML Output Protocol v1.2.

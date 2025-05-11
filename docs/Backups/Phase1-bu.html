@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Phase 1 Synthesis</title>
+		<link href="./tailwind.css" rel="stylesheet" />
+		<style>
+			.theme-toggle {
+				position: fixed;
+				top: 30px;
+				right: 30px;
+				z-index: 999;
+			}
+			html.dark body {
+				background-color: #1a1a1a;
+				color: #e0e0e0;
+			}
+			html.dark h1,
+			html.dark h2,
+			html.dark p,
+			html.dark a {
+				color: #e0e0e0;
+			}
+			html.dark body {
+				background-color: #1a1a1a;
+				color: #e0e0e0;
+			}
+			html.dark table,
+			html.dark th,
+			html.dark td {
+				background-color: #2a2a2a;
+				border-color: #444;
+			}
+			html.dark .metadata-block {
+				background-color: rgba(55, 65, 81, 0.9); /* Tailwind gray-800 with opacity */
+				color: #f3f4f6; /* Tailwind gray-100 */
+			}
+			.metadata-block {
+				background-color: #ffffff;
+				color: #1a1a1a;
+			}
+		</style>
+		<script>
+			function toggleTheme() {
+				const html = document.documentElement;
+				const isDark = html.classList.toggle('dark');
+				document.getElementById('theme-toggle').textContent = isDark ? 'light mode' : 'dark mode';
+			}
+		</script>
+	</head>
+	<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans">
+		<div class="max-w-screen-lg mx-auto px-4 py-8">
+			<button
+				id="theme-toggle"
+				class="theme-toggle px-4 py-2 bg-gray-200 text-gray-800 rounded shadow"
+				onclick="toggleTheme()">
+				dark mode
+			</button>
+
+			
+<h1 class="text-4xl font-bold mb-6">Phase 1 – Global Nutritional Viability (Plant-Based)</h1>
+<p class="text-lg mb-6 text-gray-700">Final synthesis output using HTML_Output_Protocol_v1.5 and full dark/light theme support.</p>
+<h2 class="text-2xl font-semibold mt-10 mb-4">🧾 Synthesis Narrative</h2>
+<p class='mb-4'>Phase 1 – Nutritional Viability Synthesis Narrative</p>
+<p class='mb-4'>(Compiled from QA-verified TX files across Modules 3–7)</p>
+<h3 class='text-xl font-semibold mt-6 mb-2'>Objective:</h3>
+<p class='mb-4'>Phase 1 establishes whether a global food system based entirely on plant-based foods can meet human nutrient requirements across population groups when adjusted for bioavailability, dietary interactions, and physiological constraints. This synthesis integrates structured outputs from Modules 3 to 7, culminating in a boundary-case stress test.</p>
+<p class='mb-4'>M3: Bioavailability Adjustment Modeling</p>
+<p class='mb-4'>Gross nutrient availability alone is insufficient to evaluate dietary adequacy. In Module 3, we modeled physiological bioavailability using nutrient-specific absorption coefficients sourced from WHO/FAO, NIH, EFSA, and peer-reviewed meta-analyses.</p>
+<li class='ml-6 list-disc'>Absorbable fractions were applied to energy, protein, calcium, iron, zinc, B12, folate, vitamins A and D.</li>
+<li class='ml-6 list-disc'>The modeling assumes mixed diets, with limitations including lack of demographic specificity and no accounting for inhibitors/enhancers at the meal level.</li>
+<p class='mb-4'>M4: Demographic Adequacy Modeling</p>
+<p class='mb-4'>Using the bioavailability-adjusted nutrient supply from M3, we compared daily per capita intake to globally harmonized nutrient requirements stratified by age, sex, and reproductive status.</p>
+<li class='ml-6 list-disc'>The adequacy ratio (supply ÷ requirement) was calculated per demographic group.</li>
+<li class='ml-6 list-disc'>Output flagged consistent adequacy shortfalls for iron, B12, vitamin D, and calcium, particularly in groups with elevated physiological needs (e.g., adolescents, pregnant/lactating women).</li>
+<p class='mb-4'>M5: Nutrient Synergies and Inhibitors</p>
+<h3 class='text-xl font-semibold mt-6 mb-2'>We incorporated meal-level nutrient interaction logic:</h3>
+<li class='ml-6 list-disc'>Enhancers (e.g., vitamin C boosting iron absorption, prebiotics aiding calcium uptake)</li>
+<li class='ml-6 list-disc'>Inhibitors (e.g., phytates, oxalates, fiber–mineral complexes)</li>
+<p class='mb-4'>Effect sizes and mechanism-based modifiers were drawn from WHO/FAO and peer-reviewed nutrient absorption literature. These were integrated into a nutrient interaction matrix, refining the effective absorption modeled in M3 and M4. Synergistic effects were limited in strength relative to inhibitors in most plant-based diets.</p>
+<p class='mb-4'>M6: Micronutrient Risk Classification</p>
+<h3 class='text-xl font-semibold mt-6 mb-2'>Adequacy ratios were translated into risk classes based on WHO/FAO thresholds:</h3>
+<li class='ml-6 list-disc'>< 0.6 → high risk</li>
+<li class='ml-6 list-disc'>< 0.9 → moderate</li>
+<li class='ml-6 list-disc'>< 1.0 → marginal</li>
+<li class='ml-6 list-disc'>≥ 1.0 → adequate</li>
+<h3 class='text-xl font-semibold mt-6 mb-2'>Findings confirmed widespread high-to-moderate risk zones for:</h3>
+<li class='ml-6 list-disc'>Vitamin B12 (absent from unfortified plant sources)</li>
+<li class='ml-6 list-disc'>Iron and Zinc (limited by phytates and matrix inhibition)</li>
+<li class='ml-6 list-disc'>Vitamin D and Calcium (under-supplied without fortified foods or supplements)</li>
+<p class='mb-4'>M7: Boundary Case Testing</p>
+<h3 class='text-xl font-semibold mt-6 mb-2'>Stress testing scenarios were developed to simulate worst-case diets:</h3>
+<li class='ml-6 list-disc'>Cereal-dominant, unfortified</li>
+<li class='ml-6 list-disc'>High-fiber/low-diversity diets</li>
+<li class='ml-6 list-disc'>Populations with high nutrient demands</li>
+<p class='mb-4'>All six boundary diets tested resulted in multiple nutrient failures, confirming that unfortified, unvaried plant-based diets are insufficient for specific populations without strategic interventions.</p>
+<h3 class='text-xl font-semibold mt-6 mb-2'>Summary & Implications:</h3>
+<ol class='list-decimal list-inside pl-6'><li>1. Bioavailable adequacy of a plant-based system is achievable for many nutrients—but not universally.</li></ol>
+<p class='mb-4'>2. Shortfall nutrients include: Vitamin B12, Iron, Zinc, Calcium, Vitamin D.</p>
+<p class='mb-4'>3. Population groups most at risk: children, adolescents, pregnant/lactating women.</p>
+<p class='mb-4'>4. Modulating factors such as fortification, supplementation, and dietary diversity are essential enablers.</p>
+<p class='mb-4'>5. Scenarios without such interventions consistently fail at meeting basic nutritional thresholds.</p>
+<h2 class="text-2xl font-semibold mt-10 mb-4">📊 Figures</h2>
+<ul class='list-disc list-inside pl-6 mb-6'><li class='mb-4'><strong>Module 3:</strong><br><img src='./phase1/module3/outputs/P1_M3_FG01_AbsorbableVsSupplied.svg' alt='Absorbable vs Supplied' class='w-full max-w-lg mx-auto my-4'/></li><li class='mb-4'><strong>Module 4:</strong><br><img src='./phase1/module4/outputs/P1_M4_FG01_DeficiencyRiskByNutrient.svg' alt='Deficiency Risk' class='w-full max-w-lg mx-auto my-4'/></li><li class='mb-4'><strong>Module 5:</strong><br><img src='./phase1/module5/outputs/P1_M5_FG01_NutrientInteractionMap.svg' alt='Interaction Map' class='w-full max-w-lg mx-auto my-4'/></li><li class='mb-4'><strong>Module 6:</strong><br><img src='./phase1/module6/outputs/P1_M6_FG01_RiskHeatmapByNutrient.svg' alt='Risk Heatmap' class='w-full max-w-lg mx-auto my-4'/></li><li class='mb-4'><strong>Module 7:</strong><br><img src='./phase1/module7/outputs/P1_M7_FG01_BoundaryCaseOutcomes.svg' alt='Boundary Outcomes' class='w-full max-w-lg mx-auto my-4'/></li></ul>
+<h2 class="text-2xl font-semibold mt-10 mb-4">📁 Tables</h2>
+<h3 class='text-lg font-semibold mt-6 mb-2'>P1_M4_DT01_NutrientAdequacyByGroup.csv</h3><div class='overflow-auto mb-6'><table class='min-w-full border-collapse text-sm'><thead><tr><th class='bg-gray-100 border px-3 py-2'>Demographic Group</th><th class='bg-gray-100 border px-3 py-2'>Energy (kcal/day)</th><th class='bg-gray-100 border px-3 py-2'>Protein (g/day)</th><th class='bg-gray-100 border px-3 py-2'>Total Fat (g/day)</th><th class='bg-gray-100 border px-3 py-2'>Carbohydrates (g/day)</th><th class='bg-gray-100 border px-3 py-2'>Iron (mg/day)</th><th class='bg-gray-100 border px-3 py-2'>Calcium (mg/day)</th><th class='bg-gray-100 border px-3 py-2'>Zinc (mg/day)</th><th class='bg-gray-100 border px-3 py-2'>Vitamin B12 (µg/day)</th><th class='bg-gray-100 border px-3 py-2'>Iodine (µg/day)</th><th class='bg-gray-100 border px-3 py-2'>Vitamin A (µg RAE/day)</th><th class='bg-gray-100 border px-3 py-2'>Folate (µg/day)</th><th class='bg-gray-100 border px-3 py-2'>Vitamin D (µg/day)</th><th class='bg-gray-100 border px-3 py-2'>Energy (kcal) Adequacy Ratio</th><th class='bg-gray-100 border px-3 py-2'>Protein (g) Adequacy Ratio</th><th class='bg-gray-100 border px-3 py-2'>Calcium (mg) Adequacy Ratio</th><th class='bg-gray-100 border px-3 py-2'>Iron (mg) Adequacy Ratio</th><th class='bg-gray-100 border px-3 py-2'>Zinc (mg) Adequacy Ratio</th><th class='bg-gray-100 border px-3 py-2'>Folate (µg) Adequacy Ratio</th><th class='bg-gray-100 border px-3 py-2'>Vitamin B12 (µg) Adequacy Ratio</th><th class='bg-gray-100 border px-3 py-2'>Vitamin A (µg RAE) Adequacy Ratio</th><th class='bg-gray-100 border px-3 py-2'>Vitamin D (µg) Adequacy Ratio</th></tr></thead><tbody><tr><td class='border px-3 py-2'>Infants (0-6 mo)</td><td class='border px-3 py-2'>1436.4</td><td class='border px-3 py-2'>1260.6</td><td class='border px-3 py-2'>662.6</td><td class='border px-3 py-2'>1866.8</td><td class='border px-3 py-2'>1202.3</td><td class='border px-3 py-2'>2657.8</td><td class='border px-3 py-2'>1806.8</td><td class='border px-3 py-2'>2824.2</td><td class='border px-3 py-2'>517.4</td><td class='border px-3 py-2'>1212.1</td><td class='border px-3 py-2'>1419.5</td><td class='border px-3 py-2'>2227.3</td><td class='border px-3 py-2'>2.550466253151906</td><td class='border px-3 py-2'>0.0462240746415601</td><td class='border px-3 py-2'>0.0198645083945213</td><td class='border px-3 py-2'>0.0027684096349576</td><td class='border px-3 py-2'>0.0028079614000078</td><td class='border px-3 py-2'>0.227490868384102</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td></tr><tr><td class='border px-3 py-2'>Infants (7-12 mo)</td><td class='border px-3 py-2'>2876.8</td><td class='border px-3 py-2'>1811.9</td><td class='border px-3 py-2'>2872.2</td><td class='border px-3 py-2'>962.1</td><td class='border px-3 py-2'>1856.7</td><td class='border px-3 py-2'>2058.2</td><td class='border px-3 py-2'>1568.9</td><td class='border px-3 py-2'>2520.3</td><td class='border px-3 py-2'>1776.9</td><td class='border px-3 py-2'>592.2</td><td class='border px-3 py-2'>2080.8</td><td class='border px-3 py-2'>1466.8</td><td class='border px-3 py-2'>1.2734599993143063</td><td class='border px-3 py-2'>0.0321596492594241</td><td class='border px-3 py-2'>0.0256514869356519</td><td class='border px-3 py-2'>0.0017926745861526</td><td class='border px-3 py-2'>0.0032337463557487</td><td class='border px-3 py-2'>0.1551918914221611</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td></tr><tr><td class='border px-3 py-2'>Children (1-3 yr)</td><td class='border px-3 py-2'>2330.0</td><td class='border px-3 py-2'>1579.9</td><td class='border px-3 py-2'>2914.1</td><td class='border px-3 py-2'>2924.0</td><td class='border px-3 py-2'>852.3</td><td class='border px-3 py-2'>1327.2</td><td class='border px-3 py-2'>563.5</td><td class='border px-3 py-2'>2083.5</td><td class='border px-3 py-2'>1543.5</td><td class='border px-3 py-2'>2023.9</td><td class='border px-3 py-2'>2083.8</td><td class='border px-3 py-2'>2841.8</td><td class='border px-3 py-2'>1.572313187136222</td><td class='border px-3 py-2'>0.0368821244972154</td><td class='border px-3 py-2'>0.0397799053729346</td><td class='border px-3 py-2'>0.0039052668122839</td><td class='border px-3 py-2'>0.0090034155413207</td><td class='border px-3 py-2'>0.154968465145999</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td></tr><tr><td class='border px-3 py-2'>Children (4-8 yr)</td><td class='border px-3 py-2'>1996.6</td><td class='border px-3 py-2'>1228.1</td><td class='border px-3 py-2'>2521.0</td><td class='border px-3 py-2'>2437.8</td><td class='border px-3 py-2'>2505.5</td><td class='border px-3 py-2'>658.9</td><td class='border px-3 py-2'>769.7</td><td class='border px-3 py-2'>2678.7</td><td class='border px-3 py-2'>1055.3</td><td class='border px-3 py-2'>1756.7</td><td class='border px-3 py-2'>1839.4</td><td class='border px-3 py-2'>843.8</td><td class='border px-3 py-2'>1.834864132038164</td><td class='border px-3 py-2'>0.0474473320520728</td><td class='border px-3 py-2'>0.0801273188814067</td><td class='border px-3 py-2'>0.0013284609475592</td><td class='border px-3 py-2'>0.0065914312817126</td><td class='border px-3 py-2'>0.1755590342890251</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td></tr><tr><td class='border px-3 py-2'>Males (9-13 yr)</td><td class='border px-3 py-2'>890.0</td><td class='border px-3 py-2'>2029.6</td><td class='border px-3 py-2'>1261.5</td><td class='border px-3 py-2'>2848.7</td><td class='border px-3 py-2'>686.4</td><td class='border px-3 py-2'>1277.5</td><td class='border px-3 py-2'>578.6</td><td class='border px-3 py-2'>2509.2</td><td class='border px-3 py-2'>799.7</td><td class='border px-3 py-2'>628.7</td><td class='border px-3 py-2'>725.7</td><td class='border px-3 py-2'>1352.7</td><td class='border px-3 py-2'>4.11628059104202</td><td class='border px-3 py-2'>0.0287101244053757</td><td class='border px-3 py-2'>0.041327507171005</td><td class='border px-3 py-2'>0.004849153415078</td><td class='border px-3 py-2'>0.0087684491143004</td><td class='border px-3 py-2'>0.4449817936767711</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td><td class='border px-3 py-2'>0.0</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>P1_M6_DT01_MicronutrientRiskByGroup.csv</h3><div class='overflow-auto mb-6'><table class='min-w-full border-collapse text-sm'><thead><tr><th class='bg-gray-100 border px-3 py-2'>Demographic Group</th></tr></thead><tbody><tr><td class='border px-3 py-2'>Infants (0-6 mo)</td></tr><tr><td class='border px-3 py-2'>Infants (7-12 mo)</td></tr><tr><td class='border px-3 py-2'>Children (1-3 yr)</td></tr><tr><td class='border px-3 py-2'>Children (4-8 yr)</td></tr><tr><td class='border px-3 py-2'>Males (9-13 yr)</td></tr></tbody></table></div><h3 class='text-lg font-semibold mt-6 mb-2'>P1_M7_DT01_BoundaryCaseScenarios.csv</h3><div class='overflow-auto mb-6'><table class='min-w-full border-collapse text-sm'><thead><tr><th class='bg-gray-100 border px-3 py-2'>Scenario</th><th class='bg-gray-100 border px-3 py-2'>Demographic Group</th><th class='bg-gray-100 border px-3 py-2'>Diet Description</th><th class='bg-gray-100 border px-3 py-2'>Bioavailability Modifier</th><th class='bg-gray-100 border px-3 py-2'>Expected Limiting Nutrients</th><th class='bg-gray-100 border px-3 py-2'>Risk Escalation Likely</th><th class='bg-gray-100 border px-3 py-2'>Assumed Interaction Effect</th></tr></thead><tbody><tr><td class='border px-3 py-2'>Pregnant Adolescent (Low Diversity)</td><td class='border px-3 py-2'>Females (14-18 yr, pregnant)</td><td class='border px-3 py-2'>Whole plant-based, low variety, no supplements or fortification</td><td class='border px-3 py-2'>↓ Iron, ↓ Zinc, ↓ Calcium</td><td class='border px-3 py-2'>Iron, Zinc, Calcium</td><td class='border px-3 py-2'>High</td><td class='border px-3 py-2'>Phytates + no enhancers</td></tr><tr><td class='border px-3 py-2'>Elderly Male (Low Absorption)</td><td class='border px-3 py-2'>Males (70+ yr)</td><td class='border px-3 py-2'>Whole plant-based, low fiber, low vitamin D, low calcium bioavailability</td><td class='border px-3 py-2'>↓ Vitamin D, ↓ Calcium</td><td class='border px-3 py-2'>Vitamin D, Calcium</td><td class='border px-3 py-2'>Moderate to High</td><td class='border px-3 py-2'>Age-related malabsorption</td></tr><tr><td class='border px-3 py-2'>Infant (6–12 mo, No Fortification)</td><td class='border px-3 py-2'>Infants (7-12 mo)</td><td class='border px-3 py-2'>Grain- and vegetable-based weaning foods, no added micronutrients</td><td class='border px-3 py-2'>↓ Iron, ↓ Zinc, ↓ B12</td><td class='border px-3 py-2'>Iron, Zinc, B12</td><td class='border px-3 py-2'>High</td><td class='border px-3 py-2'>Immature gut + low density foods</td></tr><tr><td class='border px-3 py-2'>Cereal-Legume Dominant Diet (Maize + Beans)</td><td class='border px-3 py-2'>Adults (19-50 yr)</td><td class='border px-3 py-2'>Maize + beans base, high phytate, low diversity, no fruit or fortified foods</td><td class='border px-3 py-2'>↓ Iron, ↓ Zinc, ↓ Calcium</td><td class='border px-3 py-2'>Iron, Zinc, Calcium</td><td class='border px-3 py-2'>High</td><td class='border px-3 py-2'>High phytate load + no vitamin C</td></tr><tr><td class='border px-3 py-2'>Vitamin B12 Exclusion</td><td class='border px-3 py-2'>Adults (19-50 yr)</td><td class='border px-3 py-2'>Strict plant-based with zero B12 sources or supplementation</td><td class='border px-3 py-2'>No B12 intake</td><td class='border px-3 py-2'>Vitamin B12</td><td class='border px-3 py-2'>High</td><td class='border px-3 py-2'>Structural absence of intake</td></tr></tbody></table></div>
+<h2 class='text-2xl font-semibold mt-10 mb-4'>📂 Module Metadata</h2>
+
+    <div class="metadata-block border rounded p-4 my-4 shadow">
+      <h3 class="text-xl font-semibold mb-1">P1.M3.FG01 <span class="text-sm text-gray-400">(FG)</span></h3>
+      <p class="text-sm"><strong>File:</strong> P1_M3_FG01_AbsorbableVsSupplied.svg</p>
+      <p class="text-sm"><strong>Title:</strong> Gross vs. bioavailable nutrient supply (global total)</p>
+      <p class="text-sm"><strong>Source:</strong> <span class="font-semibold">🟢 A</span></p>
+      <p class="text-sm italic">Compares gross nutrient supply (Module 2) to absorbable quantities based on bioavailability coefficients (Module 3). Uses log scale for visibility across orders of magnitude.</p>
+    </div>
+    
+
+    <div class="metadata-block border rounded p-4 my-4 shadow">
+      <h3 class="text-xl font-semibold mb-1">P1.M7.DT01 <span class="text-sm text-gray-400">(DT)</span></h3>
+      <p class="text-sm"><strong>File:</strong> P1_M7_DT01_BoundaryCaseScenarios.csv</p>
+      <p class="text-sm"><strong>Title:</strong> Boundary case scenarios testing nutritional limits of plant-based diets</p>
+      <p class="text-sm"><strong>Source:</strong> <span class="font-semibold">🟢 A</span></p>
+      <p class="text-sm italic">Defines six dietary edge cases with demographic, dietary, and biochemical risk assumptions. Identifies expected limiting nutrients and projected failure risks based on Modules 4–6.</p>
+    </div>
+    
+
+<h2 class='text-2xl font-semibold mt-10 mb-4'>Phase 1 Summary & Implications</h2>
+<ul class='list-disc list-inside pl-6 mb-4'>
+  <li><strong>Bioavailability:</strong> Significant losses noted for iron, zinc, calcium, and B12 in plant-based sources.</li>
+  <li><strong>Demographic Risk:</strong> High shortfall for pregnant women, adolescents, and elderly in key micronutrients.</li>
+  <li><strong>Intervention Levers:</strong> Fortification, supplementation, and dietary diversity are essential to viability.</li>
+</ul>
+<p><strong>Implications for Phase 2:</strong> Agricultural modeling must account for critical nutrient gaps and scalability of corrective inputs.</p>
+
+<h2 class='text-2xl font-semibold mt-10 mb-4'>Appendix – Source References</h2><div class='overflow-auto mb-8'><table class='min-w-full border text-sm'><thead><tr><th class='bg-gray-100 border px-3 py-2'>Source Name</th><th class='bg-gray-100 border px-3 py-2'>Type</th><th class='bg-gray-100 border px-3 py-2'>Link or DOI</th><th class='bg-gray-100 border px-3 py-2'>Cited In</th><th class='bg-gray-100 border px-3 py-2'>Category (A/B/C)</th><th class='bg-gray-100 border px-3 py-2'>Status</th></tr></thead><tbody><tr><td class='border px-3 py-2'>FAO Statistical Yearbook 2023</td><td class='border px-3 py-2'>Institutional Report</td><td class='border px-3 py-2'><a href='https://www.fao.org/statistics/yearbook' class='text-blue-600 underline'>https://www.fao.org/statistics/yearbook</a></td><td class='border px-3 py-2'>M1, M3, M4, M5, M6</td><td class='border px-3 py-2'>A</td><td class='border px-3 py-2'>Core</td></tr><tr><td class='border px-3 py-2'>FAOSTAT Food Balance Sheets</td><td class='border px-3 py-2'>Database</td><td class='border px-3 py-2'><a href='https://www.fao.org/faostat/en/#data/FBS' class='text-blue-600 underline'>https://www.fao.org/faostat/en/#data/FBS</a></td><td class='border px-3 py-2'>M1, M2, M3</td><td class='border px-3 py-2'>A</td><td class='border px-3 py-2'>Core</td></tr><tr><td class='border px-3 py-2'>Poore & Nemecek (2018)</td><td class='border px-3 py-2'>Peer-reviewed article</td><td class='border px-3 py-2'><a href='https://doi.org/10.1126/science.aaq0216' class='text-blue-600 underline'>https://doi.org/10.1126/science.aaq0216</a></td><td class='border px-3 py-2'>M1, M3, M6</td><td class='border px-3 py-2'>A</td><td class='border px-3 py-2'>Core</td></tr><tr><td class='border px-3 py-2'>UNEP Food Waste Index 2021</td><td class='border px-3 py-2'>Institutional Report</td><td class='border px-3 py-2'><a href='https://www.unep.org/resources/report/unep-food-waste-index-report-2021' class='text-blue-600 underline'>https://www.unep.org/resources/report/unep-food-waste-index-report-2021</a></td><td class='border px-3 py-2'>M2</td><td class='border px-3 py-2'>A</td><td class='border px-3 py-2'>Core</td></tr><tr><td class='border px-3 py-2'>OECD Agricultural Monitoring Report 2023</td><td class='border px-3 py-2'>Institutional Report</td><td class='border px-3 py-2'><a href='https://www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation' class='text-blue-600 underline'>https://www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation</a></td><td class='border px-3 py-2'>M4, M5</td><td class='border px-3 py-2'>A</td><td class='border px-3 py-2'>Core</td></tr><tr><td class='border px-3 py-2'>IPES-Food Reports</td><td class='border px-3 py-2'>Institutional Report</td><td class='border px-3 py-2'><a href='http://www.ipes-food.org/reports' class='text-blue-600 underline'>http://www.ipes-food.org/reports</a></td><td class='border px-3 py-2'>M4, M5</td><td class='border px-3 py-2'>A</td><td class='border px-3 py-2'>Core</td></tr><tr><td class='border px-3 py-2'>Pew Research Center – Religious Dietary Practices</td><td class='border px-3 py-2'>Survey/Database</td><td class='border px-3 py-2'><a href='https://www.pewresearch.org' class='text-blue-600 underline'>https://www.pewresearch.org</a></td><td class='border px-3 py-2'>M7</td><td class='border px-3 py-2'>A</td><td class='border px-3 py-2'>Core</td></tr></tbody></table></div>
+
+		</div>
+	</body>
+</html>

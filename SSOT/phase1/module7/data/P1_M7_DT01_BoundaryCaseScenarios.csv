@@ -1,0 +1,7 @@
+Scenario,Demographic Group,Diet Description,Bioavailability Modifier,Expected Limiting Nutrients,Risk Escalation Likely,Assumed Interaction Effect
+Pregnant Adolescent (Low Diversity),"Females (14-18 yr, pregnant)","Whole plant-based, low variety, no supplements or fortification","↓ Iron, ↓ Zinc, ↓ Calcium","Iron, Zinc, Calcium",High,Phytates + no enhancers
+Elderly Male (Low Absorption),Males (70+ yr),"Whole plant-based, low fiber, low vitamin D, low calcium bioavailability","↓ Vitamin D, ↓ Calcium","Vitamin D, Calcium",Moderate to High,Age-related malabsorption
+"Infant (6–12 mo, No Fortification)",Infants (7-12 mo),"Grain- and vegetable-based weaning foods, no added micronutrients","↓ Iron, ↓ Zinc, ↓ B12","Iron, Zinc, B12",High,Immature gut + low density foods
+Cereal-Legume Dominant Diet (Maize + Beans),Adults (19-50 yr),"Maize + beans base, high phytate, low diversity, no fruit or fortified foods","↓ Iron, ↓ Zinc, ↓ Calcium","Iron, Zinc, Calcium",High,High phytate load + no vitamin C
+Vitamin B12 Exclusion,Adults (19-50 yr),Strict plant-based with zero B12 sources or supplementation,No B12 intake,Vitamin B12,High,Structural absence of intake
+"High Phytate, High Fiber Diet",Adults (19-50 yr),"Whole grains and legumes dominant, high phytate, tannins, fiber matrix","↓ Zinc, ↓ Calcium, ↓ Iron","Zinc, Calcium, Iron",Moderate to High,"Phytates, tannins, fiber binding"

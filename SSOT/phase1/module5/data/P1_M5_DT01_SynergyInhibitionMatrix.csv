@@ -1,0 +1,11 @@
+Affected Nutrient,Modulating Factor,Interaction Type,Mechanism,Estimated Effect Size,Source
+Iron,Vitamin C,Synergy,Enhances solubility and reduces ferric to ferrous conversion barrier,+30–70%,WHO/FAO 2001
+Iron,Phytates,Inhibition,Forms insoluble complexes with iron in the gut,-50–60%,Etcheverry 2012
+Iron,Polyphenols,Inhibition,Reduces absorption by chelating iron,-20–30%,Hurrell 2003
+Zinc,Phytates,Inhibition,Forms complexes that reduce zinc absorption,-15–50%,FAO IZiNCG 2004
+Calcium,Phytates,Inhibition,Forms insoluble salts with calcium,-30–50%,EFSA 2015
+Calcium,Prebiotics,Synergy,Improves mineral absorption via gut microbiota modulation,+10–15%,Scholz-Ahrens 2007
+Magnesium,Prebiotics,Synergy,Increases intestinal uptake and retention,+10–20%,Gröber 2013
+Vitamin A,Carotenoids,Synergy,Improves hepatic conversion to retinol,+15–30%,NIH ODS
+Vitamin A,Fat (meal presence),Synergy,Fat improves micellar solubilization and transport,+20–40%,EFSA 2021
+Vitamin D,Calcium,Inhibition,Competes for absorption sites with Vitamin D,-10–15%,WHO 2004

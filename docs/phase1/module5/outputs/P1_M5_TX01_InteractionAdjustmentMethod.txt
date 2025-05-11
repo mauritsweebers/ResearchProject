@@ -1,0 +1,36 @@
+
+P1_M5_TX01_InteractionAdjustmentMethod.txt
+
+This document outlines the methodology used in Phase 1 – Module 5 to develop a matrix of nutrient synergies and inhibitors relevant to plant-based diets.
+
+1. OBJECTIVE
+To identify and catalog nutrient-nutrient and nutrient-compound interactions that significantly enhance or inhibit bioavailability within a dietary context.
+
+2. SOURCES
+This analysis draws from:
+- WHO/FAO Expert Consultations on human nutrient requirements (2001, 2004)
+- EFSA scientific opinions on mineral bioavailability and upper intake levels
+- NIH Office of Dietary Supplements
+- Peer-reviewed sources including:
+  - Etcheverry et al. (2012) on mineral inhibitors
+  - Hurrell et al. (2003) on iron absorption
+  - Scholz-Ahrens et al. (2007) on calcium and prebiotics
+
+3. INTERACTIONS INCLUDED
+- Synergistic: Vitamin C with non-heme iron; prebiotics with calcium/magnesium; carotenoids enhancing vitamin A status
+- Inhibitory: Phytates, polyphenols, oxalates, fiber-polyphenol complexes; nutrient-nutrient competition (e.g., iron/zinc, calcium/magnesium)
+
+4. CATEGORIZATION
+Each interaction entry includes:
+- Affected nutrient
+- Modulating compound or co-nutrient
+- Direction of effect (synergy or inhibition)
+- Mechanistic description (e.g., solubility, binding, conversion)
+- Estimated effect size range (qualitative and/or quantitative)
+- Primary source reference
+
+5. LIMITATIONS
+- Interaction strengths are derived from typical ranges across studies and may vary with matrix, food form, and dose
+- Does not yet include meal-level simulation or dietary pattern analysis
+
+Prepared per Protocol v2.91

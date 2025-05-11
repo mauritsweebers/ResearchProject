@@ -1,0 +1,53 @@
+Unified_Command_Protocol_v3.3
+
+📘 Purpose:
+Streamline phase synthesis and validation while ensuring protocol compliance, traceability, and system-wide integrity.
+
+---
+
+🔁 Phase Execution Mode (Batch Synthesis):
+
+All module outputs in a phase are synthesized externally and delivered in a single batch folder. My responsibilities begin post-delivery.
+
+The batch must include:
+- ✅ One `.txt` per TX deliverable
+- ✅ One `.csv` per DT
+- ✅ One `.svg` or `.png` per FG
+- ✅ One `.txt` or `.csv` file containing **complete metadata for all deliverables**
+
+---
+
+🧾 Metadata Enforcement:
+
+- All metadata must follow the protocol fields: Index Code, Phase, Module, Type, Title/Description, File Name, Source Category, Notes
+- The metadata file must be included in the downloadable `.zip` folder alongside the data files
+- The metadata will be validated and then appended to the Master_Index_Register.csv after QA passes
+
+---
+
+🔍 QA Responsibilities:
+
+- ✅ Check filename and path compliance (HTML_Output_Protocol_v1.6)
+- ✅ Confirm all listed metadata files are present in the batch
+- ✅ Ensure all file types are protocol-aligned and parse correctly
+- ❌ Do not fix missing, corrupted, or misnamed files
+- ❌ Do not assume metadata — it must be explicitly provided
+
+---
+
+📁 Logging and Index Integration:
+
+- After QA, validated metadata will be appended to the Master_Index_Register.csv
+- A QA log will be generated, summarizing file presence, path validity, and integration status
+
+---
+
+🧠 Phase Chat Directive Update:
+
+All future Phase prompts **must include** this rule:
+> “You must generate and include a full metadata file (`.txt` or `.csv`) listing all deliverables and their metadata. This file must be included in the downloadable `.zip` folder with the other files.”
+
+---
+
+📎 Version: v3.3
+Effective: Immediately

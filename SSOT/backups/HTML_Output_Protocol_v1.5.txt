@@ -1,0 +1,40 @@
+HTML_Output_Protocol_v1.5
+
+📘 Summary:
+This protocol standardizes the generation of HTML synthesis outputs for all Phases. It enforces strict layout, theming, rendering logic, and file organization as defined by Phase0 visual architecture.
+
+---
+
+📦 Required Rendering Toolkit:
+Must use components in: HTML_Synthesis_Template_Rebuilt.zip
+
+Includes:
+- theme.html → Tailwind-based layout with light/dark toggle and strict hierarchy
+- render_narrative.py → Converts .txt blocks into <h3>, <p>, <ul>, etc.
+- render_figures.py → Styled <img> within <ul> block with alt text
+- render_tables.py → CSV-to-HTML <table> with Tailwind classes
+- render_metadata.py → Metadata block renderer with <h3>, <p> structure
+- render_sources_table.py → Renders source reference <ul> from source CSV
+
+---
+
+📐 Sectional Layout Requirements:
+1. Header → H1, synthesis description
+2. Narrative → Rendered using render_narrative.py
+3. Figures → Structured using render_figures.py
+4. Tables → One per DT file, styled with Tailwind
+5. Metadata Blocks → Inline per module, using render_metadata.py
+6. Summary → Separate <ul> with implications and insights
+7. Source Appendix → Full <ul> of sources with hyperlinks
+
+---
+
+🛠 Output Rules:
+- Output file name: PhaseX_FullSynthesis_Final_vX.X_WithSummary_FIXEDPATH.html
+- Must use path structure: ./phaseX/moduleY/outputs/FILENAME
+- Must include a <style> block with dark-mode overrides
+
+---
+
+📎 Version: v1.5
+Status: MANDATORY as of protocol issuance

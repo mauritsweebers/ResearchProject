@@ -1,0 +1,27 @@
+
+P1_M7_TX01_BoundaryTestingMethod.txt
+
+This file outlines the approach used in Phase 1 – Module 7 to identify and test nutritional boundary cases under global plant-based dietary assumptions.
+
+1. OBJECTIVE
+To define dietary and demographic edge cases where plant-based systems are most likely to fail to meet physiological nutrient adequacy, even after accounting for bioavailability and interaction effects.
+
+2. SOURCE DATA
+- Nutrient adequacy ratios: P1_M4_DT01_NutrientAdequacyByGroup.csv
+- Risk classifications: P1_M6_DT01_MicronutrientRiskByGroup.csv
+- Nutrient interaction modifiers: P1_M5_DT01_SynergyInhibitionMatrix.csv
+- Global requirement benchmarks: WHO/FAO/UNICEF/GBD
+
+3. SCENARIO STRUCTURE
+Each case is defined by:
+- Demographic group (e.g., adolescent female, infant)
+- Diet structure (e.g., cereal-legume base, low diversity, absence of fortification)
+- Key interaction or absorption modifiers
+- Expected limiting nutrients and projected escalation in deficiency risk
+
+4. LIMITATIONS
+- Scenarios are theoretical boundary conditions, not observed diets
+- Does not model cultural, economic, or behavioral compliance
+- Interaction effects are approximated as directional modifiers without full meal-level simulation
+
+Prepared under Protocol v2.91

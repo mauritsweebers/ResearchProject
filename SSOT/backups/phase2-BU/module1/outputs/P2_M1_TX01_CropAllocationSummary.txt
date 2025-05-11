@@ -1,0 +1,11 @@
+TX: Crop Allocation Strategies – Module 1 Summary
+
+This module evaluates land use efficiency and nutrient density across candidate crops suitable for a global plant-based diet.
+Key findings include:
+
+1. Legumes like soybeans, lentils, and chickpeas offer the highest protein yield per hectare, ranging from 2200–2800 kg/ha.
+2. Dark leafy greens such as kale and broccoli are calcium-dense but have lower calorie yields and higher land use per kilocalorie.
+3. Root crops like sweet potatoes provide land-efficient calories but lower protein and iron.
+4. Crops such as oats, wheat, and maize balance calorie and nutrient yield with relatively low land demand.
+
+These findings support crop allocation models that optimize both nutrient coverage and ecological efficiency.
