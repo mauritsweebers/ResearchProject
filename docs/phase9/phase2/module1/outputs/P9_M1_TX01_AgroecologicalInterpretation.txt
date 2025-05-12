@@ -1,0 +1,19 @@
+
+Phase 9 Remediation: Phase 2 - Module 1 (Agroecological Yield Overlay)
+
+This optional module addresses QA-flagged concerns about oversimplified yield feasibility assumptions in Phase 2.
+It introduces region- and zone-specific yield feasibility estimates for key crops using agroecological zones (AEZs)
+as a stratification layer.
+
+Fields include:
+- Region
+- Crop type (Maize, Soybean, Chickpea)
+- AEZ classification (e.g., Semi-Arid, Temperate)
+- Feasibility Score (0–1)
+- Constraint tag (Water, Soil, Temperature, None)
+
+Source basis: FAO/IIASA AEZ typologies, applied heuristically.
+
+Supports scenario realism and transition logic in Phase 2 and Phase 8.
+
+Compliant with Unified_Command_Protocol_v3.6 and SCF v1.0 (simulated 🟢 classification).

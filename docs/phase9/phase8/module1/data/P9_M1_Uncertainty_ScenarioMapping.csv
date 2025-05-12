@@ -1,0 +1,4 @@
+Scenario,Substitution_Level,Substitution_Prob,Governance,Governance_Prob,Finance_Alignment,Finance_Prob,Feasibility_Likelihood,Feasibility_Confidence
+Cooperative Acceleration,High,0.85,Multilateral,0.8,Strong,0.75,0.8,High
+Fragmented Progress,Moderate,0.55,Mixed,0.5,Partial,0.45,0.55,Medium
+Lock-in Failure,Low,0.3,Fragmented,0.25,Absent,0.2,0.25,Low

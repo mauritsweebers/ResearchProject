@@ -1,0 +1,17 @@
+
+Phase 9 Remediation: Phase 7 - Module 1 (Stakeholder Resistance Mapping)
+
+This output structures stakeholder critiques into a resistance matrix using:
+- P7_M4_DT01_CritiqueTable.csv
+
+Classification Logic:
+- Resistance Form: Mapped as Economic, Ideological, or Legal based on critique language
+- Actor Type: Inferred from disciplinary lens (e.g., Indigenous = networks, rural sociology = labor groups)
+- Region Scope: Defaulted to Global South based on critique nature; refine with further localization if needed
+
+Deliverable: P9_M1_StakeholderResistanceMatrix.csv
+
+Purpose:
+Supports adversarial and dissent-aware scenario planning in Phase 8. Identifies sources and forms of likely opposition.
+
+Compliant with Unified_Command_Protocol_v3.6 and SCF v1.0 (🟢 Phase 7 source).

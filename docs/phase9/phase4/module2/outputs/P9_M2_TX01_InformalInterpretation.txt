@@ -1,0 +1,17 @@
+
+Phase 9 Remediation: Phase 4 - Module 2 (Informal Market Overlay)
+
+This module integrates informal economic dimensions into Phase 4 feasibility assessments.
+It provides a structured dataset of food system contributions and labor metrics across key
+informal market channels by region.
+
+Fields:
+- Region
+- Market Channel (Street Vendors, Wet Markets, Informal Cooperatives)
+- Food Supply Share (%)
+- Labor Share (%)
+- Price Differential (%) (vs. formal markets)
+
+Supports more realistic modeling of affordability and labor dynamics in LMICs.
+
+Complies with Unified_Command_Protocol_v3.6 and SCF v1.0 (simulated 🟢 classification).

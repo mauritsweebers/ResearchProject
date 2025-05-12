@@ -1,0 +1,11 @@
+
+Phase 9 Remediation: Phase 3 - Module 2 (Land Sparing and Carbon Sequestration)
+
+This document introduces uncertainty parameters for global carbon sequestration potential through land sparing.
+The primary estimate (300 GtCO₂ over 100 years) has been bounded using a triangular distribution with limits based on biome variability
+and rewilding intensity scenarios.
+
+Index Codes Referenced:
+- P3_M2_TX01
+
+Prepared for Phase 9 QA package.

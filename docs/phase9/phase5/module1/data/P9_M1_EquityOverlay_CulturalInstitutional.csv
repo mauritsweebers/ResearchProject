@@ -1,0 +1,10 @@
+Region,Cultural_Openness_Index,Trust_Alignment_Score,Receptivity_Risk
+North America,0.415,0.61,False
+Latin America,0.496,0.51,False
+Sub-Saharan Africa,0.295,0.37,True
+North Africa / Middle East,0.261,0.42,True
+South Asia,0.54,0.56,False
+East Asia,0.5489999999999999,0.66,False
+Europe,0.57,0.71,False
+Southeast Asia,0.426,0.54,False
+Oceania,0.528,0.628,False

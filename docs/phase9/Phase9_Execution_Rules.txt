@@ -1,0 +1,71 @@
+
+SESSION EXECUTION RULES — PHASE 9
+Issued by: Unified Command
+Applies to: All Phase 9 Remediation Teams
+
+------------------------------------------------------------
+PHASE OBJECTIVE
+To implement targeted remediation tasks arising from QA findings across Phases 1–8. The aim is to strengthen uncertainty handling, equity integration, stakeholder realism, geographic inclusivity, and metadata traceability.
+
+------------------------------------------------------------
+SCOPE OF OUTPUT
+Permitted outputs:
+- Updated data tables (.csv) with uncertainty bands, equity flags, or region splits
+- Supplementary text files (.txt) documenting critique, linkage, or method upgrades
+- Scenario adjustments or annotated synthesis files (.txt, .csv, .svg)
+
+All sources must be 🟢 or 🟡 per SCF v1.0.
+
+------------------------------------------------------------
+DELIVERY FORMAT
+Each module must deliver:
+- /data/*.csv for quantitative corrections or additions
+- /outputs/*.txt for documented interpretation upgrades or new commentary
+- /outputs/*.svg|.png for visual matrix extensions (optional)
+
+Metadata requirements:
+- Indexed in Phase9_Metadata.csv
+- Stored in /ssot/phase9/moduleX/ in correct subfolders
+- Cross-referenced by parent Phase and Index Code origin (if applicable)
+
+------------------------------------------------------------
+COMPLIANCE
+All remediation work must follow:
+- Unified_Command_Protocol_v3.6
+- SSOT Evidence Guide
+- Commander_Execution_Rules_Phase9.txt
+
+Partial deliveries are prohibited. Remediation outputs must pass QA and be packaged as phase9_validated_package.zip.
+
+------------------------------------------------------------
+COMMANDER EXECUTION RULES — PHASE 9
+Issued by: Unified Command
+Applies to: Phase 9 Oversight Commander
+
+------------------------------------------------------------
+1. SCOPING AND PROMPT ISSUANCE
+- All task assignments must clearly cite originating Phase and QA finding addressed
+- Use Phase_Chat_Prompt_Template for each remediation domain (e.g., equity, uncertainty)
+
+------------------------------------------------------------
+2. QA AND STRUCTURAL VALIDATION
+- Validate file presence, naming, and folder integrity
+- Confirm correct linkage to prior Index Codes in metadata
+- Record all checks in Phase9_QA_Log.csv
+
+------------------------------------------------------------
+3. PACKAGE CONTROL
+- No piecemeal updates allowed; batch-only validation
+- Required components:
+  • Phase9_Metadata.csv
+  • Phase9_Summary.txt
+  • Phase9_QA_Log.csv
+  • Phase9_Handover_Log.txt
+  • Updated module deliverables
+
+------------------------------------------------------------
+4. CLOSURE
+- Upon successful QA:
+  • Append all validated entries to Master_Index_Register.csv
+  • Archive validated files in phase9_validated_package.zip
+  • Finalize with summary-level synthesis linkage to Phase 8 conclusions

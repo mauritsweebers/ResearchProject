@@ -1,0 +1,145 @@
+Demographic Group,Nutrient,AdequacyRatio,AtRisk
+Infants (0-6 mo),Energy (kcal),2.550466253151906,False
+Infants (7-12 mo),Energy (kcal),1.2734599993143063,False
+Children (1-3 yr),Energy (kcal),1.572313187136222,False
+Children (4-8 yr),Energy (kcal),1.834864132038164,False
+Males (9-13 yr),Energy (kcal),4.11628059104202,False
+Females (9-13 yr),Energy (kcal),4.11628059104202,False
+Males (14-18 yr),Energy (kcal),5.678068391238991,False
+Females (14-18 yr),Energy (kcal),1.3744615164806022,False
+Males (19-30 yr),Energy (kcal),1.82918400540613,False
+Females (19-30 yr),Energy (kcal),1.6137299471532895,False
+Males (31-50 yr),Energy (kcal),6.642773755262733,False
+Females (31-50 yr),Energy (kcal),1.2525607651898925,False
+Males (51-70 yr),Energy (kcal),1.419352108026577,False
+Females (51-70 yr),Energy (kcal),3.554025733437522,False
+Pregnant,Energy (kcal),3.8377223193247407,False
+Lactating,Energy (kcal),3.822107173737504,False
+Infants (0-6 mo),Protein (g),0.0462240746415601,True
+Infants (7-12 mo),Protein (g),0.0321596492594241,True
+Children (1-3 yr),Protein (g),0.0368821244972154,True
+Children (4-8 yr),Protein (g),0.0474473320520728,True
+Males (9-13 yr),Protein (g),0.0287101244053757,True
+Females (9-13 yr),Protein (g),0.068658028152646,True
+Males (14-18 yr),Protein (g),0.0473586382421575,True
+Females (14-18 yr),Protein (g),0.0411540846762841,True
+Males (19-30 yr),Protein (g),0.0355261971059326,True
+Females (19-30 yr),Protein (g),0.0236591288696864,True
+Males (31-50 yr),Protein (g),0.0583167218706472,True
+Females (31-50 yr),Protein (g),0.0326333268890852,True
+Males (51-70 yr),Protein (g),0.0294144717279912,True
+Females (51-70 yr),Protein (g),0.0945789133146415,True
+Pregnant,Protein (g),0.0288622856472092,True
+Lactating,Protein (g),0.0629062598436259,True
+Infants (0-6 mo),Calcium (mg),0.0198645083945213,True
+Infants (7-12 mo),Calcium (mg),0.0256514869356519,True
+Children (1-3 yr),Calcium (mg),0.0397799053729346,True
+Children (4-8 yr),Calcium (mg),0.0801273188814067,True
+Males (9-13 yr),Calcium (mg),0.041327507171005,True
+Females (9-13 yr),Calcium (mg),0.0402101221713319,True
+Males (14-18 yr),Calcium (mg),0.0227176808997241,True
+Females (14-18 yr),Calcium (mg),0.025214141272725,True
+Males (19-30 yr),Calcium (mg),0.01942453657504,True
+Females (19-30 yr),Calcium (mg),0.0314167750139594,True
+Males (31-50 yr),Calcium (mg),0.0660774598384967,True
+Females (31-50 yr),Calcium (mg),0.0231246508742319,True
+Males (51-70 yr),Calcium (mg),0.0219799710287089,True
+Females (51-70 yr),Calcium (mg),0.0277405897493478,True
+Pregnant,Calcium (mg),0.0217499754514949,True
+Lactating,Calcium (mg),0.030438679971726,True
+Infants (0-6 mo),Iron (mg),0.0027684096349576,True
+Infants (7-12 mo),Iron (mg),0.0017926745861526,True
+Children (1-3 yr),Iron (mg),0.0039052668122839,True
+Children (4-8 yr),Iron (mg),0.0013284609475592,True
+Males (9-13 yr),Iron (mg),0.004849153415078,True
+Females (9-13 yr),Iron (mg),0.0011217507765265,True
+Males (14-18 yr),Iron (mg),0.001369398051555,True
+Females (14-18 yr),Iron (mg),0.0033391441654389,True
+Males (19-30 yr),Iron (mg),0.0064781216506609,True
+Females (19-30 yr),Iron (mg),0.0013110879206324,True
+Males (31-50 yr),Iron (mg),0.0014681570747252,True
+Females (31-50 yr),Iron (mg),0.0014331362342775,True
+Males (51-70 yr),Iron (mg),0.0013707515460462,True
+Females (51-70 yr),Iron (mg),0.0048583548447082,True
+Pregnant,Iron (mg),0.0023839413437255,True
+Lactating,Iron (mg),0.0042148396911606,True
+Infants (0-6 mo),Zinc (mg),0.0028079614000078,True
+Infants (7-12 mo),Zinc (mg),0.0032337463557487,True
+Children (1-3 yr),Zinc (mg),0.0090034155413207,True
+Children (4-8 yr),Zinc (mg),0.0065914312817126,True
+Males (9-13 yr),Zinc (mg),0.0087684491143004,True
+Females (9-13 yr),Zinc (mg),0.0024263149964295,True
+Males (14-18 yr),Zinc (mg),0.00394542706084,True
+Females (14-18 yr),Zinc (mg),0.0028640762433861,True
+Males (19-30 yr),Zinc (mg),0.001832288871947,True
+Females (19-30 yr),Zinc (mg),0.0045169379073488,True
+Males (31-50 yr),Zinc (mg),0.0033246557388822,True
+Females (31-50 yr),Zinc (mg),0.0021237492810641,True
+Males (51-70 yr),Zinc (mg),0.0047326722551625,True
+Females (51-70 yr),Zinc (mg),0.0073273030871378,True
+Pregnant,Zinc (mg),0.0041436006677019,True
+Lactating,Zinc (mg),0.0056177883485043,True
+Infants (0-6 mo),Folate (µg),0.227490868384102,True
+Infants (7-12 mo),Folate (µg),0.1551918914221611,True
+Children (1-3 yr),Folate (µg),0.154968465145999,True
+Children (4-8 yr),Folate (µg),0.1755590342890251,True
+Males (9-13 yr),Folate (µg),0.4449817936767711,True
+Females (9-13 yr),Folate (µg),0.1247626966237425,True
+Males (14-18 yr),Folate (µg),0.2480209582728363,True
+Females (14-18 yr),Folate (µg),0.3341853334070505,True
+Males (19-30 yr),Folate (µg),0.5365065420688367,True
+Females (19-30 yr),Folate (µg),0.1633235321015743,True
+Males (31-50 yr),Folate (µg),0.1471914342819786,True
+Females (31-50 yr),Folate (µg),0.5963495617197283,True
+Males (51-70 yr),Folate (µg),0.1813971956360144,True
+Females (51-70 yr),Folate (µg),0.3028730891682919,True
+Pregnant,Folate (µg),0.1528341557438746,True
+Lactating,Folate (µg),0.3450403757572741,True
+Infants (0-6 mo),Vitamin B12 (µg),0.0,True
+Infants (7-12 mo),Vitamin B12 (µg),0.0,True
+Children (1-3 yr),Vitamin B12 (µg),0.0,True
+Children (4-8 yr),Vitamin B12 (µg),0.0,True
+Males (9-13 yr),Vitamin B12 (µg),0.0,True
+Females (9-13 yr),Vitamin B12 (µg),0.0,True
+Males (14-18 yr),Vitamin B12 (µg),0.0,True
+Females (14-18 yr),Vitamin B12 (µg),0.0,True
+Males (19-30 yr),Vitamin B12 (µg),0.0,True
+Females (19-30 yr),Vitamin B12 (µg),0.0,True
+Males (31-50 yr),Vitamin B12 (µg),0.0,True
+Females (31-50 yr),Vitamin B12 (µg),0.0,True
+Males (51-70 yr),Vitamin B12 (µg),0.0,True
+Females (51-70 yr),Vitamin B12 (µg),0.0,True
+Pregnant,Vitamin B12 (µg),0.0,True
+Lactating,Vitamin B12 (µg),0.0,True
+Infants (0-6 mo),Vitamin A (µg RAE),0.0,True
+Infants (7-12 mo),Vitamin A (µg RAE),0.0,True
+Children (1-3 yr),Vitamin A (µg RAE),0.0,True
+Children (4-8 yr),Vitamin A (µg RAE),0.0,True
+Males (9-13 yr),Vitamin A (µg RAE),0.0,True
+Females (9-13 yr),Vitamin A (µg RAE),0.0,True
+Males (14-18 yr),Vitamin A (µg RAE),0.0,True
+Females (14-18 yr),Vitamin A (µg RAE),0.0,True
+Males (19-30 yr),Vitamin A (µg RAE),0.0,True
+Females (19-30 yr),Vitamin A (µg RAE),0.0,True
+Males (31-50 yr),Vitamin A (µg RAE),0.0,True
+Females (31-50 yr),Vitamin A (µg RAE),0.0,True
+Males (51-70 yr),Vitamin A (µg RAE),0.0,True
+Females (51-70 yr),Vitamin A (µg RAE),0.0,True
+Pregnant,Vitamin A (µg RAE),0.0,True
+Lactating,Vitamin A (µg RAE),0.0,True
+Infants (0-6 mo),Vitamin D (µg),0.0,True
+Infants (7-12 mo),Vitamin D (µg),0.0,True
+Children (1-3 yr),Vitamin D (µg),0.0,True
+Children (4-8 yr),Vitamin D (µg),0.0,True
+Males (9-13 yr),Vitamin D (µg),0.0,True
+Females (9-13 yr),Vitamin D (µg),0.0,True
+Males (14-18 yr),Vitamin D (µg),0.0,True
+Females (14-18 yr),Vitamin D (µg),0.0,True
+Males (19-30 yr),Vitamin D (µg),0.0,True
+Females (19-30 yr),Vitamin D (µg),0.0,True
+Males (31-50 yr),Vitamin D (µg),0.0,True
+Females (31-50 yr),Vitamin D (µg),0.0,True
+Males (51-70 yr),Vitamin D (µg),0.0,True
+Females (51-70 yr),Vitamin D (µg),0.0,True
+Pregnant,Vitamin D (µg),0.0,True
+Lactating,Vitamin D (µg),0.0,True

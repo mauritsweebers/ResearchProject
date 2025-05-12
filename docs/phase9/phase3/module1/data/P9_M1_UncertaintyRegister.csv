@@ -1,0 +1,6 @@
+Variable,Point_Estimate,Distribution,Lower_Bound,Upper_Bound,Source,Notes
+GHG Reduction from Vegan Diet Adoption,70%,Triangular,50%,75%,Poore & Nemecek (2018),Based on global dietary shift scenario; conservative lower bound reflects regional variability
+Ruminant vs Legume Emission Intensity Ratio,20x,LogNormal,15x,25x,Poore & Nemecek (2018),Log-normal to reflect right-skewed emissions distribution
+Agricultural Land Freed,3 billion ha,Triangular,2.2 billion ha,3.5 billion ha,Poore & Nemecek (2018),Derived from land-use scenarios under partial and full dietary transitions
+Freshwater Use Reduction,50%,Normal,40%,60%,Clark et al. (2019),Assumes symmetric variability across global diets
+Eutrophication Potential Reduction,50%,Triangular,30%,55%,Derived estimate,Qualitative claim converted to bounded estimate based on similar ecosystem impact studies
