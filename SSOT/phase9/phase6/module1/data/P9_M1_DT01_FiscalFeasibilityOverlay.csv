@@ -1,0 +1,21 @@
+Region,Policy_Tool,Cost_Class,Historical_Precedent,Feasibility_Flag
+North America,Subsidy Reform,High,Partial,Contingent
+North America,Public Procurement,Medium,Yes,Feasible
+North America,Consumer Tax Incentives,Low,Partial,Feasible
+North America,Education Campaigns,Medium,Partial,Contingent
+Latin America,Subsidy Reform,Low,Partial,Feasible
+Latin America,Public Procurement,Medium,Partial,Contingent
+Latin America,Consumer Tax Incentives,High,Partial,Contingent
+Latin America,Education Campaigns,Low,Yes,Feasible
+Europe,Subsidy Reform,Medium,Partial,Contingent
+Europe,Public Procurement,Low,Partial,Feasible
+Europe,Consumer Tax Incentives,Medium,Yes,Feasible
+Europe,Education Campaigns,Low,Yes,Feasible
+South Asia,Subsidy Reform,Low,Partial,Feasible
+South Asia,Public Procurement,Low,Partial,Feasible
+South Asia,Consumer Tax Incentives,Medium,Yes,Feasible
+South Asia,Education Campaigns,Medium,Partial,Contingent
+Sub-Saharan Africa,Subsidy Reform,Low,No,Feasible
+Sub-Saharan Africa,Public Procurement,Low,Yes,Feasible
+Sub-Saharan Africa,Consumer Tax Incentives,Medium,Yes,Feasible
+Sub-Saharan Africa,Education Campaigns,Medium,Yes,Feasible

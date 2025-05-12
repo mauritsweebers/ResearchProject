@@ -1,0 +1,20 @@
+
+Phase 9 Remediation: Phase 1 - Module 1 (Equity Overlay on Nutritional Adequacy)
+
+This file accompanies the data deliverable 'P9_M1_EquityOverlayDataset.csv' and summarizes the vulnerability
+integration task applied to Phase 1 nutrient adequacy assessments.
+
+Scope:
+- Dataset derived from P1_M4_DT01_NutrientAdequacyByGroup.csv
+- Includes demographic groups by age and gender
+- Nutrient adequacy ratios reorganized to long format
+- At-risk flag applied for adequacy < 0.9
+
+Use:
+Supports targeted scenario design in Phase 8 and equity diagnostics in policy modeling.
+Compliant with Unified_Command_Protocol_v3.6 and SCF v1.0 (🟢 original dataset).
+
+Referenced Index Code:
+- P1_M4_DT01
+
+Prepared for Phase 9 QA and final integration.

@@ -1,0 +1,23 @@
+Index Code,Phase,Module,Type,Title/Description,File Name,Storage Location,Source Category,Notes,Parent Index Code
+P1.M1.DT01,1,1,DT,Equity Overlay Dataset,P9_M1_EquityOverlayDataset.csv,/phase9/phase1/module1/data,🟢,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration,P1_M4_DT01
+P1.M1.TX01,1,1,TX,Equity Interpretation,P9_M1_TX01_EquityInterpretation.txt,/phase9/phase1/module1/outputs,🟢,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration,P1_M4_DT01
+P2.M1.DT01,3,1,DT,Uncertainty Register,P9_M1_UncertaintyRegister.csv,/phase9/phase3/module1/data,🟢,Generated under Phase 9 Theme 1: Uncertainty Modeling,P3_M1_TX01
+P2.M1.TX01,3,1,TX,Uncertainty Interpretation,P9_M1_TX01_UncertaintyInterpretation.txt,/phase9/phase3/module1/outputs,🟢,Generated under Phase 9 Theme 1: Uncertainty Modeling,P3_M1_TX01
+P3.M1.DT01,3,2,DT,Land Use Uncertainty Register,P9_M2_UncertaintyRegister.csv,/phase9/phase3/module2/data,🟢,Generated under Phase 9 Theme 1: Uncertainty Modeling,P3_M2_TX01
+P3.M1.TX01,3,2,TX,Land Use Interpretation,P9_M2_TX01_UncertaintyInterpretation.txt,/phase9/phase3/module2/outputs,🟢,Generated under Phase 9 Theme 1: Uncertainty Modeling,P3_M2_TX01
+P3.M2.DT01,3,3,DT,Tradeoff Risk Uncertainty Register,P9_M3_UncertaintyRegister.csv,/phase9/phase3/module3/data,🟢,Generated under Phase 9 Theme 1: Uncertainty Modeling,P3_M3_TX01
+P3.M2.TX01,3,3,TX,Tradeoff Interpretation,P9_M3_TX01_UncertaintyInterpretation.txt,/phase9/phase3/module3/outputs,🟢,Generated under Phase 9 Theme 1: Uncertainty Modeling,P3_M3_TX01
+P3.M3.DT01,4,1,DT,Labor and Cost Equity Overlay,P9_M1_EquityOverlay_LaborPrice.csv,/phase9/phase4/module1/data,🟢,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration,P4_M1_DT01
+P3.M3.TX01,4,1,TX,Labor Equity Interpretation,P9_M1_TX01_EquityInterpretation.txt,/phase9/phase4/module1/outputs,🟢,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration,P4_M1_DT01
+P4.M1.DT01,5,1,DT,Cultural & Trust Equity Overlay,P9_M1_EquityOverlay_CulturalInstitutional.csv,/phase9/phase5/module1/data,🟢,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration,P5_M1_DT01
+P4.M1.TX01,5,1,TX,Cultural Equity Interpretation,P9_M1_TX01_EquityInterpretation.txt,/phase9/phase5/module1/outputs,🟢,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration,P5_M1_DT01
+P4.M2.DT01,7,1,DT,Stakeholder Resistance Matrix,P9_M1_StakeholderResistanceMatrix.csv,/phase9/phase7/module1/data,🟢,Generated under Phase 9 Theme 4: Institutional Opposition Mapping,P7_M4_DT01
+P4.M2.TX01,7,1,TX,Resistance Interpretation,P9_M1_TX01_ResistanceInterpretation.txt,/phase9/phase7/module1/outputs,🟢,Generated under Phase 9 Theme 4: Institutional Opposition Mapping,P7_M4_DT01
+P5.M1.DT01,8,1,DT,Scenario Uncertainty Mapping,P9_M1_Uncertainty_ScenarioMapping.csv,/phase9/phase8/module1/data,🟢,Generated under Phase 9 Theme 1: Uncertainty Modeling,P8_M2_DT01
+P5.M1.TX01,8,1,TX,Scenario Interpretation,P9_M1_TX01_UncertaintyInterpretation.txt,/phase9/phase8/module1/outputs,🟢,Generated under Phase 9 Theme 1: Scenario Probabilistic Correction,P8_M2_DT01
+P6.M1.DT01,2,1,DT,Agroecological Yield Overlay,P9_M1_DT01_AgroecologicalYieldOverlay.csv,/phase9/phase2/module1/data,🟢,Generated under Phase 9 Theme: Agroecological Feasibility,P2_M2_DT01
+P6.M1.TX01,2,1,TX,Agroecological Interpretation,P9_M1_TX01_AgroecologicalInterpretation.txt,/phase9/phase2/module1/outputs,🟢,Generated under Phase 9 Theme: Agroecological Feasibility,P2_M2_DT01
+P7.M1.DT01,4,2,DT,Informal Market Overlay,P9_M2_DT01_InformalMarketOverlay.csv,/phase9/phase4/module2/data,🟢,Generated under Phase 9 Theme: Informal Sector Modeling,P4_M2_DT01
+P7.M1.TX01,4,2,TX,Informal Interpretation,P9_M2_TX01_InformalInterpretation.txt,/phase9/phase4/module2/outputs,🟢,Generated under Phase 9 Theme: Informal Sector Modeling,P4_M2_DT01
+P8.M1.DT01,6,1,DT,Fiscal Feasibility Overlay,P9_M1_DT01_FiscalFeasibilityOverlay.csv,/phase9/phase6/module1/data,🟢,Generated under Phase 9 Theme: Fiscal Feasibility Analysis,P6_M3_DT01
+P8.M1.TX01,6,1,TX,Fiscal Interpretation,P9_M1_TX01_FiscalInterpretation.txt,/phase9/phase6/module1/outputs,🟢,Generated under Phase 9 Theme: Fiscal Feasibility Analysis,P6_M3_DT01

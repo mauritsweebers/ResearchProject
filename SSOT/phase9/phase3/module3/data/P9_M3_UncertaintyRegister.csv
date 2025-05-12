@@ -1,0 +1,4 @@
+Variable,Point_Estimate,Distribution,Lower_Bound,Upper_Bound,Source,Notes
+Nitrogen Fertilizer Demand Increase,20%,Triangular,10%,30%,Derived from Springmann et al. (2018),Range reflects increased yield pressure in plant-based transition
+Irrigation Expansion Requirement,15%,Triangular,5%,25%,Springmann et al. (2018),Water demand varies across regions and crops; estimate reflects horticultural expansion
+"Land Repurposing Risk (Bioenergy, Export)",40%,Triangular,20%,60%,Searchinger et al. (2019),Probability that land spared is not rewilded but diverted to other economic uses

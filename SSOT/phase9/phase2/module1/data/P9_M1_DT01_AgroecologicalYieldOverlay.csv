@@ -1,0 +1,61 @@
+Region,Crop,Agroecological_Zone,Yield_Feasibility_Score,Constraint
+Sub-Saharan Africa,Maize,Humid Tropics,0.55,Soil
+Sub-Saharan Africa,Maize,Semi-Arid,0.485,Water
+Sub-Saharan Africa,Maize,Sub-Humid,0.693,Temperature
+Sub-Saharan Africa,Maize,Temperate,0.639,None
+Sub-Saharan Africa,Soybean,Humid Tropics,0.462,Soil
+Sub-Saharan Africa,Soybean,Semi-Arid,0.247,Water
+Sub-Saharan Africa,Soybean,Sub-Humid,0.423,Temperature
+Sub-Saharan Africa,Soybean,Temperate,0.746,None
+Sub-Saharan Africa,Chickpea,Humid Tropics,0.64,Soil
+Sub-Saharan Africa,Chickpea,Semi-Arid,0.412,Water
+Sub-Saharan Africa,Chickpea,Sub-Humid,0.408,Temperature
+Sub-Saharan Africa,Chickpea,Temperate,0.788,None
+South Asia,Maize,Humid Tropics,0.733,Soil
+South Asia,Maize,Semi-Arid,0.264,Water
+South Asia,Maize,Sub-Humid,0.473,Temperature
+South Asia,Maize,Temperate,0.473,None
+South Asia,Soybean,Humid Tropics,0.522,Soil
+South Asia,Soybean,Semi-Arid,0.357,Water
+South Asia,Soybean,Sub-Humid,0.573,Temperature
+South Asia,Soybean,Temperate,0.516,None
+South Asia,Chickpea,Humid Tropics,0.645,Soil
+South Asia,Chickpea,Semi-Arid,0.242,Water
+South Asia,Chickpea,Sub-Humid,0.517,Temperature
+South Asia,Chickpea,Temperate,0.547,None
+Latin America,Maize,Humid Tropics,0.582,Soil
+Latin America,Maize,Semi-Arid,0.436,Water
+Latin America,Maize,Sub-Humid,0.48,Temperature
+Latin America,Maize,Temperate,0.606,None
+Latin America,Soybean,Humid Tropics,0.637,Soil
+Latin America,Soybean,Semi-Arid,0.214,Water
+Latin America,Soybean,Sub-Humid,0.643,Temperature
+Latin America,Soybean,Temperate,0.468,None
+Latin America,Chickpea,Humid Tropics,0.426,Soil
+Latin America,Chickpea,Semi-Arid,0.485,Water
+Latin America,Chickpea,Sub-Humid,0.786,Temperature
+Latin America,Chickpea,Temperate,0.723,None
+East Asia,Maize,Humid Tropics,0.522,Soil
+East Asia,Maize,Semi-Arid,0.229,Water
+East Asia,Maize,Sub-Humid,0.674,Temperature
+East Asia,Maize,Temperate,0.576,None
+East Asia,Soybean,Humid Tropics,0.449,Soil
+East Asia,Soybean,Semi-Arid,0.349,Water
+East Asia,Soybean,Sub-Humid,0.414,Temperature
+East Asia,Soybean,Temperate,0.764,None
+East Asia,Chickpea,Humid Tropics,0.504,Soil
+East Asia,Chickpea,Semi-Arid,0.399,Water
+East Asia,Chickpea,Sub-Humid,0.525,Temperature
+East Asia,Chickpea,Temperate,0.608,None
+Europe,Maize,Humid Tropics,0.619,Soil
+Europe,Maize,Semi-Arid,0.255,Water
+Europe,Maize,Sub-Humid,0.788,Temperature
+Europe,Maize,Temperate,0.933,None
+Europe,Soybean,Humid Tropics,0.776,Soil
+Europe,Soybean,Semi-Arid,0.468,Water
+Europe,Soybean,Sub-Humid,0.639,Temperature
+Europe,Soybean,Temperate,0.977,None
+Europe,Chickpea,Humid Tropics,0.435,Soil
+Europe,Chickpea,Semi-Arid,0.259,Water
+Europe,Chickpea,Sub-Humid,0.418,Temperature
+Europe,Chickpea,Temperate,0.798,None

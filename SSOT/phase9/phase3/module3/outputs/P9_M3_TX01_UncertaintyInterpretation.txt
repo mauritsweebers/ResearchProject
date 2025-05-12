@@ -1,0 +1,15 @@
+
+Phase 9 Remediation: Phase 3 - Module 3 (Trade-Offs and Systemic Risks)
+
+This module quantifies potential environmental trade-offs in plant-based dietary transitions.
+Uncertainty bounds are added for:
+- Fertilizer demand increases
+- Irrigation expansion
+- Risk of land competition
+
+These inputs support probabilistic scenario modeling in Phase 8.
+
+Index Codes Referenced:
+- P3_M3_TX01
+
+Prepared for Phase 9 QA package.
