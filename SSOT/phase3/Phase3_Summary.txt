@@ -18,3 +18,8 @@ Key Findings:
 Conclusion:
 Plant-based dietary transitions deliver significant environmental co-benefits across all metrics modeled. AEZ overlays support targeted regional adaptation, and Phase 3 metrics now feed directly into Phase 6 (transition logic) and Phase 8 (scenario synthesis).Uncertainty Scope Note:  
 Phase 3 delivers deterministic baseline estimates for GHG emissions, land use, and biodiversity pressure under modeled dietary transitions. Quantitative uncertainty and sensitivity analysis (e.g., Monte Carlo modeling) is handled in Phase 9 and applied retroactively to Phase 3 outputs during Phase 8 scenario integration. No probabilistic models are implemented directly in this phase.
+---
+🔁 Correction Notice (May 2024):
+Phase 3 scenario comparisons have been recalibrated based on corrected crop protein yields from Phase 2.
+Protein adequacy estimates were previously inflated due to upstream overestimations of protein per hectare.
+Corrected values reflect land-weighted yield averages and now indicate 115% adequacy under plant-based scenarios.

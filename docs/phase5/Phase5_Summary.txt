@@ -22,3 +22,6 @@ Scoring Logic:
 
 Conclusion:
 Sociopolitical feasibility of plant-based transition varies widely. Institutional reform, political framing, and cultural adaptation strategies are essential for long-term success. Outputs from Phase 5 directly inform Phase 6 policy realism and Phase 8 scenario modeling.
+
+[v1.1 UPDATE – May 2025]
+All P5_MX_DT## models validated against updated Phase 2 nutrient and Phase 3 land/GHG assumptions. No dependency errors found. No recalibration necessary.

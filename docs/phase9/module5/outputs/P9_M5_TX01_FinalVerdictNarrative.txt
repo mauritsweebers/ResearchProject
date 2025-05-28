@@ -1,1 +1,4 @@
 Final system feasibility is assessed and graded by region. Grades integrate all previous phase outputs, scored for implementation realism.
+
+[v1.1 Validation – May 2025]
+Feasibility grades incorporate revised nutrient yields from P2_M1_DT01_CropAllocation_CORRECTED.csv, ensuring consistency with validated outputs from Phases 2–8.

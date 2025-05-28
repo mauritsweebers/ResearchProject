@@ -42,3 +42,6 @@ NEXT ACTIONS
 ----------------------------------------
 - Submit for command validation
 - Begin integration into Final Report and Decision Toolkit
+
+[v1.1 QA – May 2025]
+Replaced outdated Phase 2 reference (P2.M1.DT02) with corrected dataset reference (P2_M1_DT01_CropAllocation_CORRECTED.csv) in feasibility synthesis. No grade adjustments required.

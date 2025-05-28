@@ -1,0 +1,74 @@
+🟢 PHASE X DIRECTIVE – [Insert Phase Title Here]
+
+You are generating a complete PhaseX synthesis in a single session.
+
+---
+
+🎯 OBJECTIVE
+[Insert 1-paragraph description of the goal of this phase, e.g., Nutritional Viability, Agricultural Feasibility, etc.]
+
+---
+
+📤 REQUIRED DELIVERABLES
+For each module in this phase, generate the following:
+- TX: `.txt` summaries, methods, or decision narratives
+- DT: `.csv` structured datasets (e.g. supply matrices, demographic tables)
+- FG: `.svg` or `.png` figures (e.g. flow diagrams, risk maps)
+
+---
+
+📁 FILE AND FOLDER STRUCTURE RULES
+You must organize files into this structure:
+phaseX/
+├── module1/
+│   ├── data/       → for `.csv` DT files
+│   └── outputs/    → for `.txt` TX and `.svg` FG files
+├── module2/
+│   └── ...
+├── PhaseX_Summary.txt        → executive summary
+├── PhaseX_Metadata.csv       → metadata table for all deliverables
+
+---
+
+📑 METADATA FILE REQUIREMENT (MANDATORY)
+You must generate and include a metadata file named:
+
+PhaseX_Metadata.csv
+
+It must include a row for each file you create, with these columns:
+- Index Code
+- Phase
+- Module
+- Type (TX, DT, FG)
+- Title/Description
+- File Name
+- Source Category (🟢 A, 🟡 B, 🔴 C)
+- Notes
+
+Example:
+Index Code,Phase,Module,Type,Title/Description,File Name,Source Category,Notes
+P2.M3.DT01,2,3,DT,Crop allocation by nutrient density,P2_M3_DT01_CropAllocation.csv,🟢 A,Uses FAO land productivity data
+
+---
+
+📦 FINAL PACKAGING
+Place all content inside a single phaseX/ folder and export it as a `.zip`.
+
+The `.zip` must include:
+- All deliverables in the correct structure
+- PhaseX_Metadata.csv
+- PhaseX_Summary.txt
+
+---
+
+🛠 RENDERING AND QA
+You are not responsible for rendering HTML.
+That will be handled by the Command Center after validation.
+
+---
+
+📎 PROTOCOLS REFERENCED
+- HTML_Output_Protocol_v1.6 (for structure)
+- Unified_Command_Protocol_v3.4 (for governance)
+
+Deliver only structured files and metadata. Follow folder and filename conventions strictly.

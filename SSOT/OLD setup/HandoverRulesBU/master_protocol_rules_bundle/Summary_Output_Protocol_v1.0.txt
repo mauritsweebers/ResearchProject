@@ -1,0 +1,41 @@
+SUMMARY OUTPUT PROTOCOL (v1.0)
+Applies to: All Phases (0–8)
+Status: Mandatory
+Location: To be referenced in PhaseX_Summary.txt, PhaseX_Handover_Log.txt, and metadata QA steps
+
+------------------------------------------------------------
+✅ Required Summary Structure
+Each PhaseX_Summary.txt must adhere to the following format:
+
+PHASE X – [Phase Title]
+Protocol: HTML_Output_Protocol_v1.6
+Date Finalized: YYYY-MM-DD
+Modules: [#] | Deliverables: [#]
+
+Objective:
+[One-paragraph objective statement.]
+
+Scope & Method:
+[Describe module structure, key data sources, methods.]
+
+Key Findings:
+- [Finding 1]
+- [Finding 2]
+...
+- [Finding N]
+
+Implications:
+[One-paragraph synthesis on significance and phase-to-phase continuity.]
+
+------------------------------------------------------------
+🔍 Format Specifications
+- Use header capitalization and section labels exactly as shown.
+- Ensure parallelism in Key Findings bullets (structured, non-redundant).
+- All sections must be evidence-based, non-normative, and cross-referenced to module outputs.
+- Summaries must be human-readable, suitable for command review and external documentation.
+
+------------------------------------------------------------
+📦 Integration Rules
+- Store PhaseX_Summary.txt at root of /phaseX/ directory.
+- Include summary in .zip handover (phaseX_validated_package.zip)
+- Mention protocol compliance in PhaseX_Handover_Log.txt under “Protocol Compliance” section.

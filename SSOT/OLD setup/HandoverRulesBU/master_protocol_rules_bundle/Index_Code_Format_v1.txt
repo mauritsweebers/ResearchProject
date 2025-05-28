@@ -1,0 +1,5 @@
+- Index_Code_Format_v1.txt                → Standardizes all metadata Index Code values to P{Phase}.M{Module}.{Type}{##} format
+  ▪ Applies to all PhaseX_Metadata.csv files
+  ▪ Replaces UUIDs or arbitrary IDs
+  ▪ Example: P3.M2.DT01 = Phase 3, Module 2, Data Table 01
+  ▪ Type codes: DT = data table, TX = text output, FG = figure

@@ -1,1 +1,4 @@
 This template outlines scalable national actions: policy bundles, timelines, actors, and indicators. It supports rapid adaptation for countries by governance model, region, and opposition class.
+
+[v1.1 Alignment – May 2025]
+This playbook assumes feasibility baselines validated in Phase 9 and grounded in corrected nutrient yield data from P2_M1_DT01_CropAllocation_CORRECTED.csv.

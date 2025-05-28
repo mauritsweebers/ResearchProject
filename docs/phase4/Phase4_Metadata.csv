@@ -1,6 +1,6 @@
 Index Code,Phase,Module,Type,Title/Description,File Name,Storage Location,Source Category,Notes
 P4.M1.TX01,4,1,TX,Cost comparisons of plant- vs. animal-based food categories,P4_M1_TX01_CostComparison.txt,/ssot/phase4/module1/outputs/,🟢,Uses FAO cost and subsidy data; derived from FAOSTAT commodity database and OECD Producer Support Estimates.
-P4.M1.DT01,4,1,DT,Cost of production by food category and region,P4_M1_DT01_CostOfProduction.csv,/ssot/phase4/module1/data/,🟢,Compiled from FAOStat and OECD databases; derived from FAOSTAT commodity database and OECD Producer Support Estimates.
+P4.M1.DT01,4,1,DT,Cost of production by food category and region,P4_M1_DT01_CostOfProduction.csv,/ssot/phase4/module1/data/,🟢,✅ Cost model updated 2024-05: Legume cost/kg adjusted to match corrected protein yield.
 P4.M2.TX01,4,2,TX,Labor and infrastructure readiness analysis,P4_M2_TX01_LaborInfraMapping.txt,/ssot/phase4/module2/outputs/,🟢,Uses FAO labor data and WB infrastructure ratings; labor-hour estimates based on FAO AgriLab dataset; infra scores from World Bank Logistics Index.
 P4.M2.DT01,4,2,DT,Labor hours and infrastructure scores by region and food type,P4_M2_DT01_LaborInfraData.csv,/ssot/phase4/module2/data/,🟢,Normalized scores across food system inputs
 P4.M3.TX01,4,3,TX,Trade flows and supply chain chokepoints,P4_M3_TX01_TradeSupplyAnalysis.txt,/ssot/phase4/module3/outputs/,🟢,Maps critical flows and vulnerabilities

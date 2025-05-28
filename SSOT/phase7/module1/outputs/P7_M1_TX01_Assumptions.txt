@@ -4,7 +4,7 @@ This module critically examines foundational assumptions in Phases 1–3, includ
 
 Findings:
 - Nutrient targets assume ideal bioavailability and standard fortification regimes, which vary significantly by region and demographic.
-- Yield forecasts used median historical trends; sensitivity to input variability (e.g., fertilizer, climate) was only partially modeled.
+- Yield forecasts previously used median historical trends, but were updated in May 2025 using P2_M1_DT01_CropAllocation_CORRECTED.csv, which provides empirically corrected nutrient yields per hectare; sensitivity to input variability (e.g., fertilizer, climate) was only partially modeled.
 - Substitution logic (e.g., replacing dairy with legumes) lacks behavioral nuance and ignores preparation feasibility in some regions.
 
 Sources: Global Diet Quality Project, EAT-Lancet critiques, IPCC scenario range studies (🟢/🟡).

@@ -21,3 +21,6 @@ Assumptions:
 
 Conclusion:
 Phase 5 risk surfaces are robust and aligned with system-wide modeling. Data validated for transition pathway input in Phase 6 and stress testing in Phase 8.
+
+[Validation Extension – v1.1]
+Confirmed compatibility with corrected nutrient yields from P2_M1_DT01_CropAllocation_CORRECTED.csv. Models structurally sound.

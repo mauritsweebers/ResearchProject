@@ -1,9 +1,9 @@
-Index Code,Module,Type,File Name,QA Status
-P4.M1.TX01,1,TX,P4_M1_TX01_CostComparison.txt,✅ PASS
-P4.M1.DT01,1,DT,P4_M1_DT01_CostOfProduction.csv,✅ PASS
-P4.M2.TX01,2,TX,P4_M2_TX01_LaborInfraMapping.txt,✅ PASS
-P4.M2.DT01,2,DT,P4_M2_DT01_LaborInfraData.csv,✅ PASS
-P4.M3.TX01,3,TX,P4_M3_TX01_TradeSupplyAnalysis.txt,✅ PASS
-P4.M3.DT01,3,DT,P4_M3_DT01_TradeFlows.csv,✅ PASS
-P4.M4.TX01,4,TX,P4_M4_TX01_TransitionCosts.txt,✅ PASS
-P4.M4.DT01,4,DT,P4_M4_DT01_InvestmentScenarios.csv,✅ PASS
+Index Code,Module,Type,File Name,QA Status,QA Result,Comments
+P4.M1.TX01,1,TX,P4_M1_TX01_CostComparison.txt,✅ PASS,,
+P4.M1.DT01,1,DT,P4_M1_DT01_CostOfProduction.csv,✅ PASS,✅ Revalidated,Legumes cost/kg adjusted upward 12% due to revised protein/ha from Phase 2 recalibration.
+P4.M2.TX01,2,TX,P4_M2_TX01_LaborInfraMapping.txt,✅ PASS,,
+P4.M2.DT01,2,DT,P4_M2_DT01_LaborInfraData.csv,✅ PASS,,
+P4.M3.TX01,3,TX,P4_M3_TX01_TradeSupplyAnalysis.txt,✅ PASS,,
+P4.M3.DT01,3,DT,P4_M3_DT01_TradeFlows.csv,✅ PASS,,
+P4.M4.TX01,4,TX,P4_M4_TX01_TransitionCosts.txt,✅ PASS,,
+P4.M4.DT01,4,DT,P4_M4_DT01_InvestmentScenarios.csv,✅ PASS,,

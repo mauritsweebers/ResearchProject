@@ -5,4 +5,4 @@ P3.M2.TX01,3,2,TX,Land sparing and carbon sequestration potential,P3_M2_TX01_Lan
 P3.M3.TX01,3,3,TX,Risks and trade-offs of scaling plant-based food systems,P3_M3_TX01_Tradeoffs.txt,/ssot/phase3/module3/outputs/,🟡 B,Includes synthesis of risks from Springmann et al. and Searchinger et al.
 P3.M1.DT01,3,1,DT,GHG emissions by dietary scenario and region,P3_M1_DT01_GHGEmissionsByScenario.csv,/ssot/phase3/module1/data/,🟢 A,"Based on FAOSTAT, IPCC AR6 dietary emissions factors"
 P3.M2.DT01,3,2,DT,Land use and biodiversity pressure by AEZ,P3_M2_DT01_LandBiodiversityByAEZ.csv,/ssot/phase3/module2/data/,🟢 A,Based on GAEZ and Biodiversity Intactness Index projections
-P3.M3.DT01,3,3,DT,"Scenario comparisons for waste, yield, substitution",P3_M3_DT01_ScenarioComparisons.csv,/ssot/phase3/module3/data/,🟢 A,Derived from modeled variant assumptions in Phase 2 and FAO baselines
+P3.M3.DT01,3,3,DT,"Scenario comparisons for waste, yield, substitution",P3_M3_DT01_ScenarioComparisons.csv,/ssot/phase3/module3/data/,🟢 A,✅ Corrected 2024-05 for recalibrated protein adequacy using validated crop yields (see Phase 2).

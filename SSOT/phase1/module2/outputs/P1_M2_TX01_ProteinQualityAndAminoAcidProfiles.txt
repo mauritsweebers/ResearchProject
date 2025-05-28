@@ -1,0 +1,7 @@
+P1_M2_TX01 – Protein Quality and Amino Acid Profiles
+
+This document explains how protein quality is measured using the Digestible Indispensable Amino Acid Score (DIAAS), which reflects both the content and digestibility of essential amino acids. Animal-sourced proteins such as eggs and beef typically achieve DIAAS values >100, indicating complete amino acid profiles with high bioavailability.
+
+In contrast, many plant-based proteins exhibit lower DIAAS values due to limiting amino acids — typically lysine in cereals (e.g., wheat, maize) and methionine in legumes (e.g., lentils, chickpeas). However, strategic combinations of these foods (e.g., rice and beans) can achieve full amino acid profiles through mutual complementation.
+
+The accompanying data table lists DIAAS scores and limiting amino acids for common plant and animal proteins, providing a foundation for diet modeling and food design in plant-based systems.

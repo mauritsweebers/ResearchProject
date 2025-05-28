@@ -17,3 +17,7 @@ Key Findings:
 
 Conclusion:
 Plant-based transition is economically viable but must be regionally adapted to labor and trade sensitivities. Affordability gaps remain in low-income regions without subsidy, wage, or price reforms.
+---
+🔁 Correction Notice (May 2024):
+Legume production cost estimates adjusted +12% to reflect corrected protein yield assumptions from Phase 2.
+Prior values underrepresented cost/kg due to inflated protein-per-hectare estimates.

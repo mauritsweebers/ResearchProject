@@ -25,3 +25,5 @@ Module 7 Integration:
 Conclusion:
 Phase 1 confirms the nutritional viability of a plant-based system conditional upon evidence-based fortification and dietary
 design strategies. Outputs form a required evidence base for scenario modeling and equity testing.
+
+As of 2025-05-28, Module 2 was formally expanded by Command to include deliverables on protein quality. These outputs clarify plant-based protein limitations and the conditions under which adequacy is feasible, using metrics such as DIAAS and amino acid complementarity. This supports robust modeling in downstream phases.

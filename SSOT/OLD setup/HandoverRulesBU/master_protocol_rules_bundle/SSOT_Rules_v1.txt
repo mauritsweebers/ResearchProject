@@ -1,0 +1,10 @@
+SSOT_Rules_v1 – Single Source of Truth Directory Structure
+
+Each phase must be stored in a directory named /ssot/phaseX/
+Within that, files must follow:
+
+- /moduleY/data/      → for CSV (DT) datasets
+- /moduleY/outputs/   → for TXT (TX) and SVG/PNG (FG) outputs
+- PhaseX_Summary.txt  → Root-level summary
+- PhaseX_Metadata.csv → Root-level metadata
+- PhaseX_Handover_Log.txt → Root-level execution log

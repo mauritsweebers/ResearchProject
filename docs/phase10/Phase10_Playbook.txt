@@ -7,3 +7,6 @@ This playbook supports policymakers in designing and deploying plant-based trans
 - Key indicators for monitoring
 
 Templates are scalable by income level, institutional strength, and social acceptance. Ready for integration with SDG, climate, and food security commitments.
+
+[v1.1 Linkage – May 2025]
+Playbook actions align with validated feasibility grades and nutrient adequacy confirmed across Phases 2 and 9.

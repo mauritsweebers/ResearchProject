@@ -17,3 +17,6 @@ Key Findings:
 
 Conclusion:
 Global transition to plant-based dietary systems is structurally and empirically feasible under coordinated multi-sectoral reform. Timelines and pathways vary, but cumulative barriers are addressable with targeted strategies.
+
+[v1.1 UPDATE – May 2025]
+Updated Module 1 synthesis to reflect corrected crop-level nutrient yields from Phase 2. Ensured agricultural feasibility judgment aligns with P2_M1_DT01_CropAllocation_CORRECTED.csv.

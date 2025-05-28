@@ -1,8 +1,8 @@
-Index Code,Module,Type,File Name,QA Status
-P3.M1.TX01,1,TX,P3_M1_TX01_ComparativeImpact.txt,✅ PASS
-P3.M2.FG01,2,FG,P3_M2_FG01_LandRewilding.png,✅ PASS
-P3.M2.TX01,2,TX,P3_M2_TX01_LandSparing.txt,✅ PASS
-P3.M3.TX01,3,TX,P3_M3_TX01_Tradeoffs.txt,✅ PASS
-P3.M1.DT01,1,DT,P3_M1_DT01_GHGEmissionsByScenario.csv,✅ PASS
-P3.M2.DT01,2,DT,P3_M2_DT01_LandBiodiversityByAEZ.csv,✅ PASS
-P3.M3.DT01,3,DT,P3_M3_DT01_ScenarioComparisons.csv,✅ PASS
+Index Code,Module,Type,File Name,QA Status,QA Result,Comments
+P3.M1.TX01,1,TX,P3_M1_TX01_ComparativeImpact.txt,✅ PASS,,
+P3.M2.FG01,2,FG,P3_M2_FG01_LandRewilding.png,✅ PASS,,
+P3.M2.TX01,2,TX,P3_M2_TX01_LandSparing.txt,✅ PASS,,
+P3.M3.TX01,3,TX,P3_M3_TX01_Tradeoffs.txt,✅ PASS,,
+P3.M1.DT01,1,DT,P3_M1_DT01_GHGEmissionsByScenario.csv,✅ PASS,,
+P3.M2.DT01,2,DT,P3_M2_DT01_LandBiodiversityByAEZ.csv,✅ PASS,,
+P3.M3.DT01,3,DT,P3_M3_DT01_ScenarioComparisons.csv,✅ PASS,✅ Revalidated,Protein adequacy adjusted from 140% to 115% based on corrected protein/ha figures from Phase 2.

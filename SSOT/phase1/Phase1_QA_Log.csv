@@ -28,3 +28,7 @@ P1.M7.DT01,7,DT,P1_M7_DT01_DietNutrientMatrix.csv,✅ PASS
 P1.M7.TX01,7,TX,P1_M7_TX01_QuantifiedFeasibilityEquation.txt,✅ PASS
 P1.M7.DT01,7,DT,P1_M7_DT01_DietNutrientMatrix.csv,✅ PASS
 P1.M7.TX01,7,TX,P1_M7_TX01_QuantifiedFeasibilityEquation.txt,✅ PASS
+P1.M2.DT01,2,DT,P1_M2_DT01_DIAAS_Scores.csv,✅ PASS
+P1.M2.TX01,2,TX,P1_M2_TX01_ProteinQualityAndAminoAcidProfiles.txt,✅ PASS
+P1.M2.TX02,2,TX,P1_M2_TX02_CropBreedingForProteinQuality.txt,✅ PASS
+P1.M2.FG01,2,FG,P1_M2_FG01_AA_Complementarity.svg,✅ PASS

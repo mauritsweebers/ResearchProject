@@ -1,0 +1,17 @@
+Title: Nutrient Remediation Strategies for Plant-Based Scenarios
+
+This summary outlines practical mechanisms to address nutrient shortfalls
+in plant-based dietary scenarios. It is based on risk stratification data
+and WHO/FAO bioavailability standards.
+
+Strategies include:
+- B12: Mandatory fortification of staple grains and plant milks
+- Calcium: Fortified beverages and calcium-set tofu inclusion
+- Omega-3: Algal DHA supplements and seed rotation (flax, chia, walnuts)
+- Iron & Zinc: Soaking, sprouting, and vitamin C co-consumption
+- Vitamin D: Controlled UV exposure or D2/D3 supplementation
+
+These interventions can close identified gaps across most global populations
+without reverting to animal-based inputs.
+
+Sources: WHO 2013, EFSA 2022, Harvard T.H. Chan 2021

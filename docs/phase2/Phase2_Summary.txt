@@ -1,29 +1,49 @@
-PHASE 2 – Agricultural Feasibility of Nutrient-Sufficient Plant-Based Diets (Revised)
+
+Phase 2 Summary — Agricultural Feasibility (Corrected Version)
 
 Date Finalized: 2025-05-28
-Modules: 5 (M1–M5) | Status: M2–M4 Re-executed, M1 & M5 Legacy-Valid
+Modules: 3 | Deliverables: 7
 
 Objective:
-To determine whether the global agricultural system can feasibly supply nutrient-adequate, plant-based diets under real-world land, yield, and ecological constraints.
+To determine whether current global cropland and agroecological zones can produce sufficient plant-based calories, protein, and critical micronutrients for a global transition diet under realistic biophysical constraints.
 
-Scope & Method:
-Phase 2 evaluates agricultural feasibility by examining crop performance across agroecological zones, yield potential, and land trade-offs. Modules 2–4 were revalidated using FAO yield datasets, GAEZ crop models, and water/emissions trade-off estimates. Modules 1 and 5 are retained as legacy-valid.
+Core Findings (Post-Correction):
 
-Key Metrics and Findings:
-- ✅ **kcal/hectare**: Optimized plant-based crop combinations can exceed 14,000 kcal/ha/day in temperate zones.
-- ✅ **Protein/hectare**: Legume-rich systems (soy, lentils, chickpeas) yield >1,200g/ha/day protein under optimal conditions.
-- 🟡 **Land use per dietary unit**: Plant-based systems require 50–70% less land per dietary RDI than mixed or animal-based systems.
-- ⚠ **AEZ trade-offs**: Feasibility varies—subtropical and temperate AEZs show high yield convergence, while arid regions require either drought-resistant crops or trade integration.
-- ⚠ **Yield gaps**: Africa and South Asia remain limited by low input/output ratios; targeted intervention is required.
+1. Crop Nutrient Productivity (Protein Yield per ha)
+   ▪ Protein output values from key plant crops have been recalculated using conservative FAOSTAT yield figures and USDA nutrient composition.
+   ▪ Key corrected figures:
+     - Soybeans: ~1,280 kg protein/ha
+     - Lentils: ~364 kg/ha
+     - Chickpeas: ~352 kg/ha
+     - Wheat: ~455 kg/ha
+     - Oats: ~476 kg/ha
+   ▪ These values replace previous overestimations that were based on theoretical maxima and non-land-weighted scenarios.
 
-Module Highlights:
-- **M2 (Yield Feasibility by AEZ)**: Confirms climatically suitable crops vary by region, necessitating diversified portfolios.
-- **M3 (System Trade-offs)**: Recalibrated data show trade-offs between protein density, water use, and GHGs; mixed cereal-legume systems perform best.
-- **M4 (Regional Yield Potential)**: Confirms >30% yield variability across regions; overlay maps support geographically optimized planning.
+2. Iron and Calcium Outputs
+   ▪ Iron and calcium per hectare outputs have been recalculated based on standard dry weight conversion and USDA nutrient profiles.
+   ▪ Leafy greens (kale, broccoli) provide high calcium but low protein per hectare. Cereals and pulses contribute substantial iron.
 
-Conclusion:
-Phase 2 affirms that agricultural feasibility is achievable globally but not uniformly. Nutrient-dense, plant-based production is viable with region-specific strategies, yield-gap interventions, and resource-aware cropping systems.
+3. Land Use Efficiency (kcal and protein basis)
+   ▪ Corrected estimates show plant-based crops yield sufficient protein and calories to meet global requirements using less than half the agricultural land currently used for livestock and feed.
+   ▪ Land/kcal and land/protein efficiency is highest in pulses and cereals, not vegetables.
 
-Notes:
-- M1 (nutrient-per-hectare allocation) and M5 (system risk profiles) retained as scope-valid but not revalidated.
-- All outputs SCF-tagged and pass QA under UCP v3.6
+4. Yield Constraints and Variability
+   ▪ All crop yield estimates have been conservatively benchmarked to FAOSTAT national averages and GAEZ AEZ-adjusted values.
+   ▪ No regionally implausible or climatologically unstable values were retained.
+   ▪ This introduces a more realistic basis for downstream modeling in Phases 3 and 6.
+
+—
+
+Methodological Note:
+This version corrects P2_M1_DT01_CropAllocation, which previously inflated protein per hectare figures by up to 2–4× in some crops. Updated values reflect real-world agronomic productivity, postharvest loss adjustments, and correct nutrient composition by dry weight.
+
+—
+
+Downstream Implications:
+▪ Phase 3 land use, GHG efficiency, and dietary climate footprint models must use corrected protein yield per hectare.
+▪ Phase 6 diet design templates must reflect adjusted kcal/protein trade-offs in land-constrained AEZs.
+▪ Feasibility claims (Phase 8) remain valid but should reference corrected land efficiency margins.
+
+—
+
+This summary supersedes all prior Phase 2 conclusions that reference protein yield, nutrient per hectare, or plant-based land use advantages.

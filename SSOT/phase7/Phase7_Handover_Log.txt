@@ -38,3 +38,6 @@ NEXT ACTIONS
 ----------------------------------------
 - Feed model sensitivities and dissenting views into Phase 8 synthesis
 - Inform scenario robustness, plural framing, and uncertainty bands
+
+[v1.1 QA – May 2025]
+Corrected yield assumptions integrated into Module 1 narrative. Phase 2 recalibration now fully reflected in robustness testing.

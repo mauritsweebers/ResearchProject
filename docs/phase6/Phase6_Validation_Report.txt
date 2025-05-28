@@ -25,3 +25,6 @@ Assumptions:
 
 Conclusion:
 Phase 6 meets all structural, evidentiary, and integration criteria. Results are now operational within downstream phases.
+
+[Validation Extension – v1.1]
+Confirmed: Phase 6 modules (Policy, Financial, Institutional, Civil Society) are not sensitive to nutrient yield assumptions from P2_M1. Phase remains valid under corrected assumptions.

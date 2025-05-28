@@ -1,0 +1,11 @@
+QA_Log_Completeness_Rule_v1.txt
+--------------------------------
+All phases must maintain a complete QA log (PhaseX_QA_Log.csv) that includes an entry for every file listed in PhaseX_Metadata.csv.
+
+Requirements:
+- Each metadata 'File Name' must appear in the QA log under 'File Affected'
+- Each QA entry must contain a valid status (e.g., ✅ PASS, ⚠️ WARNING, ❌ FAIL)
+- QA logs must be generated or updated before synthesis, handover, or publication
+- Applies to all phases (Phase 0 through Phase X)
+
+Noncompliance constitutes a breach of Unified_Command_Protocol_v3.6 and must be corrected before project advancement.

@@ -38,3 +38,6 @@ NEXT ACTIONS
 ----------------------------------------
 - Feed regional constraints into Phase 6 scenario modeling
 - Align narrative framing data with Phase 7 robustness testing
+
+[v1.1 QA – May 2025]
+Dependency audit completed. Modules 1–4 rely on sociocultural or economic indicators only. No embedded nutrient or land-efficiency assumptions.

@@ -1,0 +1,72 @@
+Commander Execution Rules – Phase 0 to 3
+========================================
+
+Issued by: Project Director
+Applies to: Command Center Operations and Phase Oversight
+
+------------------------------------------------------------
+1. PROMPT CONTROL
+------------------------------------------------------------
+- Only the Commander issues full-phase prompts (not modular or speculative).
+- Prompts must follow the Phase_Chat_Prompt_Template structure.
+- Each directive must result in a full `.zip` package returned by the Phase Chat.
+- Prompts must enforce inclusion of metadata and summary files.
+
+------------------------------------------------------------
+2. PHASE HANDOVER MANDATES
+------------------------------------------------------------
+- Upon phase completion, the Commander:
+  • Validates all deliverables against metadata
+  • Generates PhaseX_QA_Log.csv
+  • Confirms structural compliance (SSOT rules)
+  • Appends validated entries to Master_Index_Register.csv
+  • Prepares and exports PhaseX_Handover_Log.txt
+  • Prepares a consolidated QA + Research Quality Assessment if spanning multiple phases
+
+------------------------------------------------------------
+3. QA RESPONSIBILITIES
+------------------------------------------------------------
+- The Commander must:
+  • Ensure metadata and file contents match exactly
+  • Reject or flag any unregistered or misplaced files
+  • Record findings in a consistent QA format
+- QA log entries must include: index code, file name, type, source category, file found, and notes
+
+------------------------------------------------------------
+4. BATCH ENFORCEMENT
+------------------------------------------------------------
+- Commander workflows must treat every phase as a batch process:
+  • All outputs from a phase must be received together
+  • Partial updates or fragmented submissions are not accepted
+- No HTML rendering or file repair is done during the QA process
+
+------------------------------------------------------------
+5. ARCHIVAL AND VERSIONING
+------------------------------------------------------------
+- Each validated phase is zipped with all deliverables and logs
+- Zip file: phaseX_validated_package.zip
+- Rules, protocols, and handovers must be versioned and exportable as .txt
+- Every QA pass must be accompanied by a downloadable log and, if spanning multiple phases, a cumulative synthesis summary
+
+------------------------------------------------------------
+6. QUALITY AND INTEGRITY REVIEW
+------------------------------------------------------------
+- Commander assesses whether:
+  • Each phase output demonstrates analytical seriousness
+  • Findings are traceable to valid sources
+  • Summary conclusions are supported by metadata-linked data
+
+- Reports lacking traceability, quantification, or source detail must be revised or annotated
+
+------------------------------------------------------------
+7. HANDOFF STANDARDS
+------------------------------------------------------------
+- Before transition to a new phase or Commander unit:
+  • Session Execution Rules must be issued as `Session_Execution_Rules_PhaseX.txt`
+  • Commander instructions must be issued as `Commander_Execution_Rules_PhaseX.txt`
+  • QA logs and summary reports must be zipped or logged
+
+------------------------------------------------------------
+Compliance:
+All Phase Chat and Command workflows must conform to these rules unless explicitly superseded by a future version of Unified_Command_Protocol.
+

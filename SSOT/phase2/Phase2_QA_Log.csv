@@ -1,12 +1,12 @@
-Index Code,Module,Type,File Name,QA Status,Scope
-P2.M1.DT01,1,DT,P2_M1_DT01_CropAllocation.csv,✅ PASS,Legacy-valid
-P2.M1.FG01,1,FG,P2_M1_FG01_ProteinYieldBarChart.png,✅ PASS,Legacy-valid
-P2.M1.TX01,1,TX,P2_M1_TX01_CropAllocationSummary.txt,✅ PASS,Legacy-valid
-P2.M2.DT01,2,DT,P2_M2_DT01_YieldByClimate.csv,✅ PASS,Re-executed
-P2.M2.TX01,2,TX,P2_M2_TX01_YieldFeasibilitySummary.txt,✅ PASS,Re-executed
-P2.M3.DT01,3,DT,P2_M3_DT01_TradeOffMetrics.csv,✅ PASS,Re-executed
-P2.M3.TX01,3,TX,P2_M3_TX01_TradeOffSummary.txt,✅ PASS,Re-executed
-P2.M4.DT01,4,DT,P2_M4_DT01_RegionalYieldPotential.csv,✅ PASS,Re-executed
-P2.M4.TX01,4,TX,P2_M4_TX01_RegionalProductionSummary.txt,✅ PASS,Re-executed
-P2.M5.DT01,5,DT,P2_M5_DT01_SystemRisks.csv,✅ PASS,Legacy-valid
-P2.M5.TX01,5,TX,P2_M5_TX01_SystemRisksSummary.txt,✅ PASS,Legacy-valid
+Index Code,Module,Type,File Name,QA Status,Scope,QA Result,Comments
+P2.M1.DT01,1,DT,P2_M1_DT01_CropAllocation.csv,✅ PASS,Legacy-valid,✅ Recalculated and validated,Protein yields recalculated using verified crop yield × nutrient content.
+P2.M1.FG01,1,FG,P2_M1_FG01_ProteinYieldBarChart.png,✅ PASS,Legacy-valid,,
+P2.M1.TX01,1,TX,P2_M1_TX01_CropAllocationSummary.txt,✅ PASS,Legacy-valid,,
+P2.M2.DT01,2,DT,P2_M2_DT01_YieldByClimate.csv,✅ PASS,Re-executed,,
+P2.M2.TX01,2,TX,P2_M2_TX01_YieldFeasibilitySummary.txt,✅ PASS,Re-executed,,
+P2.M3.DT01,3,DT,P2_M3_DT01_TradeOffMetrics.csv,✅ PASS,Re-executed,,
+P2.M3.TX01,3,TX,P2_M3_TX01_TradeOffSummary.txt,✅ PASS,Re-executed,,
+P2.M4.DT01,4,DT,P2_M4_DT01_RegionalYieldPotential.csv,✅ PASS,Re-executed,,
+P2.M4.TX01,4,TX,P2_M4_TX01_RegionalProductionSummary.txt,✅ PASS,Re-executed,,
+P2.M5.DT01,5,DT,P2_M5_DT01_SystemRisks.csv,✅ PASS,Legacy-valid,,
+P2.M5.TX01,5,TX,P2_M5_TX01_SystemRisksSummary.txt,✅ PASS,Legacy-valid,,

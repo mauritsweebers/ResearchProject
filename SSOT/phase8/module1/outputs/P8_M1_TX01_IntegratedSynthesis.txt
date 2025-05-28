@@ -3,7 +3,7 @@ Module 1 – Integrated Findings Synthesis
 This synthesis module aggregates evidence from Phases 1–7 to assess the feasibility of a global shift to a nutritionally adequate, ecologically viable plant-based food system across five domains:
 
 - Nutritional: Verified by Phase 1 (P1.M1.TX01, P1.M2.DT01); complete nutrient profiles are achievable with sufficient diversity and fortification.
-- Agricultural: Phase 2 (P2.M1.DT02) shows adequate global yields under plant-only regimes, albeit with regional yield gaps.
+- Agricultural: Phase 2 (P2_M1_DT01_CropAllocation_CORRECTED.csv) confirms adequate global nutrient yields per hectare under plant-only regimes, albeit with regional yield gaps.
 - Environmental: Phase 3 (P3.M2.FG01, P3.M1.TX01) projects up to 70% GHG reduction and 3B ha land savings.
 - Economic: Phase 4 (P4.M1.TX01, P4.M2.DT01) confirms viability with caveats for regional infrastructure gaps.
 - Socio-political: Phase 5 (P5.M2.TX01, P5.M4.DT01) indicates conditional acceptability, contingent on cultural alignment and institutional support.

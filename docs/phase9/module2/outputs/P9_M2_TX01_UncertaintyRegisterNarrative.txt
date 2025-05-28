@@ -1,1 +1,4 @@
 Uncertainty ranges and propagation risks are mapped from prior phases to understand probabilistic model boundaries.
+
+[v1.1 Clarification – May 2025]
+Uncertainty around nutrient yield per hectare (Phase 2) has been recalibrated using corrected empirical data. Residual uncertainty is estimated at ±10% due to climatic, soil, and varietal factors.

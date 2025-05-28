@@ -21,3 +21,6 @@ Key Findings:
 
 Conclusion:
 Phase 7 confirms that the core model is structurally coherent but operates under several material sensitivities and known data limits. Outputs here are required for Phase 8 feasibility scoring, and for guarding against overconfidence in scenario synthesis.
+
+[v1.1 UPDATE – May 2025]
+Module 1 assumptions updated to reference corrected nutrient yields from P2_M1_DT01_CropAllocation_CORRECTED.csv. Other modules unaffected.

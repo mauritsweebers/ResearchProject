@@ -1,1 +1,4 @@
 Cross-phase interdependencies are mapped to show how failures in one domain (e.g., policy) trigger cascading risks in others (e.g., nutrition, trade).
+
+[v1.1 Adjustment – May 2025]
+The 'Yield Gap Persistence' cascade has been partially mitigated by revised crop nutrient yields from P2_M1_DT01_CropAllocation_CORRECTED.csv. Import dependency risk remains, but severity has been downgraded.

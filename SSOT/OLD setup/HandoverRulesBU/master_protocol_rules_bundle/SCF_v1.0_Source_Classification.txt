@@ -1,0 +1,8 @@
+SCF_v1.0 – Source Classification Framework
+
+🟢 A – Peer-reviewed primary science or official datasets (FAO, IPCC, WHO)
+🟡 B – Secondary institutional syntheses (IPES-Food, WFP, OECD)
+🔴 C – Not permitted (gray literature, untraceable sources, media opinion)
+
+RULE:
+All PhaseX_Metadata.csv entries must be tagged 🟢 or 🟡. No deliverables may cite 🔴 sources.

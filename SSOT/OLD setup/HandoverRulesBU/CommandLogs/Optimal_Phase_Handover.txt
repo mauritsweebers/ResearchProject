@@ -1,0 +1,92 @@
+
+✅ OPTIMAL PHASE HANDOVER PACKAGE
+Purpose: Establish a unified, replicable protocol for structuring, delivering, and documenting all future research phases in the Plant-Based Systems project.
+
+🧭 PROJECT FRAMEWORK OVERVIEW
+
+🎯 Overarching Goal
+Determine if the global population can be supported on a nutritionally complete, ecologically viable, and socioeconomically feasible plant-based diet, analyzed through eight sequential research phases.
+
+🔄 Research Phases
+- Phase 0: Current System Analysis
+- Phase 1: Nutritional Viability
+- Phase 2: Agricultural Feasibility
+- Phase 3: Environmental Impact
+- Phase 4: Economic & Supply Chain Viability
+- Phase 5: Cultural and Political Realities
+- Phase 6: Transition Mechanisms
+- Phase 7: Critique and Robustness Testing
+- Phase 8: Synthesis and Scenario Modeling
+
+📁 FILE AND FOLDER STRUCTURE
+
+Each phase must follow this standardized directory architecture:
+
+phaseX/
+├── module1/
+│   ├── data/        # .csv or .tsv files (DT)
+│   └── outputs/     # text (.txt) or figures (.png/.svg)
+├── module2/
+│   └── ...
+├── PhaseX_Summary.txt        # executive synthesis
+├── PhaseX_Metadata.csv       # all file records
+
+🧾 File Naming Convention
+P{Phase}.M{Module}.{Type}{NN}_{ShortDescriptor}.{ext}
+Example: P3_M1_TX01_ComparativeImpact.txt
+
+🗂 File Types
+- TX = Text Summary
+- DT = Data Table (.csv)
+- FG = Figure (.png or .svg)
+
+📑 METADATA COMPLIANCE
+
+✅ Required Columns (PhaseX_Metadata.csv)
+- Index Code
+- Phase
+- Module
+- Type (TX, DT, FG)
+- Title/Description
+- File Name
+- Source Category (🟢 A, 🟡 B, 🔴 C)
+- Notes
+
+✅ Standard Fields Behavior
+- Type: Strict two-letter code (TX, DT, FG only)
+- Location: Relative path from phase root (e.g., phase3/module1/outputs/P3_M1_TX01_ComparativeImpact.txt)
+- Storage Location: SSOT-compliant path (e.g., /ssot/phase3/module1/outputs/)
+
+🧠 WRITING & EVIDENCE STANDARDS
+
+✒️ Style & Tone
+- Structured, neutral, and academically rigorous
+- Suitable for interdisciplinary policy, sustainability, or scientific reports
+
+🔍 Source Requirements
+- Peer-reviewed meta-analyses
+- IPCC, FAO, WHO, UNEP, World Bank
+- Integrated Assessment Models (IMAGE, GCAM)
+
+📉 Figures
+- Must illustrate high-level system interactions
+- Avoid speculative visuals
+- All figures must be linked to cited models or datasets
+
+🔁 PROCESS & BEHAVIORAL NORMS
+
+- Respond only after full task completion, unless prompted otherwise
+- Each module must address distinct sub-questions or system components
+- Always generate:
+  - Metadata file (CSV)
+  - Executive summary (TXT)
+  - Correct module structure (folders)
+- Validate internal consistency against prior phases (esp. Phase 1 and 2)
+
+🔧 LESSONS FROM PHASE 2
+
+From Phase2_Session_Log.txt:
+- Use Notes fields for methodological context, not just citations
+- Apply normalized Type, Location, and Storage Location conventions
+- Centralize and standardize all paths using relative formatting
+- Reuse successful metadata and file structures as templates
