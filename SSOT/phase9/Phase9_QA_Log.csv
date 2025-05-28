@@ -1,11 +1,11 @@
-Index Code,Phase,Module,Type,File Name,Location,QA Status,Notes
-P1.M1.DT01,1,1,DT,P9_M1_EquityOverlayDataset.csv,/phase9/phase1/module1/data,✅ PASS,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration
-P1.M1.TX01,1,1,TX,P9_M1_TX01_EquityInterpretation.txt,/phase9/phase1/module1/outputs,✅ PASS,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration
-P2.M1.DT01,3,1,DT,P9_M1_UncertaintyRegister.csv,/phase9/phase3/module1/data,✅ PASS,Generated under Phase 9 Theme 1: Uncertainty Modeling
-P2.M1.TX01,3,1,TX,P9_M1_TX01_UncertaintyInterpretation.txt,/phase9/phase3/module1/outputs,✅ PASS,Generated under Phase 9 Theme 1: Uncertainty Modeling
-P3.M1.DT01,3,2,DT,P9_M2_UncertaintyRegister.csv,/phase9/phase3/module2/data,✅ PASS,Generated under Phase 9 Theme 1: Uncertainty Modeling
-P3.M1.TX01,3,2,TX,P9_M2_TX01_UncertaintyInterpretation.txt,/phase9/phase3/module2/outputs,✅ PASS,Generated under Phase 9 Theme 1: Uncertainty Modeling
-P3.M2.DT01,3,3,DT,P9_M3_UncertaintyRegister.csv,/phase9/phase3/module3/data,✅ PASS,Generated under Phase 9 Theme 1: Uncertainty Modeling
-P3.M2.TX01,3,3,TX,P9_M3_TX01_UncertaintyInterpretation.txt,/phase9/phase3/module3/outputs,✅ PASS,Generated under Phase 9 Theme 1: Uncertainty Modeling
-P3.M3.DT01,4,1,DT,P9_M1_EquityOverlay_LaborPrice.csv,/phase9/phase4/module1/data,✅ PASS,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration
-P3.M3.TX01,4,1,TX,P9_M1_TX01_EquityInterpretation.txt,/phase9/phase4/module1/outputs,✅ PASS,Generated under Phase 9 Theme 2: Vulnerability & Equity Integration
+Index Code,Module,Type,File Name,QA Status
+P9.M1.DT01,1,DT,P9_M1_DT01_EquityExposureOverlay.csv,✅ PASS
+P9.M2.DT01,2,DT,P9_M2_DT01_UncertaintyRegister.csv,✅ PASS
+P9.M3.DT01,3,DT,P9_M3_DT01_SystemicInteractionMap.csv,✅ PASS
+P9.M4.DT01,4,DT,P9_M4_DT01_RemediationMatrix.csv,✅ PASS
+P9.M5.DT01,5,DT,P9_M5_DT01_FinalFeasibilityGrades.csv,✅ PASS
+P9.M1.TX01,1,TX,P9_M1_TX01_EquityExposureNarrative.txt,✅ PASS
+P9.M2.TX01,2,TX,P9_M2_TX01_UncertaintyRegisterNarrative.txt,✅ PASS
+P9.M3.TX01,3,TX,P9_M3_TX01_SystemicRiskInteractions.txt,✅ PASS
+P9.M4.TX01,4,TX,P9_M4_TX01_RemediationArchitecture.txt,✅ PASS
+P9.M5.TX01,5,TX,P9_M5_TX01_FinalVerdictNarrative.txt,✅ PASS

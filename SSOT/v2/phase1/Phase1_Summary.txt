@@ -1,0 +1,20 @@
+PHASE 1 – Nutritional Viability of a Global Plant-Based Food System
+Protocol: HTML_Output_Protocol_v1.5
+Date Finalized: 2024-06-10
+Modules: 7 | Deliverables: 22
+
+Objective:
+To test whether a global food system composed entirely of plant-based foods can meet human nutrient needs across all demographic groups, under bioavailability and interaction constraints.
+
+Scope & Method:
+Phase 1 models nutritional sufficiency using a sequence of modules: starting from gross nutrient supply (Module 2), adjusting for physiological absorption (Module 3), testing adequacy per demographic group (Module 4), and incorporating meal-level nutrient interactions (Module 5). Modules 6 and 7 classify risk and boundary failure scenarios. All estimates use authoritative nutrient requirements from WHO/FAO and population distribution models.
+
+Key Findings:
+- Five nutrients (B12, iron, zinc, calcium, vitamin D) consistently fall below adequacy without intervention.
+- Bioavailability reductions are strongest in unfortified cereal-based diets.
+- Adolescents, pregnant women, and elderly are most at risk of marginal or high shortfalls.
+- Synergistic interactions (e.g., vitamin C with iron) help but cannot fully offset inhibitory factors.
+- Without fortification or supplementation, at least three demographic groups face persistent inadequacy.
+
+Implications:
+Plant-based systems are viable but fragile under nutritional criteria. They require deliberate fortification, diversity, or supplementation strategies to be sufficient at scale. These findings directly inform Phase 2, which must model whether such nutrient-critical crop systems are agriculturally feasible and scalable.

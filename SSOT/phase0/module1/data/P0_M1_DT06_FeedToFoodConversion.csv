@@ -1,0 +1,6 @@
+Region,Beef (kg feed/kg meat),Pork (kg feed/kg meat),Chicken (kg feed/kg meat),Eggs (kg feed/kg product),Milk (kg feed/kg milk)
+Global,25,6.0,2.5,2.1,0.9
+OECD,27,7.0,2.4,2.2,0.95
+Asia,23,5.5,2.6,2.0,0.85
+Africa,24,6.0,2.7,2.3,0.88
+Latin America,26,6.2,2.5,2.2,0.91

@@ -1,0 +1,7 @@
+Index Code,Module,Type,File Name,QA Status
+P8.M1.TX01,1,TX,P8_M1_TX01_IntegratedSynthesis.txt,✅ PASS
+P8.M1.DT01,1,DT,P8_M1_DT01_FeasibilityGrades.csv,✅ PASS
+P8.M2.TX01,2,TX,P8_M2_TX01_Scenarios.txt,✅ PASS
+P8.M2.DT01,2,DT,P8_M2_DT01_ScenarioMatrix.csv,✅ PASS
+P8.M3.TX01,3,TX,P8_M3_TX01_GlobalPathways.txt,✅ PASS
+P8.M3.DT01,3,DT,P8_M3_DT01_PathwayTimeline.csv,✅ PASS

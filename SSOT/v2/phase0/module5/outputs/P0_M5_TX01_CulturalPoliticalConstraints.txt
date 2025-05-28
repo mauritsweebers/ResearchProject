@@ -1,0 +1,42 @@
+
+Cultural and Political Constraints to Food System Transformation – Synthesis
+Phase: 0
+Module: 5
+Type: TX
+Title/Description: Synthesis of cultural, religious, and political barriers to food system change
+File Name: P0_M5_TX01_CulturalPoliticalConstraints.txt
+Storage Location: /ssot/phase0/module5/outputs/
+Source Category: 🟢 A
+Notes: Synthesizes P0.M5.DT01 and P0.M5.DT02. Draws on Pew, FAO, IPES-Food, WRI, and political economy literature. Designed to inform feasibility assessments in Phase 5 and 6.
+
+---
+
+## 1. Religious and Cultural Constraints
+
+- Religious dietary laws shape global food preferences:
+  - Islam and Judaism prohibit pork and require specific slaughter methods (Halal, Kosher).
+  - Hindu-majority areas avoid beef and favor vegetarian diets.
+  - Buddhist-influenced populations restrict animal product consumption.
+  - Christian fasting periods (Orthodox, Catholic) affect seasonal consumption patterns.
+
+- Cultural traditions maintain persistent attachment to meat as a status symbol or festive necessity.
+- Secular diet shifts (e.g., veganism) remain concentrated in specific socioeconomic and regional contexts.
+
+## 2. National Political Economies
+
+- Many governments are structurally dependent on animal agriculture:
+  - The US, Brazil, and EU maintain powerful livestock lobbies and entrenched subsidy structures.
+  - BRICS nations blend protectionism with strategic food security planning (e.g., India's MSP, China's pork reserve).
+
+- Food regimes are embedded in broader state-market compacts:
+  - Brazil’s livestock and soy economy is deeply linked to export revenue and rural political power.
+  - EU’s Common Agricultural Policy supports environmental reform but maintains livestock support.
+  - China and Russia emphasize food sovereignty and domestic control over key proteins.
+
+## 3. Transformation Barriers
+
+- Political resistance to dietary change is not only cultural but economic:
+  - Job losses, trade realignments, and rural opposition form high-friction barriers.
+- National identity, sovereignty, and religious autonomy frequently conflict with standardized food transition narratives.
+- Any proposed plant-based transformation must engage with this fragmented and politicized landscape.
+

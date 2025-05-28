@@ -1,0 +1,7 @@
+Index Code,Phase,Module,Type,Title/Description,File Name,Storage Location,Source Category,Notes
+P8.M1.TX01,8,1,TX,Integrated feasibility synthesis across five domains,P8_M1_TX01_IntegratedSynthesis.txt,/ssot/phase8/module1/outputs/,🟢,Cross-references outputs from Phases 1–5 with metadata index citations.
+P8.M1.DT01,8,1,DT,Feasibility and confidence ratings by domain,P8_M1_DT01_FeasibilityGrades.csv,/ssot/phase8/module1/data/,🟢,Synthesis matrix drawing on validated outputs from prior phases.
+P8.M2.TX01,8,2,TX,Structured scenario narratives for transition modeling,P8_M2_TX01_Scenarios.txt,/ssot/phase8/module2/outputs/,🟡,"Scenario logic integrates risk, feasibility, and governance patterns from Phases 4–7."
+P8.M2.DT01,8,2,DT,Scenario typology and modeled feasibility outcomes,P8_M2_DT01_ScenarioMatrix.csv,/ssot/phase8/module2/data/,🟡,Scenario table aligned with Phase 6 finance data and Phase 7 risk assessments.
+P8.M3.TX01,8,3,TX,Regional transition pathways and timing estimates,P8_M3_TX01_GlobalPathways.txt,/ssot/phase8/module3/outputs/,🟢,Draws from transition data and constraints in Phases 4–7.
+P8.M3.DT01,8,3,DT,Transition timeline by region type with conditions,P8_M3_DT01_PathwayTimeline.csv,/ssot/phase8/module3/data/,🟢,"Pathway model based on governance, infrastructure, and investment data."

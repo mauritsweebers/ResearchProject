@@ -1,0 +1,9 @@
+Index Code,Module,Type,File Name,QA Status
+P7.M1.TX01,1,TX,P7_M1_TX01_Assumptions.txt,✅ PASS
+P7.M1.DT01,1,DT,P7_M1_DT01_SensitivityTable.csv,✅ PASS
+P7.M2.TX01,2,TX,P7_M2_TX01_EvidenceGaps.txt,✅ PASS
+P7.M2.DT01,2,DT,P7_M2_DT01_EvidenceGaps.csv,✅ PASS
+P7.M3.TX01,3,TX,P7_M3_TX01_RiskFactors.txt,✅ PASS
+P7.M3.DT01,3,DT,P7_M3_DT01_RiskMatrix.csv,✅ PASS
+P7.M4.TX01,4,TX,P7_M4_TX01_Critiques.txt,✅ PASS
+P7.M4.DT01,4,DT,P7_M4_DT01_CritiqueTable.csv,✅ PASS

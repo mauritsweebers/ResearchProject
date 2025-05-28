@@ -1,0 +1,47 @@
+
+Global Food System – Baseline Synthesis
+Phase: 0
+Module: 6
+Type: TX
+Title/Description: Structured synthesis of the global food system based on Modules 1–5
+File Name: P0_M6_TX01_GlobalFoodSystemSynthesis.txt
+Storage Location: /ssot/phase0/module6/outputs/
+Source Category: 🟢 A
+Notes: Synthesizes validated outputs from Phase 0, Modules 1 through 5. No new assumptions. Anchors system modeling in Phase 1 and beyond.
+
+---
+
+## 1. Production & Caloric Flow (Module 1)
+
+- ~9.6 billion tonnes of primary crops produced globally, alongside 361 Mt of meat and 930 Mt of milk.
+- Plant-based foods supply ~82% of global dietary calories, yet a third of crop calories are redirected to animal feed.
+- Top caloric contributors include rice, wheat, and sugar crops. Top producers: China, US, Brazil, India.
+
+## 2. Food Losses & Waste (Module 2)
+
+- An estimated 1.3 billion tonnes—~33% of all food—is lost or wasted annually.
+- Losses in LMICs are concentrated in early supply chain stages (harvest/storage); in HICs, waste is dominant at retail/consumer levels.
+- Fruits, vegetables, and cereals are the most affected commodities.
+
+## 3. Resource Allocation (Module 3)
+
+- 4.9 billion ha of land used for agriculture; 68% of this is pasture.
+- Water use in agriculture totals ~2,500 km³ annually; 330 million ha of irrigated land produces ~40% of food.
+- 110 Mt/year of synthetic nitrogen is applied, primarily to cereals and feed crops.
+- Animal-based systems dominate land, water, and nitrogen use.
+
+## 4. Trade and Economic Structure (Module 4)
+
+- Global food trade is dominated by a few commodities (e.g., soy, wheat, beef) and actors (Brazil, US, EU, China).
+- Major agricultural subsidies reach $90B (EU) to $180B (China), often reinforcing livestock and staple crop systems.
+- The food economy is highly concentrated, with four firms handling most global grain trade (ABCD group).
+
+## 5. Cultural and Political Constraints (Module 5)
+
+- Religious norms (e.g., Halal, Kosher, vegetarianism) impose hard dietary boundaries in ~60% of the global population.
+- National food regimes reflect entrenched political and economic interests, especially around livestock sectors.
+- High resistance zones include India, USA, Brazil, Iran, and parts of Eastern Europe and Africa.
+
+---
+
+This synthesis provides the integrated system-level baseline for downstream scenario modeling, constraint evaluation, and transition pathway assessment (Phase 1 onward).

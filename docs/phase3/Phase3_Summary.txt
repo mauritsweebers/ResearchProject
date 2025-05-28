@@ -1,23 +1,20 @@
+PHASE 3 – Environmental Impacts of Global Plant-Based Dietary Scenarios (Final)
 
-PHASE 3 – Environmental Impact of Global Plant-Based Diets
-Protocol: HTML_Output_Protocol_v1.6
-Date Finalized: 2025-05-11
-Modules: 3 | Deliverables: 6
+Date Finalized: 2025-05-28
+Modules: 3 | Deliverables: 7
 
 Objective:
-To assess the environmental implications of a global transition to nutritionally complete, plant-based diets. The phase evaluates the relative environmental performance of plant-based versus conventional dietary patterns across major ecological indicators, investigates land reallocation and carbon sequestration opportunities, and identifies environmental risks associated with large-scale plant-based agriculture.
+To quantify and map the environmental consequences of transitioning to plant-based dietary systems, including effects on land use, GHG emissions, and biodiversity across regional and agroecological zones.
 
 Scope & Method:
-Phase 3 synthesizes evidence across three modules: comparative environmental impacts of dietary systems (Module 1), land sparing and rewilding outcomes (Module 2), and trade-offs and risks associated with scaling plant-based production (Module 3). Source material includes high-confidence meta-analyses (e.g., Poore & Nemecek 2018, Clark et al. 2019), IAM land-use models, IPCC and FAO datasets, and critical risk assessments. Output types include synthesis texts (TX), a land-use benefit figure (FG), and a cross-module metadata register.
+Phase 3 integrates GHG emission data, land use overlays, and biodiversity impact models across three modules. Data are based on FAOSTAT, IPCC AR6 dietary factors, GAEZ yield zones, and BII projections. Outputs cover dietary variants and simulate scenario flexibility (waste, yield, substitution).
 
 Key Findings:
-- GHG Emissions: Plant-based diets offer up to 70% reductions in diet-related greenhouse gases, with ruminant meats exhibiting the highest emissions per protein unit.
-- Land Use: Eliminating animal agriculture could free nearly 3 billion hectares of land, primarily from pasture and feed crops.
-- Water Use: Dietary shifts reduce freshwater withdrawals by 30–50%, depending on crop portfolios and regional irrigation intensity.
-- Eutrophication: Plant-based diets substantially reduce nutrient runoff by limiting manure use and feed crop inputs.
-- Biodiversity: Rewilding of freed lands could yield dual benefits for carbon sequestration and threatened species habitats, especially in tropical and subtropical biomes.
-- Carbon Sequestration: Passive land restoration could sequester up to 300 GtCO₂ over the century, with high potential in Latin America and sub-Saharan Africa.
-- Trade-Offs: Scaling plant-based food systems introduces new environmental pressures, including monoculture expansion, increased synthetic fertilizer use, and localized water stress.
+- Global GHG emissions decline by ~40% in full plant-based transitions, with regional reductions highest in Latin America and North America.
+- Land requirements drop 35–45% depending on substitution rates and waste reduction.
+- Biodiversity pressure decreases across AEZs, with notable gains in tropical and temperate zones via land sparing.
+- Variant scenarios confirm feasibility under both conservative (low yield, high waste) and optimized (high yield, low waste) assumptions.
 
-Implications:
-A global dietary shift to plant-based foods would result in profound environmental benefits, particularly in emissions reductions, biodiversity recovery, and water savings. However, realizing these gains depends on ecologically informed crop scaling, land-use governance, and mitigation of emergent risks such as input intensification and ecosystem simplification. The findings underscore the necessity of integrating environmental planning into dietary transition strategies and set the stage for Phase 4, which will evaluate the economic and supply chain viability of these systemic changes.
+Conclusion:
+Plant-based dietary transitions deliver significant environmental co-benefits across all metrics modeled. AEZ overlays support targeted regional adaptation, and Phase 3 metrics now feed directly into Phase 6 (transition logic) and Phase 8 (scenario synthesis).Uncertainty Scope Note:  
+Phase 3 delivers deterministic baseline estimates for GHG emissions, land use, and biodiversity pressure under modeled dietary transitions. Quantitative uncertainty and sensitivity analysis (e.g., Monte Carlo modeling) is handled in Phase 9 and applied retroactively to Phase 3 outputs during Phase 8 scenario integration. No probabilistic models are implemented directly in this phase.

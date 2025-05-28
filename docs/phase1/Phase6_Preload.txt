@@ -1,0 +1,24 @@
+PHASE 6 PRELOAD TASK – Geographic Nutrient Coverage Visualization
+
+Stub ID: FG_RolloutStub_P1M1
+Origin: Phase 1, Module 1, Deliverable P1_M1_FG01
+
+Description:
+A global nutrient coverage map was proposed but not implemented in Phase 1 due to lack of regionalized nutrient adequacy data. 
+This figure remains a placeholder.
+
+Task:
+Generate geospatial overlays of nutrient adequacy based on regionalized food system outputs, nutrient supply modeling, and 
+vulnerability indices from Phases 2–5.
+
+Trigger:
+Activate in Phase 6 upon completion of:
+- Phase 2 crop-region allocations
+- Phase 4 affordability modeling
+- Phase 5 cultural diet overlays
+
+Deliverable:
+- P6_M2_FG##_NutrientCoverageMapByRegion.svg (proposed)
+
+Notes:
+Link to P1_M1_FG01.svg for visual continuity. Source data must use harmonized geographic grid.

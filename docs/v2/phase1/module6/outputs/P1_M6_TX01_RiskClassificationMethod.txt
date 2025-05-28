@@ -1,0 +1,30 @@
+
+P1_M6_TX01_RiskClassificationMethod.txt
+
+This file outlines the methodology used to assess micronutrient inadequacy risk in Phase 1 – Module 6.
+
+1. OBJECTIVE
+To identify population-level risk categories for micronutrient shortfall based on bioavailable nutrient supply and demographic intake requirements.
+
+2. INPUT SOURCES
+- Nutrient adequacy ratios: P1_M4_DT01_NutrientAdequacyByGroup.csv
+- Focus nutrients: Iron, Zinc, Calcium, Vitamin B12, Vitamin A, Vitamin D, Folate, Iodine
+- Risk thresholds informed by:
+  - WHO/FAO nutrient requirement guidance
+  - GBD and UNICEF/WHO thresholds for functional deficiency
+  - Peer-reviewed benchmarks for marginal and high-risk classifications
+
+3. RISK CLASSIFICATION
+Each demographic group was evaluated for each nutrient using the following cutoffs:
+
+- High Risk: adequacy ratio < 0.60
+- Moderate Risk: 0.60 ≤ adequacy ratio < 0.90
+- Marginal Risk: 0.90 ≤ adequacy ratio < 1.00
+- Adequate: adequacy ratio ≥ 1.00
+
+4. ASSUMPTIONS
+- Ratios are based on average population-level bioavailable supply per person per day
+- No correction yet applied for sub-group-specific bioavailability or interaction context
+- Data gaps result in 'No Data' classification
+
+Prepared under Protocol v2.91

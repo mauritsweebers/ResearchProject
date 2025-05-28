@@ -1,0 +1,47 @@
+
+Historical Evolution of the Global Food System
+Phase: 0
+Module: 6
+Type: TX
+Title/Description: Historical synthesis of the food system from 1960 to present
+File Name: P0_M6_TX02_HistoricalEvolutionFoodSystem.txt
+Storage Location: /ssot/phase0/module6/outputs/
+Source Category: 🟢 A
+Notes: Based on World Bank, FAO, and historical economic literature. No new projections. Anchors long-term system trends for scenario development.
+
+---
+
+## 1. 1960s–1980s: The Green Revolution Era
+
+- Widespread introduction of high-yielding crop varieties (HYVs), particularly rice and wheat, began in Asia and Latin America.
+- Supported by major institutions (e.g., CGIAR, World Bank), this period saw rapid expansion of irrigation, synthetic fertilizers, and mechanization.
+- Food production outpaced population growth, reducing famines in several regions—but often at the cost of soil degradation and biodiversity loss.
+
+## 2. 1980s–1990s: Structural Adjustment and Trade Liberalization
+
+- Global South economies were pushed toward export-oriented agriculture under IMF and World Bank structural adjustment programs.
+- Public food support systems were weakened; emphasis shifted to commodity export and foreign direct investment.
+- The 1995 WTO Agreement on Agriculture initiated the liberalization of food trade, while Northern agricultural subsidies continued.
+
+## 3. 1990s–2000s: Biotech and Consolidation
+
+- The rise of genetically modified organisms (GMOs) transformed seed and pesticide markets, particularly in North and South America.
+- Corporate consolidation in input sectors accelerated: Monsanto, Syngenta, Bayer, and DuPont emerged as dominant players.
+- Simultaneously, global supermarket chains and food processors expanded into emerging markets, reshaping retail systems.
+
+## 4. 2000s–2010s: Price Crises and Volatility
+
+- Food price spikes in 2007–2008 and 2010 highlighted vulnerabilities in the global food trade system.
+- Export bans, speculation, and climate-related shocks triggered political instability in multiple regions.
+- In response, large-scale land acquisitions (“land grabs”) and public-private partnerships in agricultural investment increased.
+
+## 5. 2010s–2020s: Sustainability Discourses and Technological Divergence
+
+- Climate change, biodiversity loss, and nutrition transitions entered mainstream food policy debates.
+- Calls for “sustainable intensification,” “climate-smart agriculture,” and “food system transformation” proliferated.
+- Divergent technological pathways emerged: digital/precision agriculture vs. agroecological and local food movements.
+- COVID-19 and the Ukraine war revealed critical trade dependencies and exposed fragilities in global supply chains.
+
+---
+
+The historical evolution of the global food system reflects cycles of innovation, consolidation, and crisis, embedded in geopolitical and institutional power dynamics. These trajectories inform the constraints and inertia facing transformation pathways in future phases.

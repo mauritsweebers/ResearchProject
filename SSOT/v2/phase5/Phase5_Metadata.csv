@@ -1,0 +1,9 @@
+Index Code,Phase,Module,Type,Title/Description,File Name,Storage Location,Source Category,Notes
+P5.M1.TX01,5,1,TX,Cultural norms and willingness to change diets,P5_M1_TX01_CulturalNorms.txt,/ssot/phase5/module1/outputs/,🟢,"Draws on FAO cultural food heritage reports, Pew surveys, and anthropological sources."
+P5.M1.DT01,5,1,DT,Cultural dietary indicators by region,P5_M1_DT01_DietaryCulturalIndicators.csv,/ssot/phase5/module1/data/,🟢,"Compiled from Pew Research (2021), FAO foodways, and regional ethnographies."
+P5.M2.TX01,5,2,TX,Institutional positions and political economy risks,P5_M2_TX01_PoliticalPower.txt,/ssot/phase5/module2/outputs/,🟡,"Incorporates OpenSecrets lobbying data, EU CAP summaries, and FAO positions on transitions."
+P5.M2.DT01,5,2,DT,Food institution positions and influence levels,P5_M2_DT01_InstInfluence.csv,/ssot/phase5/module2/data/,🟡,"Categorized positions and lobbying metrics from FAO, USDA, EC, Brazil MAPA."
+P5.M3.TX01,5,3,TX,Legal and policy constraints on plant-based systems,P5_M3_TX01_RegulatoryBarriers.txt,/ssot/phase5/module3/outputs/,🟢,"Synthesized from FAOLEX, WTO agreements, and national food labeling statutes."
+P5.M3.DT01,5,3,DT,Subsidy distribution and labeling restrictions by country,P5_M3_DT01_SubsidiesLabeling.csv,/ssot/phase5/module3/data/,🟢,Constructed using WTO subsidy notifications and FAO legal analysis.
+P5.M4.TX01,5,4,TX,Framing effects and trust in food communication,P5_M4_TX01_PublicFraming.txt,/ssot/phase5/module4/outputs/,🟡,"Based on IPES-Food framing studies, global trust surveys, and media content analysis."
+P5.M4.DT01,5,4,DT,Trust and framing effectiveness by region,P5_M4_DT01_TrustFraming.csv,/ssot/phase5/module4/data/,🟡,Aggregated from global survey data and communication effectiveness literature.

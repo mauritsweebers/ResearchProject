@@ -1,0 +1,21 @@
+Title: Global Caloric and Protein Undernourishment Interpretation
+
+This analysis quantifies the extent of undernourishment in the current global food system,
+specifically in relation to caloric and protein sufficiency. Estimates are drawn from
+FAO’s State of Food Insecurity (SOFI), the World Bank, GBD 2020, and UNICEF nutritional
+monitoring datasets.
+
+Key Findings:
+- Approximately 11% of the global population is calorically undernourished.
+- Protein inadequacy affects 9% globally, despite high production volumes.
+- The highest burden of caloric undernourishment is observed in Sub-Saharan Africa (~22%),
+  followed by parts of South and Southeast Asia.
+- Protein gaps are most acute where diets are cereal-dominated and animal product access is limited.
+
+Implications:
+- The existing animal-inclusive food system is failing to provide sufficient caloric and protein
+  coverage to vulnerable populations.
+- This baseline highlights the urgent need for system reform, equitable access to nutrient-dense
+  foods, and efficiency improvements in food allocation.
+
+SCF Classification: All source data 🟢 A – FAO SOFI, World Bank Nutrition, GBD, UNICEF

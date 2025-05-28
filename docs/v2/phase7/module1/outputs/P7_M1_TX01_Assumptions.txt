@@ -1,0 +1,10 @@
+Module 1 – Assumptions and Model Dependencies
+
+This module critically examines foundational assumptions in Phases 1–3, including nutrient adequacy models, substitution rules, and land/emissions forecasts.
+
+Findings:
+- Nutrient targets assume ideal bioavailability and standard fortification regimes, which vary significantly by region and demographic.
+- Yield forecasts used median historical trends; sensitivity to input variability (e.g., fertilizer, climate) was only partially modeled.
+- Substitution logic (e.g., replacing dairy with legumes) lacks behavioral nuance and ignores preparation feasibility in some regions.
+
+Sources: Global Diet Quality Project, EAT-Lancet critiques, IPCC scenario range studies (🟢/🟡).

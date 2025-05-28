@@ -1,0 +1,10 @@
+Module 3 – External Risks and Shocks
+
+This module evaluates exogenous risks that could compromise or reverse the transition to plant-based food systems, including trade shocks, climate events, and systemic lock-ins.
+
+Findings:
+- Climate shocks (e.g., multiyear droughts, pest outbreaks) could destabilize monoculture-dependent regions.
+- Trade chokepoints (e.g., Suez, Panama) remain critical for staple flows in high-transition scenarios.
+- Path dependency from food infrastructure investment may lock in suboptimal dietary or processing patterns.
+
+Sources: IPCC Risk Atlas, UNCTAD Trade Vulnerability Index, FAO climate–food interface reports (🟢).

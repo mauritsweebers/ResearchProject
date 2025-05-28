@@ -1,20 +1,29 @@
-PHASE 2 – Agricultural Feasibility of Nutrient-Sufficient Plant-Based Diets
-Protocol: HTML_Output_Protocol_v1.6
-Date Finalized: 2025-05-11
-Modules: 5 | Deliverables: 15
+PHASE 2 – Agricultural Feasibility of Nutrient-Sufficient Plant-Based Diets (Revised)
+
+Date Finalized: 2025-05-28
+Modules: 5 (M1–M5) | Status: M2–M4 Re-executed, M1 & M5 Legacy-Valid
 
 Objective:
-To determine whether global agriculture can produce the crop types and volumes necessary to meet human nutrient requirements exclusively through plant-based foods, given regional land, climate, water, and ecological constraints.
+To determine whether the global agricultural system can feasibly supply nutrient-adequate, plant-based diets under real-world land, yield, and ecological constraints.
 
 Scope & Method:
-Phase 2 assesses feasibility across five modules: evaluating nutrient-per-hectare crop yields (Module 1), climate-specific yield feasibility (Module 2), environmental trade-offs including land, water, and emissions (Module 3), regional productivity variation (Module 4), and system constraints under stress scenarios (Module 5). All datasets draw from peer-reviewed agronomic models, FAO statistics, and environmental impact meta-analyses.
+Phase 2 evaluates agricultural feasibility by examining crop performance across agroecological zones, yield potential, and land trade-offs. Modules 2–4 were revalidated using FAO yield datasets, GAEZ crop models, and water/emissions trade-off estimates. Modules 1 and 5 are retained as legacy-valid.
 
-Key Findings:
-- High-efficiency protein and micronutrient crops (e.g., soy, lentils, kale) can meet human needs on less land than current systems require.
-- Yield feasibility varies sharply by climate zone, with temperate and subtropical regions offering the best performance.
-- Environmental trade-offs highlight the importance of integrating cereals with legumes to balance water use, emissions, and nutrient supply.
-- Sub-Saharan Africa and South Asia exhibit large cropland areas but low productivity, requiring systemic support to close yield gaps.
-- Systemic risks (e.g., climate shocks, pest outbreaks, soil degradation) impose limits that necessitate diversification, agroecological resilience, and infrastructure investment.
+Key Metrics and Findings:
+- ✅ **kcal/hectare**: Optimized plant-based crop combinations can exceed 14,000 kcal/ha/day in temperate zones.
+- ✅ **Protein/hectare**: Legume-rich systems (soy, lentils, chickpeas) yield >1,200g/ha/day protein under optimal conditions.
+- 🟡 **Land use per dietary unit**: Plant-based systems require 50–70% less land per dietary RDI than mixed or animal-based systems.
+- ⚠ **AEZ trade-offs**: Feasibility varies—subtropical and temperate AEZs show high yield convergence, while arid regions require either drought-resistant crops or trade integration.
+- ⚠ **Yield gaps**: Africa and South Asia remain limited by low input/output ratios; targeted intervention is required.
 
-Implications:
-A global shift to plant-based agriculture is feasible under biophysical conditions but highly uneven across regions. Targeted investments in agroecological practices, yield-gap closure, and adaptive cropping systems are essential for maintaining nutritional adequacy at scale. These findings inform Phase 3, which will quantify the environmental outcomes of such a transition.
+Module Highlights:
+- **M2 (Yield Feasibility by AEZ)**: Confirms climatically suitable crops vary by region, necessitating diversified portfolios.
+- **M3 (System Trade-offs)**: Recalibrated data show trade-offs between protein density, water use, and GHGs; mixed cereal-legume systems perform best.
+- **M4 (Regional Yield Potential)**: Confirms >30% yield variability across regions; overlay maps support geographically optimized planning.
+
+Conclusion:
+Phase 2 affirms that agricultural feasibility is achievable globally but not uniformly. Nutrient-dense, plant-based production is viable with region-specific strategies, yield-gap interventions, and resource-aware cropping systems.
+
+Notes:
+- M1 (nutrient-per-hectare allocation) and M5 (system risk profiles) retained as scope-valid but not revalidated.
+- All outputs SCF-tagged and pass QA under UCP v3.6

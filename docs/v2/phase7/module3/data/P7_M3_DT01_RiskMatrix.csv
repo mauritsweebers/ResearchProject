@@ -1,0 +1,4 @@
+Risk_Type,Example_Event,Resilience_Level,Impact_Domain
+Climate Shock,3-year drought (Sahel),Low,Supply stability
+Trade Disruption,Canal closure (Panama),Moderate,Global distribution
+Infrastructure Lock-in,Overbuilt cold-chain meat infra,Low,Flexibility for transition

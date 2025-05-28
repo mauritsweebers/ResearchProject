@@ -1,0 +1,5 @@
+Protocol References Applied:
+- Unified_Command_Protocol_v3.6
+- SCF_v1.0 (Source Classification Framework)
+- Index_Code_Format_v1.txt
+- QA_Log_Completeness_Rule_v1.txt

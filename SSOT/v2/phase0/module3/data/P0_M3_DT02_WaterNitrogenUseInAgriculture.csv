@@ -1,0 +1,10 @@
+Data Point,Value,Source Name,Classification,Citation/URL,Notes
+Total Freshwater Withdrawals for Agriculture,"~2,500 km³/year",FAO AQUASTAT,🟢 A,https://www.fao.org/aquastat/en/,About 70% of global withdrawals
+Irrigated Area,~330 million hectares,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RL,"About 20% of cropland, provides ~40% of food"
+Water Use: Plant-Based Foods,"790–1,300 m³/tonne (varies by crop)",Poore & Nemecek 2018,🟢 A,https://www.science.org/doi/10.1126/science.aaq0216,"Cereals, pulses, etc."
+Water Use: Animal-Based Foods,"4,000–15,400 m³/tonne",Poore & Nemecek 2018,🟢 A,https://www.science.org/doi/10.1126/science.aaq0216,"Higher for beef, lower for poultry"
+Nitrogen Fertilizer Use (Total),110 million tonnes N/year,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RFN,Synthetic sources
+Nitrogen Use: Cereals,~60% of global N,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RFN,"Especially maize, wheat, rice"
+Nitrogen Use: Oil Crops,~15% of global N,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RFN,
+Nitrogen Use: Vegetables & Fruits,~10% of global N,FAOSTAT,🟢 A,https://www.fao.org/faostat/en/#data/RFN,
+Nitrogen Use: Feed Crops,~50% of global N,Poore & Nemecek 2018,🟢 A,https://www.science.org/doi/10.1126/science.aaq0216,Significant overlap with cereals

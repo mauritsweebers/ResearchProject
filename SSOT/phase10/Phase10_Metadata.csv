@@ -1,0 +1,6 @@
+Index Code,Phase,Module,Type,Title/Description,File Name,Storage Location,Source Category,Notes
+P10.M1.DT01,10,1,DT,Module 1 data table,P10_M1_DT01_GlobalPolicyLandscape.csv,/ssot/phase10/module1/data/,🟢 A,Maps policy leverage types and governance fit by region.
+P10.M2.DT01,10,2,DT,Module 2 data table,P10_M2_DT01_StakeholderActionMap.csv,/ssot/phase10/module2/data/,🟢 A,"Assigns roles across government, civil, private, and global actors."
+P10.M3.DT01,10,3,DT,Module 3 data table,P10_M3_DT01_InterventionMatrix.csv,/ssot/phase10/module3/data/,🟢 A,"Ranks interventions by feasibility, cost, and resistance."
+P10.M4.TX01,10,4,TX,Module 4 text output,P10_M4_TX01_GlobalFeasibilityBrief.txt,/ssot/phase10/module4/outputs/,🟢 A,Narrative synthesis for policy coalitions and multilaterals.
+P10.M5.TX01,10,5,TX,Module 5 text output,P10_M5_TX01_NationalTransitionPlaybook.txt,/ssot/phase10/module5/outputs/,🟢 A,"National policy implementation scaffold, adaptable by state capacity."

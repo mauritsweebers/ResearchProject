@@ -1,0 +1,7 @@
+Scenario,Land Use (Mha),GHG Emissions (MtCO2e/year),Protein Adequacy (%)
+High Waste,1500,4600,85
+Low Waste,950,3000,100
+Low Yield,1300,4200,90
+High Yield,900,2900,100
+High Substitution,1100,3200,100
+Low Substitution,1250,3900,95

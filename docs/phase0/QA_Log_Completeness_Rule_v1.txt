@@ -1,0 +1,14 @@
+Rule ID: QA_Log_Completeness_Rule_v1
+Issued Under: Unified_Command_Protocol_v3.6
+Effective: Immediate
+
+Rule Description:
+All deliverables listed in the official Phase Metadata file (PhaseX_Metadata.csv) must be accounted for in the Phase QA Log (PhaseX_QA_Log.csv).
+
+Compliance Criteria:
+- Each Index Code in the Metadata must appear in the QA Log.
+- Each file listed must have a physical presence check with a QA Status.
+- Files missing from the filesystem or unlogged in QA are protocol violations.
+
+Purpose:
+To ensure full auditability, data lineage integrity, and reproducibility across the SSOT evidence system.

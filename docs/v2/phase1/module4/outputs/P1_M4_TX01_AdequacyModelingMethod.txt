@@ -1,0 +1,28 @@
+
+P1_M4_TX01_AdequacyModelingMethod.txt
+
+This document outlines the methodology used in Phase 1 – Module 4 to assess physiological adequacy of the global food system.
+
+1. OBJECTIVE
+To determine the degree to which the bioavailable nutrient supply meets daily nutritional requirements across population groups.
+
+2. DATA SOURCES
+- Nutrient supply: P1_M3_DT02_AdjustedNutrientAvailability.csv
+- Nutrient requirements: P1_M1_DT01_NutrientRequirements.csv
+- Global population estimate: 8 billion
+- Time basis: Daily (365 days/year)
+
+3. METHOD
+- Total bioavailable nutrient quantities (Module 3) were summed across all food commodities.
+- Daily per capita values were derived by dividing total supply by global population × 365.
+- Demographic-specific requirements were matched by nutrient and age/sex category.
+- Adequacy ratio was calculated:
+      Adequacy Ratio = (Per Capita Supply) / (Requirement per Person)
+- Nutrients assessed: energy, protein, calcium, iron, zinc, folate, vitamin B12, A, and D.
+
+4. LIMITATIONS
+- Does not reflect intra-group or geographic inequality
+- Assumes uniform access to total supply
+- Bioavailability factors used are population-average and not group-specific
+
+Prepared per Protocol v2.9

@@ -1,0 +1,9 @@
+Region,Commodity,Price_USD_per_unit,Labor_Burden_Index,Burden_Category
+North America,legumes,0.18,1.8000000000000003,Low
+Europe,legumes,0.2,1.68,Low
+Asia,legumes,0.16,2.5,Low
+Africa,legumes,0.17,6.4,Medium
+North America,dairy,0.9,17.999999999999996,High
+Europe,dairy,1.0,14.450000000000003,High
+Asia,dairy,0.85,24.000000000000004,High
+Africa,dairy,0.8,47.5,High

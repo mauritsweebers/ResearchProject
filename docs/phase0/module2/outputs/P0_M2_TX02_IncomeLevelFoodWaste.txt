@@ -1,0 +1,10 @@
+Title: Income-Level Disaggregation of Food Waste Patterns
+
+This technical summary provides a breakdown of food waste intensity across income levels,
+highlighting disparities in waste behaviors and commodity-specific losses. Using data from
+UNEP and the World Bank, the analysis shows that high-income countries waste up to three times
+more meat and dairy per capita than low-income countries, while losses in cereals and vegetables
+are also skewed toward affluent consumption zones. These disparities imply distinct strategies
+for food system reform depending on socioeconomic context.
+
+Sources: UNEP 2021, World Bank 2022

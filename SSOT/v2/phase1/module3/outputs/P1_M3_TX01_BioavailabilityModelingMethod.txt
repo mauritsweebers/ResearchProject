@@ -1,0 +1,32 @@
+
+P1_M3_TX01_BioavailabilityModelingMethod.txt
+
+This document describes the methodology used to adjust gross nutrient availability figures for physiological bioavailability as part of Phase 1 – Module 3.
+
+1. OBJECTIVE
+To estimate the proportion of each nutrient in the global food supply that is actually absorbable by the human body, using established bioavailability coefficients.
+
+2. INPUTS
+- Gross nutrient availability from: P1_M2_DT02_NutrientAvailabilityByFood.csv
+- Bioavailability coefficients from:
+  - WHO/FAO (2001, 2004)
+  - NIH Office of Dietary Supplements
+  - EFSA Scientific Opinions
+  - IZiNCG for zinc (2004)
+  - Peer-reviewed reviews: Hunt (2003), Etcheverry et al. (2012)
+
+3. BIOAVAILABILITY COEFFICIENTS
+- Nutrients adjusted: protein, calcium, iron, zinc, folate, B12, vitamin A, vitamin D
+- Values represent absorption from mixed diets (average of plant and animal sources)
+- Coefficients expressed as percentages and applied multiplicatively
+
+4. CALCULATION
+For each nutrient:
+    Absorbable = Gross Value × (Bioavailability % ÷ 100)
+
+5. LIMITATIONS
+- No differentiation by demographic group (population-level average applied)
+- Assumes consistent dietary matrix across regions and food categories
+- Does not yet adjust for food losses, inhibitors, or enhancers at meal level
+
+Prepared per Protocol v2.9

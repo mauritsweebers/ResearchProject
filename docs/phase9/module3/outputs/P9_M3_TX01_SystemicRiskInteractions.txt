@@ -1,0 +1,1 @@
+Cross-phase interdependencies are mapped to show how failures in one domain (e.g., policy) trigger cascading risks in others (e.g., nutrition, trade).

@@ -1,0 +1,1 @@
+Uncertainty ranges and propagation risks are mapped from prior phases to understand probabilistic model boundaries.

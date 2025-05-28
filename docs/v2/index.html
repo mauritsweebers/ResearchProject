@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Plant-Based System Project – Index</title>
+		<link href="./tailwind.css" rel="stylesheet" />
+		<style>
+			.theme-toggle {
+				position: fixed;
+				top: 30px;
+				right: 30px;
+				z-index: 999;
+			}
+			html.dark body {
+				background-color: #1a1a1a;
+				color: #e0e0e0;
+			}
+			html.dark h1,
+			html.dark h2,
+			html.dark p,
+			html.dark a {
+				color: #e0e0e0;
+			}
+		</style>
+		<script>
+			function toggleTheme() {
+				const html = document.documentElement;
+				const isDark = html.classList.toggle('dark');
+				document.getElementById('theme-toggle').textContent = isDark ? 'light mode' : 'dark mode';
+			}
+		</script>
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6N4Q1ML4Z"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-V6N4Q1ML4Z');
+		</script>
+	</head>
+	<body class="bg-white text-gray-900 font-sans">
+		<div class="pt-20 md:pt-12 max-w-screen-lg mx-auto px-4 pb-8">
+			<button
+				id="theme-toggle"
+				class="theme-toggle px-4 py-2 bg-gray-200 text-gray-800 rounded shadow"
+				onclick="toggleTheme()">
+				dark mode
+			</button>
+			<h1 class="text-4xl font-bold mb-4">v2 Plant-Based System – Phase Index</h1>
+			<p>
+				You are reading an outdated version<br />
+				<a class="text-blue-600 hover:underline text-3xl" href="../">New version available: v3</a>
+			</p>
+			<p class="text-lg text-gray-700 mt-10 mb-8">
+				Click a phase below to access v2 full synthesis output.
+			</p>
+			<ul class="list-disc list-inside space-y-2 text-lg">
+				<li>
+					<a href="./phase0_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 0: Global Food System Baseline
+					</a>
+				</li>
+				<li>
+					<a href="./phase1_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 1: Nutritional Viability
+					</a>
+				</li>
+				<li>
+					<a href="./phase2_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 2: Agricultural Feasibility
+					</a>
+				</li>
+				<li>
+					<a href="./phase3_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 3: Environmental Impact
+					</a>
+				</li>
+				<li>
+					<a href="./phase4_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 4: Economic & Supply Chain Viability
+					</a>
+				</li>
+				<li>
+					<a href="./phase5_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 5: Cultural and Political Realities
+					</a>
+				</li>
+				<li>
+					<a href="./phase6_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 6: Transition Mechanisms
+					</a>
+				</li>
+				<li>
+					<a href="./phase7_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 7: Critique and Robustness Testing
+					</a>
+				</li>
+				<li>
+					<a href="./phase8_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 8: Synthesis and Scenario Modeling
+					</a>
+				</li>
+				<li>
+					<a href="./phase9_output.html" class="text-blue-600 hover:underline">
+						v2 Phase 9: Remediation and Cross-Phase Correction
+					</a>
+				</li>
+				<li>
+					<a href="./phaseconclusion_output.html" class="text-blue-600 hover:underline">
+						v2 Conclusion 12-05-2025 (updates if other phases are updated)
+					</a>
+				</li>
+			</ul>
+			<br /><br />
+			<h1 class="text-4xl font-bold mb-4">v2 Conclusion as of 12/05/2025</h1>
+			<ol class="list-decimal list-inside mb-4">
+				<li>RESEARCH QUESTION</li>
+			</ol>
+			<p class="mb-4">
+				Can the global population be fed a nutritionally complete and ecologically sustainable
+				plant-based diet, within real-world economic, political, and cultural constraints?
+			</p>
+			<ol class="list-decimal list-inside mb-4">
+				<li>SYSTEM-LEVEL FINDINGS</li>
+			</ol>
+			<p class="mb-4">A. Evidence of Technical Feasibility</p>
+			<ul class="list-disc list-inside mb-4">
+				<li>
+					Nutrition (P1): Diets designed with bioavailability and supplementation meet global needs.
+				</li>
+				<li>Agriculture (P2, P3): Cropland freed for rewilding or pulses; GHGs cut by 50–70%.</li>
+				<li>
+					Environment (P3): Plant-based transitions align with land use, water, and biodiversity
+					goals.
+				</li>
+				<li>Affordability (P4): Costs competitive in many regions if infrastructure is enabled.</li>
+			</ul>
+			<p class="mb-4">Result: Technically feasible at global scale.</p>
+			<p class="mb-4">B. Constraints and Vulnerabilities Identified</p>
+			<ul class="list-disc list-inside mb-4">
+				<li>Equity (P1, P4, P5): Micronutrient and affordability gaps in vulnerable groups.</li>
+				<li>Political Trust (P5, P7): High variance in government trust and ideological openness.</li>
+				<li>
+					Institutional Capacity (P6, P7): Fragmented capacity to implement pricing, procurement, or
+					education tools.
+				</li>
+				<li>Informal Sector (P4): Underestimated role in food access, pricing, and labor.</li>
+				<li>
+					Agroecological Limits (P2): Yields constrained in arid/soil-poor AEZs; not uniform across
+					crops.
+				</li>
+			</ul>
+			<p class="mb-20">Result: Feasible only with targeted support and regional flexibility.</p>
+		</div>
+	</body>
+</html>

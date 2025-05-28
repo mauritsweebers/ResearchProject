@@ -1,0 +1,10 @@
+Module 1 – Agricultural Economics
+
+This text analyzes cost structures of plant-based versus animal-based food categories using peer-reviewed agricultural economic data. Regional differentiation is included to account for labor, input costs, and production efficiencies. Price volatility is discussed using 10-year FAO index data, with attention to subsidy mechanisms affecting real market prices.
+
+Key findings include:
+- Lower average production cost per kilocalorie for legumes, cereals, and tubers compared to beef, dairy, and poultry.
+- Subsidies for animal products distort true cost comparisons.
+- High elasticity observed in soy, wheat, and maize supply chains.
+
+Sources: FAO, OECD Agricultural Outlook, IFPRI data (🟢).

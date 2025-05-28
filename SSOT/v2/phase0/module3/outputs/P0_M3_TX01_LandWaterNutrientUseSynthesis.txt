@@ -1,0 +1,45 @@
+
+Global Agricultural Resource Allocation – Structured Synthesis
+Phase: 0
+Module: 3
+Type: TX
+Title/Description: Narrative synthesis of global land, water, and nitrogen use patterns
+File Name: P0_M3_TX01_LandWaterNutrientUseSynthesis.txt
+Storage Location: /ssot/phase0/module3/outputs/
+Source Category: 🟢 A
+Notes: Synthesizes land, water, and nitrogen distribution across food system components based on FAO and peer-reviewed data.
+
+---
+
+## Land Use Overview
+
+- Global agricultural land totals approximately 4.9 billion hectares.
+- Roughly 68% of this land is used as permanent pasture for grazing livestock (~3.3 billion ha).
+- The remaining 32% (1.6 billion ha) is arable land used for crops.
+- Of crop land:
+  - ~55% is used for direct human consumption.
+  - ~36% is used to grow animal feed.
+  - ~9% is used for biofuels or industrial purposes.
+
+## Water Use Patterns
+
+- Agriculture accounts for ~2,500 km³/year of freshwater withdrawals, or about 70% of total global use.
+- About 330 million hectares are irrigated (~20% of cropland), providing ~40% of global food output.
+- Water intensity varies significantly:
+  - Plant-based foods (e.g., cereals, pulses): 790–1,300 m³/tonne
+  - Animal-based foods (e.g., beef, dairy): 4,000–15,400 m³/tonne
+
+## Nitrogen Fertilizer Use
+
+- Global synthetic nitrogen use in agriculture is ~110 million tonnes N/year.
+- Usage by category:
+  - Cereals: ~60% of total N (especially maize, rice, wheat)
+  - Oil crops: ~15%
+  - Fruits and vegetables: ~10%
+  - Feed crops: ~50% (substantial overlap with cereal allocation)
+
+## Key Takeaways
+
+- The vast majority of global land and water inputs are devoted to livestock systems, directly (pasture) or indirectly (feed crops).
+- Resource use efficiency is markedly higher for plant-based foods across all biophysical metrics.
+- These baselines will serve as quantitative inputs for modeling the ecological limits and efficiencies of alternative dietary scenarios in Phases 3 and 4.

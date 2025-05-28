@@ -1,0 +1,5 @@
+Index Code,Phase,Module,Type,Title/Description,File Name,Source Category,Notes,File Found
+P3.M1.TX01,3,1,TX,Comparative environmental impacts of plant-based vs conventional diets,P3_M1_TX01_ComparativeImpact.txt,🟢 A,"Sources include Poore & Nemecek (2018), Clark et al. (2019), IPCC reports",True
+P3.M2.TX01,3,2,TX,Land sparing and carbon sequestration potential,P3_M2_TX01_LandSparing.txt,🟢 A,"Sources include IAM models, Hayek et al. (2021)",True
+P3.M2.FG01,3,2,FG,Carbon and biodiversity benefits of land rewilding,P3_M2_FG01_LandRewilding.png,🟢 A,Visual summary based on land-use projections and rewilding scenarios,True
+P3.M3.TX01,3,3,TX,Risks and trade-offs of scaling plant-based food systems,P3_M3_TX01_Tradeoffs.txt,🟡 B,Includes synthesis of risks from Springmann et al. and Searchinger et al.,True

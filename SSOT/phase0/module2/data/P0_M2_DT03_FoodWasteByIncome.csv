@@ -1,0 +1,5 @@
+Income Level,Cereals (kg/cap/year),Vegetables (kg/cap/year),Fruits (kg/cap/year),Meat (kg/cap/year),Dairy (kg/cap/year)
+Low,25,15,10,2,5
+Lower-Middle,35,20,15,5,10
+Upper-Middle,50,30,25,10,15
+High,75,50,40,20,30

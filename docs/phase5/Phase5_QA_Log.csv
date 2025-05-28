@@ -1,0 +1,9 @@
+Index Code,Module,Type,File Name,QA Status
+P5.M1.TX01,1,TX,P5_M1_TX01_CulturalNorms.txt,✅ PASS
+P5.M1.DT01,1,DT,P5_M1_DT01_DietaryCulturalIndicators.csv,✅ PASS
+P5.M2.TX01,2,TX,P5_M2_TX01_PoliticalPower.txt,✅ PASS
+P5.M2.DT01,2,DT,P5_M2_DT01_InstInfluence.csv,✅ PASS
+P5.M3.TX01,3,TX,P5_M3_TX01_RegulatoryBarriers.txt,✅ PASS
+P5.M3.DT01,3,DT,P5_M3_DT01_SubsidiesLabeling.csv,✅ PASS
+P5.M4.TX01,4,TX,P5_M4_TX01_PublicFraming.txt,✅ PASS
+P5.M4.DT01,4,DT,P5_M4_DT01_TrustFraming.csv,✅ PASS

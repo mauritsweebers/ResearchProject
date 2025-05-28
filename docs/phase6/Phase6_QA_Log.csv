@@ -1,0 +1,9 @@
+Index Code,Module,Type,File Name,QA Status
+P6.M1.TX01,1,TX,P6_M1_TX01_PolicyInstruments.txt,✅ PASS
+P6.M1.DT01,1,DT,P6_M1_DT01_PolicyExamples.csv,✅ PASS
+P6.M2.TX01,2,TX,P6_M2_TX01_FinancialMechanisms.txt,✅ PASS
+P6.M2.DT01,2,DT,P6_M2_DT01_FinancialTools.csv,✅ PASS
+P6.M3.TX01,3,TX,P6_M3_TX01_Institutions.txt,✅ PASS
+P6.M3.DT01,3,DT,P6_M3_DT01_Institutions.csv,✅ PASS
+P6.M4.TX01,4,TX,P6_M4_TX01_CivilSociety.txt,✅ PASS
+P6.M4.DT01,4,DT,P6_M4_DT01_CivilInitiatives.csv,✅ PASS

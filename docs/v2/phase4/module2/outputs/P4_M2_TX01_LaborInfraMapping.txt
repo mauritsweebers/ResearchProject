@@ -1,0 +1,10 @@
+Module 2 – Labor & Infrastructure Requirements
+
+This module evaluates regional labor intensity and infrastructural readiness for plant-based food systems. It utilizes FAO labor input datasets and World Bank infrastructure readiness indices.
+
+Findings:
+- Labor inputs for legume and cereal cultivation are significantly lower per kcal than animal husbandry.
+- Processing infrastructure for legumes and grains is more evenly distributed than cold-chain systems for meat and dairy.
+- Major infrastructure gaps exist in sub-Saharan Africa and parts of Southeast Asia.
+
+Sources: FAO labor data, World Bank logistics index (🟢).

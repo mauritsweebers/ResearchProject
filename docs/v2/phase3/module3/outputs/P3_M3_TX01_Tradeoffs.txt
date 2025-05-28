@@ -1,0 +1,14 @@
+
+Risks and Trade-offs in Scaling Plant-Based Production
+
+Despite environmental benefits, scaling plant-based systems poses risks:
+
+1. Monocultures: Increased demand for soy, grains, and nuts may incentivize monocultures unless diversified cropping systems are promoted.
+
+2. Fertilizer Demand: High-yield plant production may raise synthetic nitrogen use, contributing to GHGs and runoff.
+
+3. Water Constraints: Expanding irrigation for intensive horticulture can increase regional water stress (Springmann et al., 2018).
+
+4. Land Competition: If freed land is repurposed for bioenergy or export crops, environmental co-benefits may be lost.
+
+Mitigation involves agroecological design, crop diversity, and governance of land reallocation (Searchinger et al., 2019).

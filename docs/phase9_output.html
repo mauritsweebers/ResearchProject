@@ -102,12 +102,88 @@
 <p class='mb-4'><strong>Inputs:</strong> Validated outputs and resistance data from Phases 0–8</p>
 <p class='mb-4'><strong>Outputs:</strong> Consolidated scenarios, reproducibility, and final dietary models</p>
 </div>
-<p class='mb-4'>PHASE 9 – Remediation and Cross-Phase Correction<br>Protocol: HTML_Output_Protocol_v1.6<br>Date Finalized: 2025-05-11<br>Modules: 7 | Deliverables: 14</p>
-<p class='mb-4'>Objective:<br>Phase 9 executed targeted corrections to address analytic gaps, population equity deficits, uncertainty propagation, stakeholder resistance, and metadata traceability across Phases 1–8. Remediation ensured protocol alignment, reproducibility, and scenario defensibility.</p>
-<p class='mb-4'>Scope & Method:<br>Seven modules were constructed across six originating phases. Each delivered structured outputs in CSV (DT) and TXT (TX) formats. Data were derived exclusively from SCF-verified (🟢) sources. Monte Carlo estimates, equity overlays, resistance matrices, and categorical uncertainty mappings were created. Metadata was rebuilt with full index linkage and thematic tags.</p>
-<p class='mb-4'>Key Findings:</p>
-<ul class='list-disc list-inside mb-4'><li>Phase 1: Vulnerability disaggregation by nutrient adequacy shows demographic risk clustering.</li><li>Phase 3: GHGs, land, and tradeoff metrics were upgraded with uncertainty bounds and distributions.</li><li>Phase 4: Labor and affordability burdens disaggregated by commodity and infrastructure.</li><li>Phase 5: Cultural and institutional resistance modeled via openness and trust indices.</li><li>Phase 7: Stakeholder resistance classified by actor type and opposition form.</li><li>Phase 8: Scenario feasibility assigned quantitative likelihoods and confidence tiers.</li><li>All outputs indexed with SCF category (🟢), parent codes, and module ID.</li></ul>
-<p class='mb-4'>Implications:<br>This phase enables publication-ready synthesis with built-in variance bounds, equity diagnostics, and stakeholder realism. It closes all Phase 8 QA flags and ensures audit trail continuity for Phase 10 integration and external review.</p>
+<p class='mb-4'>PHASE 9 – System Integration, Vulnerability Mapping, and Remediation Synthesis (Final)</p>
+<p class='mb-4'>Date Finalized: 2025-05-28<br>Modules: 5 | Deliverables: 10</p>
+<p class='mb-4'>Objective:<br>To integrate Phases 0–8 into a unified system-wide analysis, identify exposure nodes, and model cross-domain vulnerability patterns. Phase 9 confirms feasibility boundaries and builds failure-mode aware solutions.</p>
+<p class='mb-4'>Summary:</p>
+<ul class='list-disc list-inside mb-4'><li>Module 1 surfaces geographic and demographic risk intersections, particularly for informal labor, gendered food access, and rural dependency</li><li>Module 2 builds the uncertainty register and identifies major propagation pathways</li><li>Module 3 models interlocked system risk scenarios where failure in one domain cascades into others</li><li>Module 4 constructs remediation maps for high-risk failure nodes</li><li>Module 5 finalizes a regionally disaggregated verdict with feasibility grades and system notes</li></ul>
+<p class='mb-4'>Conclusion:<br>The integrated system is viable with a global average grade of B. But feasibility is not uniform, and reform must address specific systemic fragilities. Outputs now prepare Phase 10 for structured implementation guidance.</p>
+<h2 class='text-2xl font-semibold mt-10 mb-4'>Module 1</h2>
+
+<p class='mb-4'>This module synthesizes equity dimensions across income, gender, and geography to highlight differential risk exposure within the global transition to plant-based systems.</p>
+
+
+<h3 class='text-lg font-semibold mt-6 mb-2'>P9_M1_DT01_EquityExposureOverlay</h3>
+<div class='overflow-auto mb-6'><table class='min-w-full border-collapse text-sm'>
+<thead><tr><th class='bg-gray-100 border px-3 py-2'>Region</th><th class='bg-gray-100 border px-3 py-2'>High Exposure Class</th><th class='bg-gray-100 border px-3 py-2'>Gender Disparity Score (0-1)</th><th class='bg-gray-100 border px-3 py-2'>Systemic Risk Index (0-100)</th></tr></thead>
+<tbody>
+<tr><td class='border px-3 py-2'>Sub-Saharan Africa</td><td class='border px-3 py-2'>Low-income rural</td><td class='border px-3 py-2'>0.76</td><td class='border px-3 py-2'>82</td></tr>
+<tr><td class='border px-3 py-2'>South Asia</td><td class='border px-3 py-2'>Urban poor</td><td class='border px-3 py-2'>0.64</td><td class='border px-3 py-2'>75</td></tr>
+<tr><td class='border px-3 py-2'>Europe</td><td class='border px-3 py-2'>Migrant labor</td><td class='border px-3 py-2'>0.32</td><td class='border px-3 py-2'>40</td></tr>
+<tr><td class='border px-3 py-2'>North America</td><td class='border px-3 py-2'>Food retail workers</td><td class='border px-3 py-2'>0.41</td><td class='border px-3 py-2'>55</td></tr>
+<tr><td class='border px-3 py-2'>Latin America</td><td class='border px-3 py-2'>Indigenous groups</td><td class='border px-3 py-2'>0.59</td><td class='border px-3 py-2'>63</td></tr>
+</tbody></table></div>
+
+<h2 class='text-2xl font-semibold mt-10 mb-4'>Module 2</h2>
+
+<p class='mb-4'>Uncertainty ranges and propagation risks are mapped from prior phases to understand probabilistic model boundaries.</p>
+
+
+<h3 class='text-lg font-semibold mt-6 mb-2'>P9_M2_DT01_UncertaintyRegister</h3>
+<div class='overflow-auto mb-6'><table class='min-w-full border-collapse text-sm'>
+<thead><tr><th class='bg-gray-100 border px-3 py-2'>Risk Source</th><th class='bg-gray-100 border px-3 py-2'>Modeled Range</th><th class='bg-gray-100 border px-3 py-2'>Monte Carlo Std Dev</th><th class='bg-gray-100 border px-3 py-2'>Impact Domain</th></tr></thead>
+<tbody>
+<tr><td class='border px-3 py-2'>Phase 3 (Land use)</td><td class='border px-3 py-2'>30–55% variation</td><td class='border px-3 py-2'>0.11</td><td class='border px-3 py-2'>Environment</td></tr>
+<tr><td class='border px-3 py-2'>Phase 7 (Labor fragility)</td><td class='border px-3 py-2'>Low–extreme risk</td><td class='border px-3 py-2'>nan</td><td class='border px-3 py-2'>Economic</td></tr>
+<tr><td class='border px-3 py-2'>Phase 8 (Timeline variability)</td><td class='border px-3 py-2'>6–25 years</td><td class='border px-3 py-2'>5.4</td><td class='border px-3 py-2'>Policy</td></tr>
+</tbody></table></div>
+
+<h2 class='text-2xl font-semibold mt-10 mb-4'>Module 3</h2>
+
+<p class='mb-4'>Cross-phase interdependencies are mapped to show how failures in one domain (e.g., policy) trigger cascading risks in others (e.g., nutrition, trade).</p>
+
+
+<h3 class='text-lg font-semibold mt-6 mb-2'>P9_M3_DT01_SystemicInteractionMap</h3>
+<div class='overflow-auto mb-6'><table class='min-w-full border-collapse text-sm'>
+<thead><tr><th class='bg-gray-100 border px-3 py-2'>Trigger Node</th><th class='bg-gray-100 border px-3 py-2'>Failure Cascade</th><th class='bg-gray-100 border px-3 py-2'>Phase Interactions</th></tr></thead>
+<tbody>
+<tr><td class='border px-3 py-2'>Institutional Fragility</td><td class='border px-3 py-2'>Transition delay >10 years</td><td class='border px-3 py-2'>P5 + P6 + P8</td></tr>
+<tr><td class='border px-3 py-2'>Low Income Elasticity</td><td class='border px-3 py-2'>Nutritional inequity</td><td class='border px-3 py-2'>P1 + P4 + P9</td></tr>
+<tr><td class='border px-3 py-2'>Yield Gap Persistence</td><td class='border px-3 py-2'>Import dependency rise</td><td class='border px-3 py-2'>P2 + P3 + P8</td></tr>
+</tbody></table></div>
+
+<h2 class='text-2xl font-semibold mt-10 mb-4'>Module 4</h2>
+
+<p class='mb-4'>This output proposes mitigation strategies mapped to major systemic failure points identified in Modules 1–3.</p>
+
+
+<h3 class='text-lg font-semibold mt-6 mb-2'>P9_M4_DT01_RemediationMatrix</h3>
+<div class='overflow-auto mb-6'><table class='min-w-full border-collapse text-sm'>
+<thead><tr><th class='bg-gray-100 border px-3 py-2'>Failure Point</th><th class='bg-gray-100 border px-3 py-2'>Mitigation Strategy</th></tr></thead>
+<tbody>
+<tr><td class='border px-3 py-2'>Labor Displacement</td><td class='border px-3 py-2'>Wage guarantees + retraining</td></tr>
+<tr><td class='border px-3 py-2'>Cultural Resistance</td><td class='border px-3 py-2'>Narrative reframing + education</td></tr>
+<tr><td class='border px-3 py-2'>Trade Fragility</td><td class='border px-3 py-2'>Diversified sourcing + buffer stocks</td></tr>
+<tr><td class='border px-3 py-2'>Underfunded Transition</td><td class='border px-3 py-2'>Green bonds + policy reallocation</td></tr>
+</tbody></table></div>
+
+<h2 class='text-2xl font-semibold mt-10 mb-4'>Module 5</h2>
+
+<p class='mb-4'>Final system feasibility is assessed and graded by region. Grades integrate all previous phase outputs, scored for implementation realism.</p>
+
+
+<h3 class='text-lg font-semibold mt-6 mb-2'>P9_M5_DT01_FinalFeasibilityGrades</h3>
+<div class='overflow-auto mb-6'><table class='min-w-full border-collapse text-sm'>
+<thead><tr><th class='bg-gray-100 border px-3 py-2'>Region</th><th class='bg-gray-100 border px-3 py-2'>System Grade</th><th class='bg-gray-100 border px-3 py-2'>Feasibility Notes</th></tr></thead>
+<tbody>
+<tr><td class='border px-3 py-2'>Global</td><td class='border px-3 py-2'>B</td><td class='border px-3 py-2'>Structurally feasible but regionally dependent on policy activation</td></tr>
+<tr><td class='border px-3 py-2'>High-Income</td><td class='border px-3 py-2'>A-</td><td class='border px-3 py-2'>Strong readiness with low fragility</td></tr>
+<tr><td class='border px-3 py-2'>LMICs</td><td class='border px-3 py-2'>C</td><td class='border px-3 py-2'>Requires support architecture and equity-first rollout</td></tr>
+<tr><td class='border px-3 py-2'>Africa</td><td class='border px-3 py-2'>C-</td><td class='border px-3 py-2'>Delays expected due to institutional limits and exposure overlays</td></tr>
+<tr><td class='border px-3 py-2'>Asia</td><td class='border px-3 py-2'>B-</td><td class='border px-3 py-2'>Transition feasible but uneven</td></tr>
+<tr><td class='border px-3 py-2'>Latin America</td><td class='border px-3 py-2'>B</td><td class='border px-3 py-2'>Moderate constraints, manageable with reform instruments</td></tr>
+</tbody></table></div>
+
 <h2 class='text-2xl font-semibold mt-10 mb-4'>Appendix – Source References</h2>
 <div class='overflow-auto mb-8'><table class='min-w-full border text-sm'>
 <thead><tr><th class='bg-gray-100 border px-3 py-2'>Index Code</th><th class='bg-gray-100 border px-3 py-2'>Phase</th><th class='bg-gray-100 border px-3 py-2'>Module</th><th class='bg-gray-100 border px-3 py-2'>Type</th><th class='bg-gray-100 border px-3 py-2'>Title/Description</th><th class='bg-gray-100 border px-3 py-2'>File Name</th><th class='bg-gray-100 border px-3 py-2'>Storage Location</th><th class='bg-gray-100 border px-3 py-2'>Source Category</th><th class='bg-gray-100 border px-3 py-2'>Notes</th><th class='bg-gray-100 border px-3 py-2'>Source_Phase</th><th class='bg-gray-100 border px-3 py-2'>Parent Index Code</th></tr></thead>

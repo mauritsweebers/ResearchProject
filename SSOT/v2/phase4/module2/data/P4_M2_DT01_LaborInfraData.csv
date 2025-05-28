@@ -1,0 +1,5 @@
+Region,Labor_hrs_legumes,Labor_hrs_dairy,Infra_score_plant,Infra_score_animal
+North America,12,90,0.85,0.8
+Europe,14,85,0.88,0.83
+Asia,10,80,0.75,0.7
+Africa,16,95,0.6,0.5

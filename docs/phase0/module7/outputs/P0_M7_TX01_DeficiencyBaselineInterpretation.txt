@@ -1,0 +1,18 @@
+Title: Global Micronutrient Deficiency Baseline Interpretation
+
+This summary establishes the empirical foundation for understanding nutrient inadequacy 
+under the current, animal-inclusive global food system. Data are synthesized from WHO, 
+UNICEF, FAO, and Global Burden of Disease (GBD) studies.
+
+Key Findings:
+- Vitamin B12 deficiency affects over 47% of the global population, especially in South Asia and Africa.
+- Iron and vitamin A deficiencies are concentrated in Africa, Asia, and parts of Latin America, affecting children and women disproportionately.
+- Zinc and folate deficiencies correlate strongly with low dietary diversity and low intake of legumes, nuts, and leafy vegetables.
+- Iodine deficiency remains persistent in regions without universal salt iodization.
+- Omega-3 inadequacies are widespread, even in high-income regions, due to low fish intake and poor conversion from ALA sources.
+
+Implications:
+- Current food systems are failing to deliver micronutrient sufficiency despite high animal-based food intake in many regions.
+- This baseline demonstrates the urgent need for dietary system reform, nutrient-dense crop promotion, and biofortification or supplementation programs.
+
+SCF Classification: All source data are 🟢 A (WHO, FAO, UNICEF, GBD 2020)

@@ -1,5 +1,8 @@
-Index Code,Phase,Module,Type,Title/Description,File Name,Source Category,Notes,File Found
-P3.M1.TX01,3,1,TX,Comparative environmental impacts of plant-based vs conventional diets,P3_M1_TX01_ComparativeImpact.txt,🟢 A,"Sources include Poore & Nemecek (2018), Clark et al. (2019), IPCC reports",True
-P3.M2.TX01,3,2,TX,Land sparing and carbon sequestration potential,P3_M2_TX01_LandSparing.txt,🟢 A,"Sources include IAM models, Hayek et al. (2021)",True
-P3.M2.FG01,3,2,FG,Carbon and biodiversity benefits of land rewilding,P3_M2_FG01_LandRewilding.png,🟢 A,Visual summary based on land-use projections and rewilding scenarios,True
-P3.M3.TX01,3,3,TX,Risks and trade-offs of scaling plant-based food systems,P3_M3_TX01_Tradeoffs.txt,🟡 B,Includes synthesis of risks from Springmann et al. and Searchinger et al.,True
+Index Code,Module,Type,File Name,QA Status
+P3.M1.TX01,1,TX,P3_M1_TX01_ComparativeImpact.txt,✅ PASS
+P3.M2.FG01,2,FG,P3_M2_FG01_LandRewilding.png,✅ PASS
+P3.M2.TX01,2,TX,P3_M2_TX01_LandSparing.txt,✅ PASS
+P3.M3.TX01,3,TX,P3_M3_TX01_Tradeoffs.txt,✅ PASS
+P3.M1.DT01,1,DT,P3_M1_DT01_GHGEmissionsByScenario.csv,✅ PASS
+P3.M2.DT01,2,DT,P3_M2_DT01_LandBiodiversityByAEZ.csv,✅ PASS
+P3.M3.DT01,3,DT,P3_M3_DT01_ScenarioComparisons.csv,✅ PASS

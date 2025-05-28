@@ -1,0 +1,10 @@
+Module 1 – Policy Instruments and Governance Tools
+
+This module reviews documented policy instruments used to influence dietary systems toward sustainability. Focus areas include subsidy reform, carbon-linked food taxes, procurement rules, and policy diffusion mechanisms.
+
+Findings:
+- Several countries (e.g., Denmark, Germany) have trialed or proposed carbon-based food pricing with varied political reception.
+- Public procurement standards (e.g., school meals, hospitals) have successfully introduced plant-forward norms in Brazil, Sweden, and South Korea.
+- Legal precedents on food labeling and zoning (e.g., meat-free city zones) are emerging but remain niche.
+
+Sources: FAOLEX, OECD Food Policy Reviews, EU Green Deal documents (🟢).
